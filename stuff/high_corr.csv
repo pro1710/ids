@@ -1,0 +1,40 @@
+,Attack_label,Attack_type,mqtt.topic,mqtt.conack.flags,mqtt.protoname,http.request.method,http.referer,http.request.version,dns.qry.name.len
+0,1,MITM,0.0,0.0,0.0,0.0,0.0,0,0.0
+40,1,MITM,0.0,0.0,0.0,0.0,0.0,0,1.0
+1214,1,Fingerprinting,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+2215,1,Ransomware,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+13140,1,Uploading,0.0,0.0,0.0,0,0.0,0,0.0
+13143,1,Uploading,0.0,0.0,0.0,GET,0.0,HTTP/1.1,0.0
+23409,1,SQL_injection,0.0,0.0,0.0,0,0.0,0,0.0
+23417,1,SQL_injection,0.0,0.0,0.0,GET,0.0,HTTP/1.1,0.0
+33720,1,DDoS_HTTP,0.0,0.0,0.0,0,0,0,0.0
+44281,1,DDoS_TCP,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+54528,1,Password,0.0,0.0,0.0,0,0.0,0,0.0
+54539,1,Password,0.0,0.0,0.0,GET,0.0,HTTP/1.0,0.0
+54583,1,Password,0.0,0.0,0.0,POST,0.0,HTTP/1.0,0.0
+64517,1,Port_Scanning,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+74588,1,Vulnerability_scanner,0.0,0.0,0.0,0,0,0,0.0
+74590,1,Vulnerability_scanner,0.0,0.0,0.0,GET,0,HTTP/1.1,0.0
+74673,1,Vulnerability_scanner,0.0,0.0,0.0,GET,0,HTTP/1.0,0.0
+74690,1,Vulnerability_scanner,0.0,0.0,0.0,GET,() { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; },HTTP/1.1,0.0
+75791,1,Vulnerability_scanner,0.0,0.0,0.0,POST,0,HTTP/1.1,0.0
+76104,1,Vulnerability_scanner,0.0,0.0,0.0,GET,0,"Src=javascript:alert('Vulnerable')><Img Src=\"" HTTP/1.1",0.0
+80005,1,Vulnerability_scanner,0.0,0.0,0.0,GET,0,/etc/passwd|?data=Download HTTP/1.1,0.0
+80748,1,Vulnerability_scanner,0.0,0.0,0.0,GET,0,-a HTTP/1.1,0.0
+81580,1,Vulnerability_scanner,0.0,0.0,0.0,OPTIONS,0,HTTP/1.1,0.0
+84443,1,Vulnerability_scanner,0.0,0.0,0.0,GET,0,By Dr HTTP/1.1,0.0
+84664,1,Backdoor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+94859,1,XSS,0.0,0.0,0.0,0,0,0,0.0
+94863,1,XSS,0.0,0.0,0.0,GET,0,HTTP/1.1,0.0
+94906,1,XSS,0.0,0.0,0.0,TRACE,127.0.0.1,HTTP/1.1,0.0
+104911,0,Normal,0,0,0,0.0,0.0,0.0,0
+104920,0,Normal,0,0x00000000,0,0.0,0.0,0.0,0
+104923,0,Normal,0,0,MQTT,0.0,0.0,0.0,0
+104988,0,Normal,Temperature_and_Humidity,0,0,0.0,0.0,0.0,0
+124016,0,Normal,0,0,0,0.0,0.0,0.0,0.debian.pool.ntp.org
+126627,0,Normal,0,0,0,0.0,0.0,0.0,_googlecast._tcp.local
+128839,0,Normal,0,0,0,0.0,0.0,0.0,1.debian.pool.ntp.org
+129156,0,Normal,0,0,0,0.0,0.0,0.0,2.debian.pool.ntp.org
+129159,0,Normal,0,0,0,0.0,0.0,0.0,3.debian.pool.ntp.org
+129212,1,DDoS_UDP,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+143710,1,DDoS_ICMP,0.0,0.0,0.0,0.0,0.0,0.0,0.0
