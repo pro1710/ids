@@ -10,7 +10,7 @@ def encode_text_dummy(df, name):
     df.drop(name, axis=1, inplace=True)
 
 
-def prepare_dataset(path_to_dataset):
+def prepare_dataset(path_to_dataset, verbose=False):
     df  = pd.read_csv(path_to_dataset, low_memory=False)
 
     to_drop_columns = ['frame.time', 
@@ -30,7 +30,8 @@ def prepare_dataset(path_to_dataset):
                 'mqtt.msg']
 
     df.drop(to_drop_columns, axis=1, inplace=True)
-    print(f'drop: NA: {df.isnull().sum().sum()}, DUPS: {df.duplicated().sum()}', )
+    if verbose:
+        print(f'drop: NA: {df.isnull().sum().sum()}, DUPS: {df.duplicated().sum()}', )
 
     to_drop_1_unique = ['icmp.unused',
                     'http.tls_port',
@@ -43,10 +44,12 @@ def prepare_dataset(path_to_dataset):
                     'mqtt.conack.flags']
 
     df.drop(to_drop_1_unique, axis=1, inplace=True)
-    print(f'drop: NA: {df.isnull().sum().sum()}, DUPS: {df.duplicated().sum()}', )
+    if verbose:
+        print(f'drop: NA: {df.isnull().sum().sum()}, DUPS: {df.duplicated().sum()}', )
 
     df.dropna(axis=0, how='any', inplace=True)
-    print(f'dropna: NA: {df.isnull().sum().sum()}, DUPS: {df.duplicated().sum()}', )
+    if verbose:
+        print(f'dropna: NA: {df.isnull().sum().sum()}, DUPS: {df.duplicated().sum()}', )
 
     to_fix_columns = ['mqtt.topic', 
                     #   'mqtt.conack.flags', 
@@ -62,16 +65,18 @@ def prepare_dataset(path_to_dataset):
 
 
     df.drop_duplicates(subset=None, keep='first', inplace=True)
-    print(f'drop_duplicates: NA: {df.isnull().sum().sum()}, DUPS: {df.duplicated().sum()}', )
+    if verbose:
+        print(f'drop_duplicates: NA: {df.isnull().sum().sum()}, DUPS: {df.duplicated().sum()}', )
 
     df['Attack_type'] = df['Attack_type'].astype('category')
 
-    print('#'*80)
-    print('TARGET: "Attack_label"')
-    print(df['Attack_label'].value_counts())
-    print('-'*80)
-    print('TARGET: "Attack_type"')
-    print(df['Attack_type'].value_counts())
-    print('#'*80)
+    if verbose:
+        print('#'*80)
+        print('TARGET: "Attack_label"')
+        print(df['Attack_label'].value_counts())
+        print('-'*80)
+        print('TARGET: "Attack_type"')
+        print(df['Attack_type'].value_counts())
+        print('#'*80)
 
     return df
