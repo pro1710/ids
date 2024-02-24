@@ -1,0 +1,7078 @@
+Backdoor_attack.csv
+*	arp.opcode 3 [0. 1. 2.]
+	arp.opcode
+0.0    24538
+1.0      162
+2.0      162
+Name: count, dtype: int64
+
+*	arp.hw.size 2 [0. 6.]
+	arp.hw.size
+0.0    24538
+6.0      324
+Name: count, dtype: int64
+
+	icmp.checksum 1 [0.]
+	icmp.checksum
+0.0    24862
+Name: count, dtype: int64
+
+	icmp.seq_le 1 [0.]
+	icmp.seq_le
+0.0    24862
+Name: count, dtype: int64
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    24862
+Name: count, dtype: int64
+
+	http.content_length 1 [0.]
+	http.content_length
+0.0    24862
+Name: count, dtype: int64
+
+	http.request.method 1 [0.]
+	http.request.method
+0.0    24862
+Name: count, dtype: int64
+
+	http.referer 1 [0.]
+	http.referer
+0.0    24862
+Name: count, dtype: int64
+
+	http.request.version 1 [0.]
+	http.request.version
+0.0    24862
+Name: count, dtype: int64
+
+	http.response 1 [0.]
+	http.response
+0.0    24862
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    24862
+Name: count, dtype: int64
+
+*	tcp.ack 10781 [2435314. 2437250. 2435937. 2438386. 2439058. 2439618. 2440114. 2440898.]
+	[too many]
+
+*	tcp.ack_raw 11813 [4.14779714e+09 5.27279439e+09 2.69449119e+09 5.27279553e+09
+ 5.27279620e+09 5.27279676e+09 5.27279725e+09 5.27279804e+09]
+	[too many]
+
+*	tcp.checksum 20163 ['0x00003e9a0x00007ce5' '0x00008ad20x0000cc9b' '0x000034450x00007692'
+ '00x000020a8' '0x000013160x00007164' '0x00002f4a0x00006c34'
+ '0x0000fa890x000081a6' '0x000029c20x00006763']
+	[too many]
+
+*	tcp.connection.fin 2 [0. 1.]
+	tcp.connection.fin
+0.0    24860
+1.0        2
+Name: count, dtype: int64
+
+*	tcp.connection.rst 2 [0. 1.]
+	tcp.connection.rst
+0.0    24034
+1.0      828
+Name: count, dtype: int64
+
+*	tcp.connection.syn 2 [0. 1.]
+	tcp.connection.syn
+0.0    24034
+1.0      828
+Name: count, dtype: int64
+
+	tcp.connection.synack 1 [0.]
+	tcp.connection.synack
+0.0    24862
+Name: count, dtype: int64
+
+*	tcp.flags 7 ['0x00000010' '0x00000018' '0' '0x00000002' '0x00000014' '0x00000011'
+ '0x00000004']
+	tcp.flags
+0x00000010    11383
+0x00000018    10994
+0x00000002      828
+0               827
+0x00000014      827
+0x00000011        2
+0x00000004        1
+Name: count, dtype: int64
+
+*	tcp.flags.ack 2 [1. 0.]
+	tcp.flags.ack
+1.0    23206
+0.0     1656
+Name: count, dtype: int64
+
+*	tcp.len 130 [1545. 1608.  408.  696. 1648.  616. 1328. 1096.]
+	[too many]
+
+*	tcp.seq 11183 [2434866. 2436762. 2435633. 2437554. 2438386. 2439058. 2439618. 2440114.]
+	[too many]
+
+	udp.stream 1 [0.]
+	udp.stream
+0.0    24862
+Name: count, dtype: int64
+
+	udp.time_delta 1 [0.]
+	udp.time_delta
+0.0    24862
+Name: count, dtype: int64
+
+	dns.qry.name 1 [0.]
+	dns.qry.name
+0.0    24862
+Name: count, dtype: int64
+
+	dns.qry.name.len 1 [0.]
+	dns.qry.name.len
+0.0    24862
+Name: count, dtype: int64
+
+	dns.qry.qu 1 [0.]
+	dns.qry.qu
+0.0    24862
+Name: count, dtype: int64
+
+	dns.qry.type 1 [0.]
+	dns.qry.type
+0.0    24862
+Name: count, dtype: int64
+
+	dns.retransmission 1 [0.]
+	dns.retransmission
+0.0    24862
+Name: count, dtype: int64
+
+	dns.retransmit_request 1 [0.]
+	dns.retransmit_request
+0.0    24862
+Name: count, dtype: int64
+
+	dns.retransmit_request_in 1 [0.]
+	dns.retransmit_request_in
+0.0    24862
+Name: count, dtype: int64
+
+	mqtt.conack.flags 1 [0.]
+	mqtt.conack.flags
+0.0    24862
+Name: count, dtype: int64
+
+	mqtt.conflag.cleansess 1 [0.]
+	mqtt.conflag.cleansess
+0.0    24862
+Name: count, dtype: int64
+
+	mqtt.conflags 1 [0.]
+	mqtt.conflags
+0.0    24862
+Name: count, dtype: int64
+
+	mqtt.hdrflags 1 [0.]
+	mqtt.hdrflags
+0.0    24862
+Name: count, dtype: int64
+
+	mqtt.len 1 [0.]
+	mqtt.len
+0.0    24862
+Name: count, dtype: int64
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    24862
+Name: count, dtype: int64
+
+	mqtt.msgtype 1 [0.]
+	mqtt.msgtype
+0.0    24862
+Name: count, dtype: int64
+
+	mqtt.proto_len 1 [0.]
+	mqtt.proto_len
+0.0    24862
+Name: count, dtype: int64
+
+	mqtt.protoname 1 [0.]
+	mqtt.protoname
+0.0    24862
+Name: count, dtype: int64
+
+	mqtt.topic 1 [0.]
+	mqtt.topic
+0.0    24862
+Name: count, dtype: int64
+
+	mqtt.topic_len 1 [0.]
+	mqtt.topic_len
+0.0    24862
+Name: count, dtype: int64
+
+	mqtt.ver 1 [0.]
+	mqtt.ver
+0.0    24862
+Name: count, dtype: int64
+
+	mbtcp.len 1 [0.]
+	mbtcp.len
+0.0    24862
+Name: count, dtype: int64
+
+	mbtcp.trans_id 1 [0.]
+	mbtcp.trans_id
+0.0    24862
+Name: count, dtype: int64
+
+	mbtcp.unit_id 1 [0.]
+	mbtcp.unit_id
+0.0    24862
+Name: count, dtype: int64
+
+	Attack_label 1 [1]
+	Attack_label
+1    24862
+Name: count, dtype: int64
+
+	Attack_type 1 ['Backdoor']
+	Attack_type
+Backdoor    24862
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+DDoS_HTTP_Flood_attack.csv
+*	arp.opcode 3 [0. 1. 2.]
+	arp.opcode
+0.0    229002
+1.0        10
+2.0        10
+Name: count, dtype: int64
+
+*	arp.hw.size 2 [0. 6.]
+	arp.hw.size
+0.0    229002
+6.0        20
+Name: count, dtype: int64
+
+	icmp.checksum 1 [0.]
+	icmp.checksum
+0.0    229022
+Name: count, dtype: int64
+
+	icmp.seq_le 1 [0.]
+	icmp.seq_le
+0.0    229022
+Name: count, dtype: int64
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    229022
+Name: count, dtype: int64
+
+*	http.content_length 3 [  0. 298. 303.]
+	http.content_length
+0.0      225777
+298.0      2242
+303.0      1003
+Name: count, dtype: int64
+
+*	http.request.method 2 ['0' 'GET']
+	http.request.method
+0      229001
+GET        21
+Name: count, dtype: int64
+
+*	http.referer 2 ['0' 'TESTING_PURPOSES_ONLY']
+	http.referer
+0                        229001
+TESTING_PURPOSES_ONLY        21
+Name: count, dtype: int64
+
+*	http.request.version 2 ['0' 'HTTP/1.1']
+	http.request.version
+0           229001
+HTTP/1.1        21
+Name: count, dtype: int64
+
+*	http.response 2 [0. 1.]
+	http.response
+0.0    225777
+1.0      3245
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    229022
+Name: count, dtype: int64
+
+*	tcp.ack 1349 [1380. 1293. 1330. 1293. 1276. 2033. 1318. 2025.]
+	[too many]
+
+*	tcp.ack_raw 74481 [1.77216877e+08 6.67914741e+09 4.61997232e+09 5.08818426e+09
+ 2.29373608e+09 5.08565593e+09 5.41311784e+09 5.53080004e+09]
+	[too many]
+
+*	tcp.checksum 63472 ['0x000038c80x00001644' '0x00001d540x0000c07d' '0x00003af10x000095f3'
+ '0x0000b5e10x00007e80' '0x00006c2e0x0000587a' '0x000008530x00004e0c'
+ '0x0000c3d30x00007597' '0x00007a4c0x000001ed']
+	[too many]
+
+*	tcp.connection.fin 2 [0. 1.]
+	tcp.connection.fin
+0.0    221910
+1.0      7112
+Name: count, dtype: int64
+
+*	tcp.connection.rst 2 [0. 1.]
+	tcp.connection.rst
+0.0    225297
+1.0      3725
+Name: count, dtype: int64
+
+*	tcp.connection.syn 2 [1. 0.]
+	tcp.connection.syn
+0.0    167380
+1.0     61642
+Name: count, dtype: int64
+
+*	tcp.connection.synack 2 [0. 1.]
+	tcp.connection.synack
+0.0    223936
+1.0      5086
+Name: count, dtype: int64
+
+*	tcp.flags 9 ['0x00000002' '0x00000018' '0x00000011' '0x00000010' '0x00000012'
+ '0x00000014' '0x00000004' '0' '0x00000019']
+	tcp.flags
+0x00000018    80349
+0x00000010    71068
+0x00000002    61642
+0x00000011     6712
+0x00000012     5086
+0x00000004     3703
+0x00000019      400
+0                40
+0x00000014       22
+Name: count, dtype: int64
+
+*	tcp.flags.ack 2 [0. 1.]
+	tcp.flags.ack
+1.0    163637
+0.0     65385
+Name: count, dtype: int64
+
+*	tcp.len 348 [515. 527. 797. 489. 463. 436. 534.  94.]
+	[too many]
+
+*	tcp.seq 1339 [1.19400000e+03 1.24600000e+03 4.29496818e+09 1.21700000e+03
+ 1.01720000e+04 1.32600000e+03 2.03300000e+03 1.31800000e+03]
+	[too many]
+
+	udp.stream 1 [0.]
+	udp.stream
+0.0    229022
+Name: count, dtype: int64
+
+	udp.time_delta 1 [0.]
+	udp.time_delta
+0.0    229022
+Name: count, dtype: int64
+
+	dns.qry.name 1 [0.]
+	dns.qry.name
+0.0    229022
+Name: count, dtype: int64
+
+	dns.qry.name.len 1 [0.]
+	dns.qry.name.len
+0.0    229022
+Name: count, dtype: int64
+
+	dns.qry.qu 1 [0.]
+	dns.qry.qu
+0.0    229022
+Name: count, dtype: int64
+
+	dns.qry.type 1 [0.]
+	dns.qry.type
+0.0    229022
+Name: count, dtype: int64
+
+	dns.retransmission 1 [0.]
+	dns.retransmission
+0.0    229022
+Name: count, dtype: int64
+
+	dns.retransmit_request 1 [0.]
+	dns.retransmit_request
+0.0    229022
+Name: count, dtype: int64
+
+	dns.retransmit_request_in 1 [0.]
+	dns.retransmit_request_in
+0.0    229022
+Name: count, dtype: int64
+
+	mqtt.conack.flags 1 [0.]
+	mqtt.conack.flags
+0.0    229022
+Name: count, dtype: int64
+
+	mqtt.conflag.cleansess 1 [0.]
+	mqtt.conflag.cleansess
+0.0    229022
+Name: count, dtype: int64
+
+	mqtt.conflags 1 [0.]
+	mqtt.conflags
+0.0    229022
+Name: count, dtype: int64
+
+	mqtt.hdrflags 1 [0.]
+	mqtt.hdrflags
+0.0    229022
+Name: count, dtype: int64
+
+	mqtt.len 1 [0.]
+	mqtt.len
+0.0    229022
+Name: count, dtype: int64
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    229022
+Name: count, dtype: int64
+
+	mqtt.msgtype 1 [0.]
+	mqtt.msgtype
+0.0    229022
+Name: count, dtype: int64
+
+	mqtt.proto_len 1 [0.]
+	mqtt.proto_len
+0.0    229022
+Name: count, dtype: int64
+
+	mqtt.protoname 1 [0.]
+	mqtt.protoname
+0.0    229022
+Name: count, dtype: int64
+
+	mqtt.topic 1 [0.]
+	mqtt.topic
+0.0    229022
+Name: count, dtype: int64
+
+	mqtt.topic_len 1 [0.]
+	mqtt.topic_len
+0.0    229022
+Name: count, dtype: int64
+
+	mqtt.ver 1 [0.]
+	mqtt.ver
+0.0    229022
+Name: count, dtype: int64
+
+	mbtcp.len 1 [0.]
+	mbtcp.len
+0.0    229022
+Name: count, dtype: int64
+
+	mbtcp.trans_id 1 [0.]
+	mbtcp.trans_id
+0.0    229022
+Name: count, dtype: int64
+
+	mbtcp.unit_id 1 [0.]
+	mbtcp.unit_id
+0.0    229022
+Name: count, dtype: int64
+
+	Attack_label 1 [1]
+	Attack_label
+1    229022
+Name: count, dtype: int64
+
+	Attack_type 1 ['DDoS_HTTP']
+	Attack_type
+DDoS_HTTP    229022
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+DDoS_ICMP_Flood_attack.csv
+*	arp.opcode 3 [0. 1. 2.]
+	arp.opcode
+0.0    2914159
+1.0        167
+2.0         28
+Name: count, dtype: int64
+
+*	arp.hw.size 2 [0. 6.]
+	arp.hw.size
+0.0    2914159
+6.0        195
+Name: count, dtype: int64
+
+*	icmp.checksum 65536 ['0x00004af20x000071fd' '0x000049f20x000070fd' '0x000048f20x00006ffd'
+ '0x000047f20x00006efd' '0x000046f20x00006dfd' '0x000045f20x00006cfd'
+ '0x000044f20x00006bfd' '0x000043f20x00006afd']
+	[too many]
+
+*	icmp.seq_le 65536 [65957. 65959. 65961. 65963. 65965. 65967. 65969. 50232.]
+	[too many]
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    2914354
+Name: count, dtype: int64
+
+	http.content_length 1 [0.]
+	http.content_length
+0.0    2914354
+Name: count, dtype: int64
+
+	http.request.method 1 [0.]
+	http.request.method
+0.0    2914354
+Name: count, dtype: int64
+
+	http.referer 1 [0.]
+	http.referer
+0.0    2914354
+Name: count, dtype: int64
+
+	http.request.version 1 [0.]
+	http.request.version
+0.0    2914354
+Name: count, dtype: int64
+
+	http.response 1 [0.]
+	http.response
+0.0    2914354
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    2914354
+Name: count, dtype: int64
+
+	tcp.ack 1 [0.]
+	tcp.ack
+0.0    2914354
+Name: count, dtype: int64
+
+	tcp.ack_raw 1 [0.]
+	tcp.ack_raw
+0.0    2914354
+Name: count, dtype: int64
+
+	tcp.checksum 1 [0.]
+	tcp.checksum
+0.0    2914354
+Name: count, dtype: int64
+
+	tcp.connection.fin 1 [0.]
+	tcp.connection.fin
+0.0    2914354
+Name: count, dtype: int64
+
+	tcp.connection.rst 1 [0.]
+	tcp.connection.rst
+0.0    2914354
+Name: count, dtype: int64
+
+	tcp.connection.syn 1 [0.]
+	tcp.connection.syn
+0.0    2914354
+Name: count, dtype: int64
+
+	tcp.connection.synack 1 [0.]
+	tcp.connection.synack
+0.0    2914354
+Name: count, dtype: int64
+
+	tcp.flags 1 [0.]
+	tcp.flags
+0.0    2914354
+Name: count, dtype: int64
+
+	tcp.flags.ack 1 [0.]
+	tcp.flags.ack
+0.0    2914354
+Name: count, dtype: int64
+
+	tcp.len 1 [0.]
+	tcp.len
+0.0    2914354
+Name: count, dtype: int64
+
+	tcp.seq 1 [0.]
+	tcp.seq
+0.0    2914354
+Name: count, dtype: int64
+
+	udp.stream 1 [0.]
+	udp.stream
+0.0    2914354
+Name: count, dtype: int64
+
+	udp.time_delta 1 [0.]
+	udp.time_delta
+0.0    2914354
+Name: count, dtype: int64
+
+	dns.qry.name 1 [0.]
+	dns.qry.name
+0.0    2914354
+Name: count, dtype: int64
+
+	dns.qry.name.len 1 [0.]
+	dns.qry.name.len
+0.0    2914354
+Name: count, dtype: int64
+
+	dns.qry.qu 1 [0.]
+	dns.qry.qu
+0.0    2914354
+Name: count, dtype: int64
+
+	dns.qry.type 1 [0.]
+	dns.qry.type
+0.0    2914354
+Name: count, dtype: int64
+
+	dns.retransmission 1 [0.]
+	dns.retransmission
+0.0    2914354
+Name: count, dtype: int64
+
+	dns.retransmit_request 1 [0.]
+	dns.retransmit_request
+0.0    2914354
+Name: count, dtype: int64
+
+	dns.retransmit_request_in 1 [0.]
+	dns.retransmit_request_in
+0.0    2914354
+Name: count, dtype: int64
+
+	mqtt.conack.flags 1 [0.]
+	mqtt.conack.flags
+0.0    2914354
+Name: count, dtype: int64
+
+	mqtt.conflag.cleansess 1 [0.]
+	mqtt.conflag.cleansess
+0.0    2914354
+Name: count, dtype: int64
+
+	mqtt.conflags 1 [0.]
+	mqtt.conflags
+0.0    2914354
+Name: count, dtype: int64
+
+	mqtt.hdrflags 1 [0.]
+	mqtt.hdrflags
+0.0    2914354
+Name: count, dtype: int64
+
+	mqtt.len 1 [0.]
+	mqtt.len
+0.0    2914354
+Name: count, dtype: int64
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    2914354
+Name: count, dtype: int64
+
+	mqtt.msgtype 1 [0.]
+	mqtt.msgtype
+0.0    2914354
+Name: count, dtype: int64
+
+	mqtt.proto_len 1 [0.]
+	mqtt.proto_len
+0.0    2914354
+Name: count, dtype: int64
+
+	mqtt.protoname 1 [0.]
+	mqtt.protoname
+0.0    2914354
+Name: count, dtype: int64
+
+	mqtt.topic 1 [0.]
+	mqtt.topic
+0.0    2914354
+Name: count, dtype: int64
+
+	mqtt.topic_len 1 [0.]
+	mqtt.topic_len
+0.0    2914354
+Name: count, dtype: int64
+
+	mqtt.ver 1 [0.]
+	mqtt.ver
+0.0    2914354
+Name: count, dtype: int64
+
+	mbtcp.len 1 [0.]
+	mbtcp.len
+0.0    2914354
+Name: count, dtype: int64
+
+	mbtcp.trans_id 1 [0.]
+	mbtcp.trans_id
+0.0    2914354
+Name: count, dtype: int64
+
+	mbtcp.unit_id 1 [0.]
+	mbtcp.unit_id
+0.0    2914354
+Name: count, dtype: int64
+
+	Attack_label 1 [1]
+	Attack_label
+1    2914354
+Name: count, dtype: int64
+
+	Attack_type 1 ['DDoS_ICMP']
+	Attack_type
+DDoS_ICMP    2914354
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+DDoS_TCP_SYN_Flood_attack.csv
+*	arp.opcode 3 [0. 1. 2.]
+	arp.opcode
+0.0    2020015
+1.0         65
+2.0         40
+Name: count, dtype: int64
+
+*	arp.hw.size 2 [0. 6.]
+	arp.hw.size
+0.0    2020015
+6.0        105
+Name: count, dtype: int64
+
+	icmp.checksum 1 [0.]
+	icmp.checksum
+0.0    2020120
+Name: count, dtype: int64
+
+	icmp.seq_le 1 [0.]
+	icmp.seq_le
+0.0    2020120
+Name: count, dtype: int64
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    2020120
+Name: count, dtype: int64
+
+	http.content_length 1 [0.]
+	http.content_length
+0.0    2020120
+Name: count, dtype: int64
+
+	http.request.method 1 [0.]
+	http.request.method
+0.0    2020120
+Name: count, dtype: int64
+
+	http.referer 1 [0.]
+	http.referer
+0.0    2020120
+Name: count, dtype: int64
+
+	http.request.version 1 [0.]
+	http.request.version
+0.0    2020120
+Name: count, dtype: int64
+
+	http.response 1 [0.]
+	http.response
+0.0    2020120
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    2020120
+Name: count, dtype: int64
+
+*	tcp.ack 1175684 [1.72132653e+09 7.09316087e+08 1.61345079e+09 2.14228319e+09
+ 3.30944538e+09 1.89275711e+09 2.06622135e+09 3.75041270e+09]
+	[too many]
+
+*	tcp.ack_raw 2017957 [2.98573253e+09 2.90676576e+09 1.99501899e+09 2.96946388e+09
+ 1.11282028e+09 3.34464058e+09 3.44159579e+09 2.10337223e+09]
+	[too many]
+
+*	tcp.checksum 65536 ['0x0000f5a90x000031bf' '0x0000b2740x00008642' '0x00006b2d0x0000b597'
+ '0x0000537e0x00004b8d' '0x0000d36a0x0000545e' '0x0000daa50x0000fdd9'
+ '0x000091880x000095e3' '0x0000d8ea0x00006bea']
+	[too many]
+
+	tcp.connection.fin 1 [0.]
+	tcp.connection.fin
+0.0    2020120
+Name: count, dtype: int64
+
+*	tcp.connection.rst 2 [0. 1.]
+	tcp.connection.rst
+0.0    1176812
+1.0     843308
+Name: count, dtype: int64
+
+*	tcp.connection.syn 2 [1. 0.]
+	tcp.connection.syn
+1.0    1176684
+0.0     843436
+Name: count, dtype: int64
+
+	tcp.connection.synack 1 [0.]
+	tcp.connection.synack
+0.0    2020120
+Name: count, dtype: int64
+
+*	tcp.flags 3 ['0x00000002' '0x00000014' '0']
+	tcp.flags
+0x00000002    1176684
+0x00000014     843308
+0                 128
+Name: count, dtype: int64
+
+*	tcp.flags.ack 2 [0. 1.]
+	tcp.flags.ack
+0.0    1176812
+1.0     843308
+Name: count, dtype: int64
+
+*	tcp.len 2 [120.   0.]
+	tcp.len
+120.0    1176684
+0.0       843436
+Name: count, dtype: int64
+
+*	tcp.seq 2 [0. 1.]
+	tcp.seq
+0.0    1176812
+1.0     843308
+Name: count, dtype: int64
+
+	udp.stream 1 [0.]
+	udp.stream
+0.0    2020120
+Name: count, dtype: int64
+
+	udp.time_delta 1 [0.]
+	udp.time_delta
+0.0    2020120
+Name: count, dtype: int64
+
+	dns.qry.name 1 [0.]
+	dns.qry.name
+0.0    2020120
+Name: count, dtype: int64
+
+	dns.qry.name.len 1 [0.]
+	dns.qry.name.len
+0.0    2020120
+Name: count, dtype: int64
+
+	dns.qry.qu 1 [0.]
+	dns.qry.qu
+0.0    2020120
+Name: count, dtype: int64
+
+	dns.qry.type 1 [0.]
+	dns.qry.type
+0.0    2020120
+Name: count, dtype: int64
+
+	dns.retransmission 1 [0.]
+	dns.retransmission
+0.0    2020120
+Name: count, dtype: int64
+
+	dns.retransmit_request 1 [0.]
+	dns.retransmit_request
+0.0    2020120
+Name: count, dtype: int64
+
+	dns.retransmit_request_in 1 [0.]
+	dns.retransmit_request_in
+0.0    2020120
+Name: count, dtype: int64
+
+	mqtt.conack.flags 1 [0.]
+	mqtt.conack.flags
+0.0    2020120
+Name: count, dtype: int64
+
+	mqtt.conflag.cleansess 1 [0.]
+	mqtt.conflag.cleansess
+0.0    2020120
+Name: count, dtype: int64
+
+	mqtt.conflags 1 [0.]
+	mqtt.conflags
+0.0    2020120
+Name: count, dtype: int64
+
+	mqtt.hdrflags 1 [0.]
+	mqtt.hdrflags
+0.0    2020120
+Name: count, dtype: int64
+
+	mqtt.len 1 [0.]
+	mqtt.len
+0.0    2020120
+Name: count, dtype: int64
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    2020120
+Name: count, dtype: int64
+
+	mqtt.msgtype 1 [0.]
+	mqtt.msgtype
+0.0    2020120
+Name: count, dtype: int64
+
+	mqtt.proto_len 1 [0.]
+	mqtt.proto_len
+0.0    2020120
+Name: count, dtype: int64
+
+	mqtt.protoname 1 [0.]
+	mqtt.protoname
+0.0    2020120
+Name: count, dtype: int64
+
+	mqtt.topic 1 [0.]
+	mqtt.topic
+0.0    2020120
+Name: count, dtype: int64
+
+	mqtt.topic_len 1 [0.]
+	mqtt.topic_len
+0.0    2020120
+Name: count, dtype: int64
+
+	mqtt.ver 1 [0.]
+	mqtt.ver
+0.0    2020120
+Name: count, dtype: int64
+
+	mbtcp.len 1 [0.]
+	mbtcp.len
+0.0    2020120
+Name: count, dtype: int64
+
+	mbtcp.trans_id 1 [0.]
+	mbtcp.trans_id
+0.0    2020120
+Name: count, dtype: int64
+
+	mbtcp.unit_id 1 [0.]
+	mbtcp.unit_id
+0.0    2020120
+Name: count, dtype: int64
+
+	Attack_label 1 [1]
+	Attack_label
+1    2020120
+Name: count, dtype: int64
+
+	Attack_type 1 ['DDoS_TCP']
+	Attack_type
+DDoS_TCP    2020120
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+DDoS_UDP_Flood_attack.csv
+*	arp.opcode 2 [0. 6.]
+	arp.opcode
+0.0    3201427
+6.0        199
+Name: count, dtype: int64
+
+*	arp.hw.size 6 ['0' '192.168.0.128' '192.168.0.1' '192.168.0.170' '192.168.0.101'
+ '192.168.0.152']
+	arp.hw.size
+0                3201427
+192.168.0.128        132
+192.168.0.170         46
+192.168.0.1           12
+192.168.0.101          8
+192.168.0.152          1
+Name: count, dtype: int64
+
+	icmp.checksum 1 [0.]
+	icmp.checksum
+0.0    3201626
+Name: count, dtype: int64
+
+*	icmp.seq_le 64813 ['00x0000624c' '0x000007390x0000d9c5' '0x0000241f0x0000d836'
+ '0x0000e0470x0000d825' '0x000017d10x00005a84' '0x0000b40b0x000080e3'
+ '0x0000051d0x000074b5' '0x000050690x00008969']
+	[too many]
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    3201626
+Name: count, dtype: int64
+
+	http.content_length 1 [0.]
+	http.content_length
+0.0    3201626
+Name: count, dtype: int64
+
+	http.request.method 1 [0.]
+	http.request.method
+0.0    3201626
+Name: count, dtype: int64
+
+	http.referer 1 [0.]
+	http.referer
+0.0    3201626
+Name: count, dtype: int64
+
+	http.request.version 1 [0.]
+	http.request.version
+0.0    3201626
+Name: count, dtype: int64
+
+	http.response 1 [0.]
+	http.response
+0.0    3201626
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    3201626
+Name: count, dtype: int64
+
+	tcp.ack 1 [0.]
+	tcp.ack
+0.0    3201626
+Name: count, dtype: int64
+
+	tcp.ack_raw 1 [0.]
+	tcp.ack_raw
+0.0    3201626
+Name: count, dtype: int64
+
+	tcp.checksum 1 [0.]
+	tcp.checksum
+0.0    3201626
+Name: count, dtype: int64
+
+	tcp.connection.fin 1 [0.]
+	tcp.connection.fin
+0.0    3201626
+Name: count, dtype: int64
+
+	tcp.connection.rst 1 [0.]
+	tcp.connection.rst
+0.0    3201626
+Name: count, dtype: int64
+
+	tcp.connection.syn 1 [0.]
+	tcp.connection.syn
+0.0    3201626
+Name: count, dtype: int64
+
+	tcp.connection.synack 1 [0.]
+	tcp.connection.synack
+0.0    3201626
+Name: count, dtype: int64
+
+	tcp.flags 1 [0.]
+	tcp.flags
+0.0    3201626
+Name: count, dtype: int64
+
+	tcp.flags.ack 1 [0.]
+	tcp.flags.ack
+0.0    3201626
+Name: count, dtype: int64
+
+	tcp.len 1 [0.]
+	tcp.len
+0.0    3201626
+Name: count, dtype: int64
+
+	tcp.seq 1 [0.]
+	tcp.seq
+0.0    3201626
+Name: count, dtype: int64
+
+*	udp.stream 2898790 [2898786. 2898788. 2898790. 2898792. 2898794. 2898796. 2898798. 2898800.]
+	[too many]
+
+	udp.time_delta 1 [0.]
+	udp.time_delta
+0.0    3201626
+Name: count, dtype: int64
+
+*	dns.qry.name 302578 [2898785. 2997335. 2997338. 2997340. 2997342. 2997344. 2997346. 2997348.]
+	[too many]
+
+	dns.qry.name.len 1 [0.]
+	dns.qry.name.len
+0.0    3201626
+Name: count, dtype: int64
+
+	dns.qry.qu 1 [0.]
+	dns.qry.qu
+0.0    3201626
+Name: count, dtype: int64
+
+	dns.qry.type 1 [0.]
+	dns.qry.type
+0.0    3201626
+Name: count, dtype: int64
+
+	dns.retransmission 1 [0.]
+	dns.retransmission
+0.0    3201626
+Name: count, dtype: int64
+
+	dns.retransmit_request 1 [0.]
+	dns.retransmit_request
+0.0    3201626
+Name: count, dtype: int64
+
+	dns.retransmit_request_in 1 [0.]
+	dns.retransmit_request_in
+0.0    3201626
+Name: count, dtype: int64
+
+	mqtt.conack.flags 1 [0.]
+	mqtt.conack.flags
+0.0    3201626
+Name: count, dtype: int64
+
+	mqtt.conflag.cleansess 1 [0.]
+	mqtt.conflag.cleansess
+0.0    3201626
+Name: count, dtype: int64
+
+	mqtt.conflags 1 [0.]
+	mqtt.conflags
+0.0    3201626
+Name: count, dtype: int64
+
+	mqtt.hdrflags 1 [0.]
+	mqtt.hdrflags
+0.0    3201626
+Name: count, dtype: int64
+
+	mqtt.len 1 [0.]
+	mqtt.len
+0.0    3201626
+Name: count, dtype: int64
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    3201626
+Name: count, dtype: int64
+
+	mqtt.msgtype 1 [0.]
+	mqtt.msgtype
+0.0    3201626
+Name: count, dtype: int64
+
+	mqtt.proto_len 1 [0.]
+	mqtt.proto_len
+0.0    3201626
+Name: count, dtype: int64
+
+	mqtt.protoname 1 [0.]
+	mqtt.protoname
+0.0    3201626
+Name: count, dtype: int64
+
+	mqtt.topic 1 [0.]
+	mqtt.topic
+0.0    3201626
+Name: count, dtype: int64
+
+	mqtt.topic_len 1 [0.]
+	mqtt.topic_len
+0.0    3201626
+Name: count, dtype: int64
+
+	mqtt.ver 1 [0.]
+	mqtt.ver
+0.0    3201626
+Name: count, dtype: int64
+
+	mbtcp.len 1 [0.]
+	mbtcp.len
+0.0    3201626
+Name: count, dtype: int64
+
+	mbtcp.trans_id 1 [0.]
+	mbtcp.trans_id
+0.0    3201626
+Name: count, dtype: int64
+
+	mbtcp.unit_id 1 [0.]
+	mbtcp.unit_id
+0.0    3201626
+Name: count, dtype: int64
+
+	Attack_label 1 [1]
+	Attack_label
+1    3201626
+Name: count, dtype: int64
+
+	Attack_type 1 ['DDoS_UDP']
+	Attack_type
+DDoS_UDP    3201626
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+MITM_attack.csv
+	arp.opcode 1 [0.]
+	arp.opcode
+0.0    1229
+Name: count, dtype: int64
+
+	arp.hw.size 1 [0.]
+	arp.hw.size
+0.0    1229
+Name: count, dtype: int64
+
+	icmp.checksum 1 [0.]
+	icmp.checksum
+0.0    1229
+Name: count, dtype: int64
+
+	icmp.seq_le 1 [0.]
+	icmp.seq_le
+0.0    1229
+Name: count, dtype: int64
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    1229
+Name: count, dtype: int64
+
+	http.content_length 1 [0.]
+	http.content_length
+0.0    1229
+Name: count, dtype: int64
+
+	http.request.method 1 [0.]
+	http.request.method
+0.0    1229
+Name: count, dtype: int64
+
+*	http.referer 2 [0. 1.]
+	http.referer
+0.0    1223
+1.0       6
+Name: count, dtype: int64
+
+*	http.request.version 2 ['0' '0x0000511a']
+	http.request.version
+0             1223
+0x0000511a       6
+Name: count, dtype: int64
+
+	http.response 1 [0.]
+	http.response
+0.0    1229
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    1229
+Name: count, dtype: int64
+
+	tcp.ack 1 [0.]
+	tcp.ack
+0.0    1229
+Name: count, dtype: int64
+
+	tcp.ack_raw 1 [0.]
+	tcp.ack_raw
+0.0    1229
+Name: count, dtype: int64
+
+*	tcp.checksum 2 [    0. 55603.]
+	tcp.checksum
+0.0        1223
+55603.0       6
+Name: count, dtype: int64
+
+*	tcp.connection.fin 2 ['0' '0x00000010']
+	tcp.connection.fin
+0             1223
+0x00000010       6
+Name: count, dtype: int64
+
+*	tcp.connection.rst 2 [0. 1.]
+	tcp.connection.rst
+0.0    1223
+1.0       6
+Name: count, dtype: int64
+
+*	tcp.connection.syn 2 [   0. 1440.]
+	tcp.connection.syn
+0.0       1223
+1440.0       6
+Name: count, dtype: int64
+
+	tcp.connection.synack 1 [0.]
+	tcp.connection.synack
+0.0    1229
+Name: count, dtype: int64
+
+*	tcp.flags 2 [0. 1.]
+	tcp.flags
+0.0    1223
+1.0       6
+Name: count, dtype: int64
+
+*	tcp.flags.ack 2 [   0. 5900.]
+	tcp.flags.ack
+0.0       1223
+5900.0       6
+Name: count, dtype: int64
+
+*	tcp.len 46 [ 63114.  62937.  53382. 117929. 117069. 111118. 117036.  95156.]
+	[too many]
+
+*	tcp.seq 312 [4.40000000e-04 6.60036700e+01 2.01637400e+00 1.75820000e-02
+ 7.64232700e+00 7.82770500e+00 5.12016464e+02 5.12003092e+02]
+	[too many]
+
+*	udp.stream 2 [16.  0.]
+	udp.stream
+0.0     1220
+16.0       9
+Name: count, dtype: int64
+
+*	udp.time_delta 4 [ 15.   0. 255.  12.]
+	udp.time_delta
+0.0      853
+12.0     216
+255.0    151
+15.0       9
+Name: count, dtype: int64
+
+*	dns.qry.name 2 [0. 1.]
+	dns.qry.name
+0.0    1002
+1.0     227
+Name: count, dtype: int64
+
+*	dns.qry.name.len 2 [0. 1.]
+	dns.qry.name.len
+0.0    1002
+1.0     227
+Name: count, dtype: int64
+
+*	dns.qry.qu 65 [ 921.  925.  965.  992. 1027. 1072. 1122. 1124.]
+	[too many]
+
+*	dns.qry.type 2 [12.  0.]
+	dns.qry.type
+0.0     1220
+12.0       9
+Name: count, dtype: int64
+
+	dns.retransmission 1 [0.]
+	dns.retransmission
+0.0    1229
+Name: count, dtype: int64
+
+	dns.retransmit_request 1 [0.]
+	dns.retransmit_request
+0.0    1229
+Name: count, dtype: int64
+
+	dns.retransmit_request_in 1 [0.]
+	dns.retransmit_request_in
+0.0    1229
+Name: count, dtype: int64
+
+	mqtt.conack.flags 1 [0.]
+	mqtt.conack.flags
+0.0    1229
+Name: count, dtype: int64
+
+	mqtt.conflag.cleansess 1 [0.]
+	mqtt.conflag.cleansess
+0.0    1229
+Name: count, dtype: int64
+
+	mqtt.conflags 1 [0.]
+	mqtt.conflags
+0.0    1229
+Name: count, dtype: int64
+
+	mqtt.hdrflags 1 [0.]
+	mqtt.hdrflags
+0.0    1229
+Name: count, dtype: int64
+
+	mqtt.len 1 [0.]
+	mqtt.len
+0.0    1229
+Name: count, dtype: int64
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    1229
+Name: count, dtype: int64
+
+	mqtt.msgtype 1 [0.]
+	mqtt.msgtype
+0.0    1229
+Name: count, dtype: int64
+
+	mqtt.proto_len 1 [0.]
+	mqtt.proto_len
+0.0    1229
+Name: count, dtype: int64
+
+	mqtt.protoname 1 [0.]
+	mqtt.protoname
+0.0    1229
+Name: count, dtype: int64
+
+	mqtt.topic 1 [0.]
+	mqtt.topic
+0.0    1229
+Name: count, dtype: int64
+
+	mqtt.topic_len 1 [0.]
+	mqtt.topic_len
+0.0    1229
+Name: count, dtype: int64
+
+	mqtt.ver 1 [0.]
+	mqtt.ver
+0.0    1229
+Name: count, dtype: int64
+
+	mbtcp.len 1 [0.]
+	mbtcp.len
+0.0    1229
+Name: count, dtype: int64
+
+	mbtcp.trans_id 1 [0.]
+	mbtcp.trans_id
+0.0    1229
+Name: count, dtype: int64
+
+	mbtcp.unit_id 1 [0.]
+	mbtcp.unit_id
+0.0    1229
+Name: count, dtype: int64
+
+	Attack_label 1 [1]
+	Attack_label
+1    1229
+Name: count, dtype: int64
+
+	Attack_type 1 ['MITM']
+	Attack_type
+MITM    1229
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+OS_Fingerprinting_attack.csv
+*	arp.opcode 3 [0. 1. 2.]
+	arp.opcode
+0.0    919
+1.0     42
+2.0     40
+Name: count, dtype: int64
+
+*	arp.hw.size 2 [0. 6.]
+	arp.hw.size
+0.0    919
+6.0     82
+Name: count, dtype: int64
+
+*	icmp.checksum 578 ['0x00002ea20x0000fe50' '0x000036a20x0000fdbc' '0x0000058a0x000005bd'
+ '0x00000d8a0x000095cb' '0x0000d3ea0x00009dcb' '0x00000d010x0000a407'
+ '0x00004c8d0x0000ed52' '00x0000fd3d']
+	[too many]
+
+*	icmp.seq_le 2 [  0. 256.]
+	icmp.seq_le
+0.0      835
+256.0    166
+Name: count, dtype: int64
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    1001
+Name: count, dtype: int64
+
+	http.content_length 1 [0.]
+	http.content_length
+0.0    1001
+Name: count, dtype: int64
+
+	http.request.method 1 [0.]
+	http.request.method
+0.0    1001
+Name: count, dtype: int64
+
+	http.referer 1 [0.]
+	http.referer
+0.0    1001
+Name: count, dtype: int64
+
+	http.request.version 1 [0.]
+	http.request.version
+0.0    1001
+Name: count, dtype: int64
+
+	http.response 1 [0.]
+	http.response
+0.0    1001
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    1001
+Name: count, dtype: int64
+
+*	tcp.ack 2 [0. 1.]
+	tcp.ack
+0.0    866
+1.0    135
+Name: count, dtype: int64
+
+*	tcp.ack_raw 136 [1.08762812e+09 2.26656114e+09 7.22788398e+08 7.52900540e+08
+ 1.44364341e+09 2.16109428e+09 1.64319185e+09 2.42618634e+09]
+	[too many]
+
+*	tcp.checksum 271 ['00x00001ace' '0x0000e2210x00003573' '0x0000fcc60x0000338e'
+ '0x000001330x00004e33' '0x00001bd80x00004910' '0x0000e9bc0x000063b5'
+ '0x000004620x00001310' '0x0000524f0x00002db5']
+	[too many]
+
+	tcp.connection.fin 1 [0.]
+	tcp.connection.fin
+0.0    1001
+Name: count, dtype: int64
+
+*	tcp.connection.rst 2 [0. 1.]
+	tcp.connection.rst
+0.0    866
+1.0    135
+Name: count, dtype: int64
+
+*	tcp.connection.syn 2 [0. 1.]
+	tcp.connection.syn
+0.0    866
+1.0    135
+Name: count, dtype: int64
+
+	tcp.connection.synack 1 [0.]
+	tcp.connection.synack
+0.0    1001
+Name: count, dtype: int64
+
+*	tcp.flags 3 ['0' '0x00000002' '0x00000014']
+	tcp.flags
+0             731
+0x00000002    135
+0x00000014    135
+Name: count, dtype: int64
+
+*	tcp.flags.ack 2 [0. 1.]
+	tcp.flags.ack
+0.0    866
+1.0    135
+Name: count, dtype: int64
+
+	tcp.len 1 [0.]
+	tcp.len
+0.0    1001
+Name: count, dtype: int64
+
+*	tcp.seq 2 [0. 1.]
+	tcp.seq
+0.0    866
+1.0    135
+Name: count, dtype: int64
+
+	udp.stream 1 [0.]
+	udp.stream
+0.0    1001
+Name: count, dtype: int64
+
+	udp.time_delta 1 [0.]
+	udp.time_delta
+0.0    1001
+Name: count, dtype: int64
+
+	dns.qry.name 1 [0.]
+	dns.qry.name
+0.0    1001
+Name: count, dtype: int64
+
+	dns.qry.name.len 1 [0.]
+	dns.qry.name.len
+0.0    1001
+Name: count, dtype: int64
+
+	dns.qry.qu 1 [0.]
+	dns.qry.qu
+0.0    1001
+Name: count, dtype: int64
+
+	dns.qry.type 1 [0.]
+	dns.qry.type
+0.0    1001
+Name: count, dtype: int64
+
+	dns.retransmission 1 [0.]
+	dns.retransmission
+0.0    1001
+Name: count, dtype: int64
+
+	dns.retransmit_request 1 [0.]
+	dns.retransmit_request
+0.0    1001
+Name: count, dtype: int64
+
+	dns.retransmit_request_in 1 [0.]
+	dns.retransmit_request_in
+0.0    1001
+Name: count, dtype: int64
+
+	mqtt.conack.flags 1 [0.]
+	mqtt.conack.flags
+0.0    1001
+Name: count, dtype: int64
+
+	mqtt.conflag.cleansess 1 [0.]
+	mqtt.conflag.cleansess
+0.0    1001
+Name: count, dtype: int64
+
+	mqtt.conflags 1 [0.]
+	mqtt.conflags
+0.0    1001
+Name: count, dtype: int64
+
+	mqtt.hdrflags 1 [0.]
+	mqtt.hdrflags
+0.0    1001
+Name: count, dtype: int64
+
+	mqtt.len 1 [0.]
+	mqtt.len
+0.0    1001
+Name: count, dtype: int64
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    1001
+Name: count, dtype: int64
+
+	mqtt.msgtype 1 [0.]
+	mqtt.msgtype
+0.0    1001
+Name: count, dtype: int64
+
+	mqtt.proto_len 1 [0.]
+	mqtt.proto_len
+0.0    1001
+Name: count, dtype: int64
+
+	mqtt.protoname 1 [0.]
+	mqtt.protoname
+0.0    1001
+Name: count, dtype: int64
+
+	mqtt.topic 1 [0.]
+	mqtt.topic
+0.0    1001
+Name: count, dtype: int64
+
+	mqtt.topic_len 1 [0.]
+	mqtt.topic_len
+0.0    1001
+Name: count, dtype: int64
+
+	mqtt.ver 1 [0.]
+	mqtt.ver
+0.0    1001
+Name: count, dtype: int64
+
+	mbtcp.len 1 [0.]
+	mbtcp.len
+0.0    1001
+Name: count, dtype: int64
+
+	mbtcp.trans_id 1 [0.]
+	mbtcp.trans_id
+0.0    1001
+Name: count, dtype: int64
+
+	mbtcp.unit_id 1 [0.]
+	mbtcp.unit_id
+0.0    1001
+Name: count, dtype: int64
+
+	Attack_label 1 [1]
+	Attack_label
+1    1001
+Name: count, dtype: int64
+
+	Attack_type 1 ['OS_Fingerprinting']
+	Attack_type
+OS_Fingerprinting    1001
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+Password_attack.csv
+*	arp.opcode 3 [0. 1. 2.]
+	arp.opcode
+0.0    1052977
+1.0        226
+2.0        182
+Name: count, dtype: int64
+
+*	arp.hw.size 2 [0. 6.]
+	arp.hw.size
+0.0    1052977
+6.0        408
+Name: count, dtype: int64
+
+	icmp.checksum 1 [0.]
+	icmp.checksum
+0.0    1053385
+Name: count, dtype: int64
+
+	icmp.seq_le 1 [0.]
+	icmp.seq_le
+0.0    1053385
+Name: count, dtype: int64
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    1053385
+Name: count, dtype: int64
+
+*	http.content_length 5 [   0. 1415.   37.   38. 1465.]
+	http.content_length
+0.0       982406
+1415.0     23652
+1465.0     23650
+38.0       11841
+37.0       11836
+Name: count, dtype: int64
+
+*	http.request.method 3 ['0' 'GET' 'POST']
+	http.request.method
+0       982350
+GET      47358
+POST     23677
+Name: count, dtype: int64
+
+	http.referer 1 [0.]
+	http.referer
+0.0    1053385
+Name: count, dtype: int64
+
+*	http.request.version 2 ['0' 'HTTP/1.0']
+	http.request.version
+0           982350
+HTTP/1.0     71035
+Name: count, dtype: int64
+
+*	http.response 2 [0. 1.]
+	http.response
+0.0    982433
+1.0     70952
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    1053385
+Name: count, dtype: int64
+
+*	tcp.ack 17 [ 303.  305.  350. 2100. 3208. 3639.  311.  263.]
+	[too many]
+
+*	tcp.ack_raw 513015 [2.59821924e+09 2.76542163e+09 7.65132204e+09 3.47598368e+09
+ 4.13360613e+09 4.41787962e+09 6.14898953e+09 6.88882490e+09]
+	[too many]
+
+*	tcp.checksum 65537 ['0x0000211f0x00006bf8' '0x0000d4ca0x00004481' '0x0000598d0x0000f776'
+ '0x00003b250x00006e8c' '0x0000016d0x000038db' '0x0000ffb20x00000355'
+ '0x000067c90x000072ad' '0x000066100x0000204c']
+	[too many]
+
+*	tcp.connection.fin 2 [0. 1.]
+	tcp.connection.fin
+0.0    869428
+1.0    183957
+Name: count, dtype: int64
+
+*	tcp.connection.rst 2 [0. 1.]
+	tcp.connection.rst
+0.0    1048483
+1.0       4902
+Name: count, dtype: int64
+
+*	tcp.connection.syn 2 [1. 0.]
+	tcp.connection.syn
+0.0    958849
+1.0     94536
+Name: count, dtype: int64
+
+*	tcp.connection.synack 2 [0. 1.]
+	tcp.connection.synack
+0.0    958813
+1.0     94572
+Name: count, dtype: int64
+
+*	tcp.flags 9 ['0x00000002' '0x00000012' '0x00000018' '0x00000010' '0x00000011'
+ '0x00000004' '0' '0x00000019' '0x00000014']
+	tcp.flags
+0x00000010    531666
+0x00000011    183926
+0x00000018    141991
+0x00000012     94572
+0x00000002     94536
+0x00000004      4901
+0               1761
+0x00000019        31
+0x00000014         1
+Name: count, dtype: int64
+
+*	tcp.flags.ack 2 [0. 1.]
+	tcp.flags.ack
+1.0    952187
+0.0    101198
+Name: count, dtype: int64
+
+*	tcp.len 10 [   0.   86. 1448.  429.  260.  261.  302.  221.  310.  580.]
+	tcp.len
+0.0       864031
+1448.0     47332
+86.0       23682
+221.0      23678
+302.0      23673
+429.0      23654
+310.0      23652
+261.0      11841
+260.0      11836
+580.0          6
+Name: count, dtype: int64
+
+*	tcp.seq 17 [ 262. 1760. 3209. 2100.   89. 1967.  566.  527.]
+	[too many]
+
+	udp.stream 1 [0.]
+	udp.stream
+0.0    1053385
+Name: count, dtype: int64
+
+	udp.time_delta 1 [0.]
+	udp.time_delta
+0.0    1053385
+Name: count, dtype: int64
+
+	dns.qry.name 1 [0.]
+	dns.qry.name
+0.0    1053385
+Name: count, dtype: int64
+
+	dns.qry.name.len 1 [0.]
+	dns.qry.name.len
+0.0    1053385
+Name: count, dtype: int64
+
+	dns.qry.qu 1 [0.]
+	dns.qry.qu
+0.0    1053385
+Name: count, dtype: int64
+
+	dns.qry.type 1 [0.]
+	dns.qry.type
+0.0    1053385
+Name: count, dtype: int64
+
+	dns.retransmission 1 [0.]
+	dns.retransmission
+0.0    1053385
+Name: count, dtype: int64
+
+	dns.retransmit_request 1 [0.]
+	dns.retransmit_request
+0.0    1053385
+Name: count, dtype: int64
+
+	dns.retransmit_request_in 1 [0.]
+	dns.retransmit_request_in
+0.0    1053385
+Name: count, dtype: int64
+
+	mqtt.conack.flags 1 [0.]
+	mqtt.conack.flags
+0.0    1053385
+Name: count, dtype: int64
+
+	mqtt.conflag.cleansess 1 [0.]
+	mqtt.conflag.cleansess
+0.0    1053385
+Name: count, dtype: int64
+
+	mqtt.conflags 1 [0.]
+	mqtt.conflags
+0.0    1053385
+Name: count, dtype: int64
+
+	mqtt.hdrflags 1 [0.]
+	mqtt.hdrflags
+0.0    1053385
+Name: count, dtype: int64
+
+	mqtt.len 1 [0.]
+	mqtt.len
+0.0    1053385
+Name: count, dtype: int64
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    1053385
+Name: count, dtype: int64
+
+	mqtt.msgtype 1 [0.]
+	mqtt.msgtype
+0.0    1053385
+Name: count, dtype: int64
+
+	mqtt.proto_len 1 [0.]
+	mqtt.proto_len
+0.0    1053385
+Name: count, dtype: int64
+
+	mqtt.protoname 1 [0.]
+	mqtt.protoname
+0.0    1053385
+Name: count, dtype: int64
+
+	mqtt.topic 1 [0.]
+	mqtt.topic
+0.0    1053385
+Name: count, dtype: int64
+
+	mqtt.topic_len 1 [0.]
+	mqtt.topic_len
+0.0    1053385
+Name: count, dtype: int64
+
+	mqtt.ver 1 [0.]
+	mqtt.ver
+0.0    1053385
+Name: count, dtype: int64
+
+	mbtcp.len 1 [0.]
+	mbtcp.len
+0.0    1053385
+Name: count, dtype: int64
+
+	mbtcp.trans_id 1 [0.]
+	mbtcp.trans_id
+0.0    1053385
+Name: count, dtype: int64
+
+	mbtcp.unit_id 1 [0.]
+	mbtcp.unit_id
+0.0    1053385
+Name: count, dtype: int64
+
+	Attack_label 1 [1]
+	Attack_label
+1    1053385
+Name: count, dtype: int64
+
+	Attack_type 1 ['Password']
+	Attack_type
+Password    1053385
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+Port_Scanning_attack.csv
+*	arp.opcode 3 [0. 1. 2.]
+	arp.opcode
+0.0    20818
+1.0     1091
+2.0      655
+Name: count, dtype: int64
+
+*	arp.hw.size 2 [0. 6.]
+	arp.hw.size
+0.0    20818
+6.0     1746
+Name: count, dtype: int64
+
+	icmp.checksum 1 [0.]
+	icmp.checksum
+0.0    22564
+Name: count, dtype: int64
+
+	icmp.seq_le 1 [0.]
+	icmp.seq_le
+0.0    22564
+Name: count, dtype: int64
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    22564
+Name: count, dtype: int64
+
+	http.content_length 1 [0.]
+	http.content_length
+0.0    22564
+Name: count, dtype: int64
+
+	http.request.method 1 [0.]
+	http.request.method
+0.0    22564
+Name: count, dtype: int64
+
+	http.referer 1 [0.]
+	http.referer
+0.0    22564
+Name: count, dtype: int64
+
+	http.request.version 1 [0.]
+	http.request.version
+0.0    22564
+Name: count, dtype: int64
+
+	http.response 1 [0.]
+	http.response
+0.0    22564
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    22564
+Name: count, dtype: int64
+
+*	tcp.ack 9989 [2.92813558e+09 1.38603750e+09 7.81779075e+08 2.81076704e+09
+ 2.47966781e+09 1.97140811e+09 1.04756788e+09 2.01273765e+09]
+	[too many]
+
+*	tcp.ack_raw 19975 [1.65894717e+09 1.00633249e+09 2.38010575e+09 1.93133845e+09
+ 1.90390239e+09 1.20800854e+09 3.87714899e+09 3.23987589e+09]
+	[too many]
+
+*	tcp.checksum 17167 ['0x00007e860x0000fa6f' '0x000097920x000091d1' '0x0000f74e0x00001649'
+ '0x00001c9f0x0000ea5d' '0x00001cf80x0000b5a1' '0x000017bd0x00004fcf'
+ '0x000070560x0000dd59' '0x0000ee460x0000e397']
+	[too many]
+
+	tcp.connection.fin 1 [0.]
+	tcp.connection.fin
+0.0    22564
+Name: count, dtype: int64
+
+*	tcp.connection.rst 2 [0. 1.]
+	tcp.connection.rst
+0.0    12577
+1.0     9987
+Name: count, dtype: int64
+
+*	tcp.connection.syn 2 [1. 0.]
+	tcp.connection.syn
+0.0    12577
+1.0     9987
+Name: count, dtype: int64
+
+	tcp.connection.synack 1 [0.]
+	tcp.connection.synack
+0.0    22564
+Name: count, dtype: int64
+
+*	tcp.flags 3 ['0x00000002' '0x00000014' '0']
+	tcp.flags
+0x00000002    9987
+0x00000014    9987
+0             2590
+Name: count, dtype: int64
+
+*	tcp.flags.ack 2 [0. 1.]
+	tcp.flags.ack
+0.0    12577
+1.0     9987
+Name: count, dtype: int64
+
+	tcp.len 1 [0.]
+	tcp.len
+0.0    22564
+Name: count, dtype: int64
+
+*	tcp.seq 2 [0. 1.]
+	tcp.seq
+0.0    12577
+1.0     9987
+Name: count, dtype: int64
+
+	udp.stream 1 [0.]
+	udp.stream
+0.0    22564
+Name: count, dtype: int64
+
+	udp.time_delta 1 [0.]
+	udp.time_delta
+0.0    22564
+Name: count, dtype: int64
+
+	dns.qry.name 1 [0.]
+	dns.qry.name
+0.0    22564
+Name: count, dtype: int64
+
+	dns.qry.name.len 1 [0.]
+	dns.qry.name.len
+0.0    22564
+Name: count, dtype: int64
+
+	dns.qry.qu 1 [0.]
+	dns.qry.qu
+0.0    22564
+Name: count, dtype: int64
+
+	dns.qry.type 1 [0.]
+	dns.qry.type
+0.0    22564
+Name: count, dtype: int64
+
+	dns.retransmission 1 [0.]
+	dns.retransmission
+0.0    22564
+Name: count, dtype: int64
+
+	dns.retransmit_request 1 [0.]
+	dns.retransmit_request
+0.0    22564
+Name: count, dtype: int64
+
+	dns.retransmit_request_in 1 [0.]
+	dns.retransmit_request_in
+0.0    22564
+Name: count, dtype: int64
+
+	mqtt.conack.flags 1 [0.]
+	mqtt.conack.flags
+0.0    22564
+Name: count, dtype: int64
+
+	mqtt.conflag.cleansess 1 [0.]
+	mqtt.conflag.cleansess
+0.0    22564
+Name: count, dtype: int64
+
+	mqtt.conflags 1 [0.]
+	mqtt.conflags
+0.0    22564
+Name: count, dtype: int64
+
+	mqtt.hdrflags 1 [0.]
+	mqtt.hdrflags
+0.0    22564
+Name: count, dtype: int64
+
+	mqtt.len 1 [0.]
+	mqtt.len
+0.0    22564
+Name: count, dtype: int64
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    22564
+Name: count, dtype: int64
+
+	mqtt.msgtype 1 [0.]
+	mqtt.msgtype
+0.0    22564
+Name: count, dtype: int64
+
+	mqtt.proto_len 1 [0.]
+	mqtt.proto_len
+0.0    22564
+Name: count, dtype: int64
+
+	mqtt.protoname 1 [0.]
+	mqtt.protoname
+0.0    22564
+Name: count, dtype: int64
+
+	mqtt.topic 1 [0.]
+	mqtt.topic
+0.0    22564
+Name: count, dtype: int64
+
+	mqtt.topic_len 1 [0.]
+	mqtt.topic_len
+0.0    22564
+Name: count, dtype: int64
+
+	mqtt.ver 1 [0.]
+	mqtt.ver
+0.0    22564
+Name: count, dtype: int64
+
+	mbtcp.len 1 [0.]
+	mbtcp.len
+0.0    22564
+Name: count, dtype: int64
+
+	mbtcp.trans_id 1 [0.]
+	mbtcp.trans_id
+0.0    22564
+Name: count, dtype: int64
+
+	mbtcp.unit_id 1 [0.]
+	mbtcp.unit_id
+0.0    22564
+Name: count, dtype: int64
+
+	Attack_label 1 [1]
+	Attack_label
+1    22564
+Name: count, dtype: int64
+
+	Attack_type 1 ['Port_Scanning']
+	Attack_type
+Port_Scanning    22564
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+Ransomware_attack.csv
+*	arp.opcode 3 [0. 1. 2.]
+	arp.opcode
+0.0    10420
+1.0      253
+2.0      252
+Name: count, dtype: int64
+
+*	arp.hw.size 2 [0. 6.]
+	arp.hw.size
+0.0    10420
+6.0      505
+Name: count, dtype: int64
+
+	icmp.checksum 1 [0.]
+	icmp.checksum
+0.0    10925
+Name: count, dtype: int64
+
+	icmp.seq_le 1 [0.]
+	icmp.seq_le
+0.0    10925
+Name: count, dtype: int64
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    10925
+Name: count, dtype: int64
+
+	http.content_length 1 [0.]
+	http.content_length
+0.0    10925
+Name: count, dtype: int64
+
+	http.request.method 1 [0.]
+	http.request.method
+0.0    10925
+Name: count, dtype: int64
+
+	http.referer 1 [0.]
+	http.referer
+0.0    10925
+Name: count, dtype: int64
+
+	http.request.version 1 [0.]
+	http.request.version
+0.0    10925
+Name: count, dtype: int64
+
+	http.response 1 [0.]
+	http.response
+0.0    10925
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    10925
+Name: count, dtype: int64
+
+*	tcp.ack 4140 [1320258. 1321186. 1322114. 1323042. 1322113. 1324434. 1325362. 1326290.]
+	[too many]
+
+*	tcp.ack_raw 4767 [3.41282988e+09 3.74121428e+09 2.66500279e+09 2.66500372e+09
+ 2.39923697e+09 2.66500511e+09 2.78984633e+09 2.66500650e+09]
+	[too many]
+
+*	tcp.checksum 8980 ['0x0000328b0x000028ba' '0x0000a71d0x00004b66' '0x0000704a0x0000088e'
+ '0x000095080x000010da' '0x00001f220x00008d5d' '0x000083530x000065e6'
+ '00x00002858' '0x0000aee40x00007cbd']
+	[too many]
+
+	tcp.connection.fin 1 [0.]
+	tcp.connection.fin
+0.0    10925
+Name: count, dtype: int64
+
+*	tcp.connection.rst 2 [0. 1.]
+	tcp.connection.rst
+0.0    10353
+1.0      572
+Name: count, dtype: int64
+
+*	tcp.connection.syn 2 [0. 1.]
+	tcp.connection.syn
+0.0    10339
+1.0      586
+Name: count, dtype: int64
+
+	tcp.connection.synack 1 [0.]
+	tcp.connection.synack
+0.0    10925
+Name: count, dtype: int64
+
+*	tcp.flags 5 ['0x00000018' '0x00000010' '0' '0x00000002' '0x00000014']
+	tcp.flags
+0x00000018    4304
+0x00000010    4229
+0             1234
+0x00000002     586
+0x00000014     572
+Name: count, dtype: int64
+
+*	tcp.flags.ack 2 [1. 0.]
+	tcp.flags.ack
+1.0    9105
+0.0    1820
+Name: count, dtype: int64
+
+*	tcp.len 27 [ 848.  240.  576. 1760. 1616.  496.  704. 1168.]
+	[too many]
+
+*	tcp.seq 4142 [1320258. 1321186. 1322114. 1321649. 1323506. 1324434. 1325362. 1326290.]
+	[too many]
+
+	udp.stream 1 [0.]
+	udp.stream
+0.0    10925
+Name: count, dtype: int64
+
+	udp.time_delta 1 [0.]
+	udp.time_delta
+0.0    10925
+Name: count, dtype: int64
+
+	dns.qry.name 1 [0.]
+	dns.qry.name
+0.0    10925
+Name: count, dtype: int64
+
+	dns.qry.name.len 1 [0.]
+	dns.qry.name.len
+0.0    10925
+Name: count, dtype: int64
+
+	dns.qry.qu 1 [0.]
+	dns.qry.qu
+0.0    10925
+Name: count, dtype: int64
+
+	dns.qry.type 1 [0.]
+	dns.qry.type
+0.0    10925
+Name: count, dtype: int64
+
+	dns.retransmission 1 [0.]
+	dns.retransmission
+0.0    10925
+Name: count, dtype: int64
+
+	dns.retransmit_request 1 [0.]
+	dns.retransmit_request
+0.0    10925
+Name: count, dtype: int64
+
+	dns.retransmit_request_in 1 [0.]
+	dns.retransmit_request_in
+0.0    10925
+Name: count, dtype: int64
+
+	mqtt.conack.flags 1 [0.]
+	mqtt.conack.flags
+0.0    10925
+Name: count, dtype: int64
+
+	mqtt.conflag.cleansess 1 [0.]
+	mqtt.conflag.cleansess
+0.0    10925
+Name: count, dtype: int64
+
+	mqtt.conflags 1 [0.]
+	mqtt.conflags
+0.0    10925
+Name: count, dtype: int64
+
+	mqtt.hdrflags 1 [0.]
+	mqtt.hdrflags
+0.0    10925
+Name: count, dtype: int64
+
+	mqtt.len 1 [0.]
+	mqtt.len
+0.0    10925
+Name: count, dtype: int64
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    10925
+Name: count, dtype: int64
+
+	mqtt.msgtype 1 [0.]
+	mqtt.msgtype
+0.0    10925
+Name: count, dtype: int64
+
+	mqtt.proto_len 1 [0.]
+	mqtt.proto_len
+0.0    10925
+Name: count, dtype: int64
+
+	mqtt.protoname 1 [0.]
+	mqtt.protoname
+0.0    10925
+Name: count, dtype: int64
+
+	mqtt.topic 1 [0.]
+	mqtt.topic
+0.0    10925
+Name: count, dtype: int64
+
+	mqtt.topic_len 1 [0.]
+	mqtt.topic_len
+0.0    10925
+Name: count, dtype: int64
+
+	mqtt.ver 1 [0.]
+	mqtt.ver
+0.0    10925
+Name: count, dtype: int64
+
+	mbtcp.len 1 [0.]
+	mbtcp.len
+0.0    10925
+Name: count, dtype: int64
+
+	mbtcp.trans_id 1 [0.]
+	mbtcp.trans_id
+0.0    10925
+Name: count, dtype: int64
+
+	mbtcp.unit_id 1 [0.]
+	mbtcp.unit_id
+0.0    10925
+Name: count, dtype: int64
+
+	Attack_label 1 [1]
+	Attack_label
+1    10925
+Name: count, dtype: int64
+
+	Attack_type 1 ['Ransomware']
+	Attack_type
+Ransomware    10925
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+SQL_injection_attack.csv
+*	arp.opcode 3 [1. 2. 0.]
+	arp.opcode
+0.0    51188
+1.0        8
+2.0        7
+Name: count, dtype: int64
+
+*	arp.hw.size 2 [6. 0.]
+	arp.hw.size
+0.0    51188
+6.0       15
+Name: count, dtype: int64
+
+	icmp.checksum 1 [0.]
+	icmp.checksum
+0.0    51203
+Name: count, dtype: int64
+
+	icmp.seq_le 1 [0.]
+	icmp.seq_le
+0.0    51203
+Name: count, dtype: int64
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    51203
+Name: count, dtype: int64
+
+	http.content_length 1 [0.]
+	http.content_length
+0.0    51203
+Name: count, dtype: int64
+
+*	http.request.method 2 ['0' 'GET']
+	http.request.method
+0      46824
+GET     4379
+Name: count, dtype: int64
+
+	http.referer 1 [0.]
+	http.referer
+0.0    51203
+Name: count, dtype: int64
+
+*	http.request.version 2 ['0' 'HTTP/1.1']
+	http.request.version
+0           46824
+HTTP/1.1     4379
+Name: count, dtype: int64
+
+*	http.response 2 [0. 1.]
+	http.response
+0.0    46850
+1.0     4353
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    51203
+Name: count, dtype: int64
+
+*	tcp.ack 220 [710. 337. 617. 678. 768. 717. 769. 764.]
+	[too many]
+
+*	tcp.ack_raw 26230 [4.09909843e+09 5.12532736e+09 7.36381225e+09 4.54562222e+09
+ 5.82203701e+09 3.18351434e+09 4.54567241e+09 5.42199886e+09]
+	[too many]
+
+*	tcp.checksum 34871 ['00x0000dd96' '0x000023bd0x0000baaf' '0x000050220x0000b20e'
+ '0x0000b2db0x00000cd7' '0x0000d2500x0000c6f4' '0x000053ea0x0000c6e6'
+ '0x00004eb00x0000c6cb' '0x0000fdab0x0000c6cf']
+	[too many]
+
+*	tcp.connection.fin 2 [0. 1.]
+	tcp.connection.fin
+0.0    42380
+1.0     8823
+Name: count, dtype: int64
+
+*	tcp.connection.rst 2 [0. 1.]
+	tcp.connection.rst
+0.0    50247
+1.0      956
+Name: count, dtype: int64
+
+*	tcp.connection.syn 2 [0. 1.]
+	tcp.connection.syn
+0.0    46819
+1.0     4384
+Name: count, dtype: int64
+
+*	tcp.connection.synack 2 [0. 1.]
+	tcp.connection.synack
+0.0    46819
+1.0     4384
+Name: count, dtype: int64
+
+*	tcp.flags 8 ['0' '0x00000018' '0x00000010' '0x00000002' '0x00000012' '0x00000011'
+ '0x00000004' '0x00000019']
+	tcp.flags
+0x00000010    23865
+0x00000011     8816
+0x00000018     8734
+0x00000002     4384
+0x00000012     4384
+0x00000004      956
+0                57
+0x00000019        7
+Name: count, dtype: int64
+
+*	tcp.flags.ack 2 [0. 1.]
+	tcp.flags.ack
+1.0    45806
+0.0     5397
+Name: count, dtype: int64
+
+*	tcp.len 169 [399. 714. 803. 761. 731. 738. 913. 735.]
+	[too many]
+
+*	tcp.seq 219 [ 721.  340.  810.  951.  821.  943. 1026. 1071.]
+	[too many]
+
+	udp.stream 1 [0.]
+	udp.stream
+0.0    51203
+Name: count, dtype: int64
+
+	udp.time_delta 1 [0.]
+	udp.time_delta
+0.0    51203
+Name: count, dtype: int64
+
+	dns.qry.name 1 [0.]
+	dns.qry.name
+0.0    51203
+Name: count, dtype: int64
+
+	dns.qry.name.len 1 [0.]
+	dns.qry.name.len
+0.0    51203
+Name: count, dtype: int64
+
+	dns.qry.qu 1 [0.]
+	dns.qry.qu
+0.0    51203
+Name: count, dtype: int64
+
+	dns.qry.type 1 [0.]
+	dns.qry.type
+0.0    51203
+Name: count, dtype: int64
+
+	dns.retransmission 1 [0.]
+	dns.retransmission
+0.0    51203
+Name: count, dtype: int64
+
+	dns.retransmit_request 1 [0.]
+	dns.retransmit_request
+0.0    51203
+Name: count, dtype: int64
+
+	dns.retransmit_request_in 1 [0.]
+	dns.retransmit_request_in
+0.0    51203
+Name: count, dtype: int64
+
+	mqtt.conack.flags 1 [0.]
+	mqtt.conack.flags
+0.0    51203
+Name: count, dtype: int64
+
+	mqtt.conflag.cleansess 1 [0.]
+	mqtt.conflag.cleansess
+0.0    51203
+Name: count, dtype: int64
+
+	mqtt.conflags 1 [0.]
+	mqtt.conflags
+0.0    51203
+Name: count, dtype: int64
+
+	mqtt.hdrflags 1 [0.]
+	mqtt.hdrflags
+0.0    51203
+Name: count, dtype: int64
+
+	mqtt.len 1 [0.]
+	mqtt.len
+0.0    51203
+Name: count, dtype: int64
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    51203
+Name: count, dtype: int64
+
+	mqtt.msgtype 1 [0.]
+	mqtt.msgtype
+0.0    51203
+Name: count, dtype: int64
+
+	mqtt.proto_len 1 [0.]
+	mqtt.proto_len
+0.0    51203
+Name: count, dtype: int64
+
+	mqtt.protoname 1 [0.]
+	mqtt.protoname
+0.0    51203
+Name: count, dtype: int64
+
+	mqtt.topic 1 [0.]
+	mqtt.topic
+0.0    51203
+Name: count, dtype: int64
+
+	mqtt.topic_len 1 [0.]
+	mqtt.topic_len
+0.0    51203
+Name: count, dtype: int64
+
+	mqtt.ver 1 [0.]
+	mqtt.ver
+0.0    51203
+Name: count, dtype: int64
+
+	mbtcp.len 1 [0.]
+	mbtcp.len
+0.0    51203
+Name: count, dtype: int64
+
+	mbtcp.trans_id 1 [0.]
+	mbtcp.trans_id
+0.0    51203
+Name: count, dtype: int64
+
+	mbtcp.unit_id 1 [0.]
+	mbtcp.unit_id
+0.0    51203
+Name: count, dtype: int64
+
+	Attack_label 1 [1]
+	Attack_label
+1    51203
+Name: count, dtype: int64
+
+	Attack_type 1 ['SQL_injection']
+	Attack_type
+SQL_injection    51203
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+Uploading_attack.csv
+*	arp.opcode 3 [0. 1. 2.]
+	arp.opcode
+0.0    37626
+1.0        4
+2.0        4
+Name: count, dtype: int64
+
+*	arp.hw.size 2 [0. 6.]
+	arp.hw.size
+0.0    37626
+6.0        8
+Name: count, dtype: int64
+
+	icmp.checksum 1 [0.]
+	icmp.checksum
+0.0    37634
+Name: count, dtype: int64
+
+	icmp.seq_le 1 [0.]
+	icmp.seq_le
+0.0    37634
+Name: count, dtype: int64
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    37634
+Name: count, dtype: int64
+
+	http.content_length 1 [0.]
+	http.content_length
+0.0    37634
+Name: count, dtype: int64
+
+*	http.request.method 2 ['0' 'GET']
+	http.request.method
+0      35727
+GET     1907
+Name: count, dtype: int64
+
+	http.referer 1 [0.]
+	http.referer
+0.0    37634
+Name: count, dtype: int64
+
+*	http.request.version 2 ['0' 'HTTP/1.1']
+	http.request.version
+0           35727
+HTTP/1.1     1907
+Name: count, dtype: int64
+
+*	http.response 2 [0. 1.]
+	http.response
+0.0    35730
+1.0     1904
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    37634
+Name: count, dtype: int64
+
+*	tcp.ack 103 [79938. 81387. 82947. 84432. 85732. 87329. 88734. 90183.]
+	[too many]
+
+*	tcp.ack_raw 18318 [3.91330370e+08 4.57494135e+09 3.19010849e+09 4.28519288e+09
+ 3.21852994e+09 4.28519313e+09 4.00784494e+09 5.51923146e+09]
+	[too many]
+
+*	tcp.checksum 28260 ['00x00003be4' '0x00009d910x00007aed' '0x0000a4b60x00007fd0'
+ '0x0000919e0x0000b515' '0x000018760x0000790c' '0x000018680x0000fe83'
+ '0x0000bc790x0000fc36' '0x00002a750x000079a4']
+	[too many]
+
+*	tcp.connection.fin 2 [0. 1.]
+	tcp.connection.fin
+0.0    33771
+1.0     3863
+Name: count, dtype: int64
+
+*	tcp.connection.rst 2 [0. 1.]
+	tcp.connection.rst
+0.0    31268
+1.0     6366
+Name: count, dtype: int64
+
+*	tcp.connection.syn 2 [0. 1.]
+	tcp.connection.syn
+0.0    30053
+1.0     7581
+Name: count, dtype: int64
+
+*	tcp.connection.synack 2 [0. 1.]
+	tcp.connection.synack
+0.0    35707
+1.0     1927
+Name: count, dtype: int64
+
+*	tcp.flags 9 ['0' '0x00000018' '0x00000011' '0x00000002' '0x00000012' '0x00000010'
+ '0x00000014' '0x00000004' '0x00000019']
+	tcp.flags
+0x00000010    13094
+0x00000002     7581
+0x00000014     5655
+0x00000018     4742
+0x00000011     3854
+0x00000012     1927
+0x00000004      711
+0                61
+0x00000019        9
+Name: count, dtype: int64
+
+*	tcp.flags.ack 2 [0. 1.]
+	tcp.flags.ack
+1.0    29281
+0.0     8353
+Name: count, dtype: int64
+
+*	tcp.len 20 [ 144.  616.  613.  299.  164. 1704. 1098. 1427.]
+	[too many]
+
+*	tcp.seq 106 [79938. 81387. 82984. 84433. 85732. 87286. 88735. 90187.]
+	[too many]
+
+	udp.stream 1 [0.]
+	udp.stream
+0.0    37634
+Name: count, dtype: int64
+
+	udp.time_delta 1 [0.]
+	udp.time_delta
+0.0    37634
+Name: count, dtype: int64
+
+	dns.qry.name 1 [0.]
+	dns.qry.name
+0.0    37634
+Name: count, dtype: int64
+
+	dns.qry.name.len 1 [0.]
+	dns.qry.name.len
+0.0    37634
+Name: count, dtype: int64
+
+	dns.qry.qu 1 [0.]
+	dns.qry.qu
+0.0    37634
+Name: count, dtype: int64
+
+	dns.qry.type 1 [0.]
+	dns.qry.type
+0.0    37634
+Name: count, dtype: int64
+
+	dns.retransmission 1 [0.]
+	dns.retransmission
+0.0    37634
+Name: count, dtype: int64
+
+	dns.retransmit_request 1 [0.]
+	dns.retransmit_request
+0.0    37634
+Name: count, dtype: int64
+
+	dns.retransmit_request_in 1 [0.]
+	dns.retransmit_request_in
+0.0    37634
+Name: count, dtype: int64
+
+	mqtt.conack.flags 1 [0.]
+	mqtt.conack.flags
+0.0    37634
+Name: count, dtype: int64
+
+	mqtt.conflag.cleansess 1 [0.]
+	mqtt.conflag.cleansess
+0.0    37634
+Name: count, dtype: int64
+
+	mqtt.conflags 1 [0.]
+	mqtt.conflags
+0.0    37634
+Name: count, dtype: int64
+
+	mqtt.hdrflags 1 [0.]
+	mqtt.hdrflags
+0.0    37634
+Name: count, dtype: int64
+
+	mqtt.len 1 [0.]
+	mqtt.len
+0.0    37634
+Name: count, dtype: int64
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    37634
+Name: count, dtype: int64
+
+	mqtt.msgtype 1 [0.]
+	mqtt.msgtype
+0.0    37634
+Name: count, dtype: int64
+
+	mqtt.proto_len 1 [0.]
+	mqtt.proto_len
+0.0    37634
+Name: count, dtype: int64
+
+	mqtt.protoname 1 [0.]
+	mqtt.protoname
+0.0    37634
+Name: count, dtype: int64
+
+	mqtt.topic 1 [0.]
+	mqtt.topic
+0.0    37634
+Name: count, dtype: int64
+
+	mqtt.topic_len 1 [0.]
+	mqtt.topic_len
+0.0    37634
+Name: count, dtype: int64
+
+	mqtt.ver 1 [0.]
+	mqtt.ver
+0.0    37634
+Name: count, dtype: int64
+
+	mbtcp.len 1 [0.]
+	mbtcp.len
+0.0    37634
+Name: count, dtype: int64
+
+	mbtcp.trans_id 1 [0.]
+	mbtcp.trans_id
+0.0    37634
+Name: count, dtype: int64
+
+	mbtcp.unit_id 1 [0.]
+	mbtcp.unit_id
+0.0    37634
+Name: count, dtype: int64
+
+	Attack_label 1 [1]
+	Attack_label
+1    37634
+Name: count, dtype: int64
+
+	Attack_type 1 ['Uploading']
+	Attack_type
+Uploading    37634
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+Vulnerability_scanner_attack.csv
+*	arp.opcode 3 [0. 1. 2.]
+	arp.opcode
+0.0    145821
+1.0        24
+2.0        24
+Name: count, dtype: int64
+
+*	arp.hw.size 2 [0. 6.]
+	arp.hw.size
+0.0    145821
+6.0        48
+Name: count, dtype: int64
+
+	icmp.checksum 1 [0.]
+	icmp.checksum
+0.0    145869
+Name: count, dtype: int64
+
+	icmp.seq_le 1 [0.]
+	icmp.seq_le
+0.0    145869
+Name: count, dtype: int64
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    145869
+Name: count, dtype: int64
+
+*	http.content_length 39 [ 39. 364. 396. 112.  28. 465. 320. 544.]
+	[too many]
+
+*	http.request.method 8 ['0' 'GET' 'PUT' 'OPTIONS' 'PROPFIND' 'TRACE' 'POST' 'SEARCH']
+	http.request.method
+0           84543
+GET         60904
+POST          358
+OPTIONS        24
+TRACE          16
+PUT             8
+PROPFIND        8
+SEARCH          8
+Name: count, dtype: int64
+
+*	http.referer 2 ['0'
+ '() { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }']
+	http.referer
+0                                                                       145371
+() { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }       498
+Name: count, dtype: int64
+
+*	http.request.version 12 ['0' 'HTTP/1.1' 'HTTP/1.0' '> HTTP/1.1'
+ 'script>alert(1)/script><\\" HTTP/1.1'
+ 'Src=javascript:alert(\'Vulnerable\')><Img Src=\\" HTTP/1.1'
+ "name=a><input name=i value=XSS>&lt;script>alert('Vulnerable')</script> HTTP/1.1"
+ '/etc/passwd|?data=Download HTTP/1.1' 'By Dr HTTP/1.1'
+ '-al&ABSOLUTE_PATH_STUDIP=http://cirt.net/rfiinc.txt?? HTTP/1.1'
+ '-al&_PHPLIB[libdir]=http://cirt.net/rfiinc.txt?? HTTP/1.1' '-a HTTP/1.1']
+	http.request.version
+0                                                                                  84543
+HTTP/1.1                                                                           61078
+HTTP/1.0                                                                             170
+-a HTTP/1.1                                                                           14
+> HTTP/1.1                                                                             8
+script>alert(1)/script><\" HTTP/1.1                                                    8
+Src=javascript:alert('Vulnerable')><Img Src=\" HTTP/1.1                                8
+name=a><input name=i value=XSS>&lt;script>alert('Vulnerable')</script> HTTP/1.1        8
+/etc/passwd|?data=Download HTTP/1.1                                                    8
+By Dr HTTP/1.1                                                                         8
+-al&ABSOLUTE_PATH_STUDIP=http://cirt.net/rfiinc.txt?? HTTP/1.1                         8
+-al&_PHPLIB[libdir]=http://cirt.net/rfiinc.txt?? HTTP/1.1                              8
+Name: count, dtype: int64
+
+*	http.response 2 [0. 1.]
+	http.response
+0.0    84407
+1.0    61462
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    145869
+Name: count, dtype: int64
+
+*	tcp.ack 11534 [15303. 16777. 17405. 20671. 25503. 15774. 12458. 45827.]
+	[too many]
+
+*	tcp.ack_raw 128099 [3.77390307e+08 4.21516957e+09 3.23649826e+09 4.21517004e+09
+ 3.23650161e+09 3.43585366e+09 2.98325468e+09 4.67758837e+09]
+	[too many]
+
+*	tcp.checksum 58415 ['00x0000ee36' '0x0000ec360x0000a40b' '0x000044f50x0000c8c0'
+ '0x000096630x0000a309' '0x00006eef0x0000c1d7' '0x00006f840x0000a159'
+ '0x00006ee50x0000fc42' '0x0000210e0x0000db84']
+	[too many]
+
+*	tcp.connection.fin 2 [0. 1.]
+	tcp.connection.fin
+0.0    142938
+1.0      2931
+Name: count, dtype: int64
+
+*	tcp.connection.rst 2 [0. 1.]
+	tcp.connection.rst
+0.0    145170
+1.0       699
+Name: count, dtype: int64
+
+*	tcp.connection.syn 2 [0. 1.]
+	tcp.connection.syn
+0.0    144426
+1.0      1443
+Name: count, dtype: int64
+
+*	tcp.connection.synack 2 [0. 1.]
+	tcp.connection.synack
+0.0    144425
+1.0      1444
+Name: count, dtype: int64
+
+*	tcp.flags 8 ['0' '0x00000002' '0x00000012' '0x00000018' '0x00000010' '0x00000011'
+ '0x00000004' '0x00000019']
+	tcp.flags
+0x00000018    123164
+0x00000010     16022
+0x00000011      2929
+0x00000012      1444
+0x00000002      1443
+0x00000004       699
+0                166
+0x00000019         2
+Name: count, dtype: int64
+
+*	tcp.flags.ack 2 [0. 1.]
+	tcp.flags.ack
+1.0    143561
+0.0      2308
+Name: count, dtype: int64
+
+*	tcp.len 371 [ 910. 1055. 2374. 1062. 1419. 1066. 1073. 1052.]
+	[too many]
+
+*	tcp.seq 11521 [15303. 16777. 18716. 20671. 22606. 24055.  8684. 29713.]
+	[too many]
+
+	udp.stream 1 [0.]
+	udp.stream
+0.0    145869
+Name: count, dtype: int64
+
+	udp.time_delta 1 [0.]
+	udp.time_delta
+0.0    145869
+Name: count, dtype: int64
+
+	dns.qry.name 1 [0.]
+	dns.qry.name
+0.0    145869
+Name: count, dtype: int64
+
+	dns.qry.name.len 1 [0.]
+	dns.qry.name.len
+0.0    145869
+Name: count, dtype: int64
+
+	dns.qry.qu 1 [0.]
+	dns.qry.qu
+0.0    145869
+Name: count, dtype: int64
+
+	dns.qry.type 1 [0.]
+	dns.qry.type
+0.0    145869
+Name: count, dtype: int64
+
+	dns.retransmission 1 [0.]
+	dns.retransmission
+0.0    145869
+Name: count, dtype: int64
+
+	dns.retransmit_request 1 [0.]
+	dns.retransmit_request
+0.0    145869
+Name: count, dtype: int64
+
+	dns.retransmit_request_in 1 [0.]
+	dns.retransmit_request_in
+0.0    145869
+Name: count, dtype: int64
+
+	mqtt.conack.flags 1 [0.]
+	mqtt.conack.flags
+0.0    145869
+Name: count, dtype: int64
+
+	mqtt.conflag.cleansess 1 [0.]
+	mqtt.conflag.cleansess
+0.0    145869
+Name: count, dtype: int64
+
+	mqtt.conflags 1 [0.]
+	mqtt.conflags
+0.0    145869
+Name: count, dtype: int64
+
+	mqtt.hdrflags 1 [0.]
+	mqtt.hdrflags
+0.0    145869
+Name: count, dtype: int64
+
+	mqtt.len 1 [0.]
+	mqtt.len
+0.0    145869
+Name: count, dtype: int64
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    145869
+Name: count, dtype: int64
+
+	mqtt.msgtype 1 [0.]
+	mqtt.msgtype
+0.0    145869
+Name: count, dtype: int64
+
+	mqtt.proto_len 1 [0.]
+	mqtt.proto_len
+0.0    145869
+Name: count, dtype: int64
+
+	mqtt.protoname 1 [0.]
+	mqtt.protoname
+0.0    145869
+Name: count, dtype: int64
+
+	mqtt.topic 1 [0.]
+	mqtt.topic
+0.0    145869
+Name: count, dtype: int64
+
+	mqtt.topic_len 1 [0.]
+	mqtt.topic_len
+0.0    145869
+Name: count, dtype: int64
+
+	mqtt.ver 1 [0.]
+	mqtt.ver
+0.0    145869
+Name: count, dtype: int64
+
+	mbtcp.len 1 [0.]
+	mbtcp.len
+0.0    145869
+Name: count, dtype: int64
+
+	mbtcp.trans_id 1 [0.]
+	mbtcp.trans_id
+0.0    145869
+Name: count, dtype: int64
+
+	mbtcp.unit_id 1 [0.]
+	mbtcp.unit_id
+0.0    145869
+Name: count, dtype: int64
+
+	Attack_label 1 [1]
+	Attack_label
+1    145869
+Name: count, dtype: int64
+
+	Attack_type 1 ['Vulnerability_scanner']
+	Attack_type
+Vulnerability_scanner    145869
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+XSS_attack.csv
+*	arp.opcode 3 [0. 1. 2.]
+	arp.opcode
+0.0    15856
+1.0       31
+2.0       28
+Name: count, dtype: int64
+
+*	arp.hw.size 2 [0. 6.]
+	arp.hw.size
+0.0    15856
+6.0       59
+Name: count, dtype: int64
+
+	icmp.checksum 1 [0.]
+	icmp.checksum
+0.0    15915
+Name: count, dtype: int64
+
+	icmp.seq_le 1 [0.]
+	icmp.seq_le
+0.0    15915
+Name: count, dtype: int64
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    15915
+Name: count, dtype: int64
+
+*	http.content_length 3 [  0. 277. 303.]
+	http.content_length
+0.0      14768
+277.0      765
+303.0      382
+Name: count, dtype: int64
+
+*	http.request.method 3 ['0' 'GET' 'TRACE']
+	http.request.method
+0        14539
+GET        993
+TRACE      383
+Name: count, dtype: int64
+
+*	http.referer 2 ['0' '127.0.0.1']
+	http.referer
+0            15532
+127.0.0.1      383
+Name: count, dtype: int64
+
+*	http.request.version 2 ['0' 'HTTP/1.1']
+	http.request.version
+0           14539
+HTTP/1.1     1376
+Name: count, dtype: int64
+
+*	http.response 2 [0. 1.]
+	http.response
+0.0    14768
+1.0     1147
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    15915
+Name: count, dtype: int64
+
+*	tcp.ack 55 [2137. 1004. 2777. 4036. 4169. 5254. 5286. 1155.]
+	[too many]
+
+*	tcp.ack_raw 7097 [2.06531156e+09 2.13531686e+09 6.14377164e+09 5.65405708e+09
+ 6.14377174e+09 5.65405752e+09 6.33132086e+09 4.01631133e+09]
+	[too many]
+
+*	tcp.checksum 13295 ['00x00000758' '0x00005dd80x0000871b' '0x000029120x0000870d'
+ '0x000049cf0x00008945' '0x000049e60x00008709' '0x000049c50x00008712'
+ '0x0000dc180x0000870f' '0x0000b5320x00003976']
+	[too many]
+
+*	tcp.connection.fin 2 [0. 1.]
+	tcp.connection.fin
+0.0    13561
+1.0     2354
+Name: count, dtype: int64
+
+*	tcp.connection.rst 2 [0. 1.]
+	tcp.connection.rst
+0.0    15265
+1.0      650
+Name: count, dtype: int64
+
+*	tcp.connection.syn 2 [0. 1.]
+	tcp.connection.syn
+0.0    14723
+1.0     1192
+Name: count, dtype: int64
+
+*	tcp.connection.synack 2 [0. 1.]
+	tcp.connection.synack
+0.0    14694
+1.0     1221
+Name: count, dtype: int64
+
+*	tcp.flags 7 ['0' '0x00000011' '0x00000018' '0x00000010' '0x00000002' '0x00000012'
+ '0x00000004']
+	tcp.flags
+0x00000010    7202
+0x00000018    2559
+0x00000011    2354
+0x00000012    1221
+0x00000002    1192
+0              737
+0x00000004     650
+Name: count, dtype: int64
+
+*	tcp.flags.ack 2 [0. 1.]
+	tcp.flags.ack
+1.0    13336
+0.0     2579
+Name: count, dtype: int64
+
+*	tcp.len 37 [  73.  619. 1800.  896.  813.  602.  661.  876.]
+	[too many]
+
+*	tcp.seq 59 [1003. 2138. 1036. 2777. 4475. 4507. 4917. 4965.]
+	[too many]
+
+	udp.stream 1 [0.]
+	udp.stream
+0.0    15915
+Name: count, dtype: int64
+
+	udp.time_delta 1 [0.]
+	udp.time_delta
+0.0    15915
+Name: count, dtype: int64
+
+	dns.qry.name 1 [0.]
+	dns.qry.name
+0.0    15915
+Name: count, dtype: int64
+
+	dns.qry.name.len 1 [0.]
+	dns.qry.name.len
+0.0    15915
+Name: count, dtype: int64
+
+	dns.qry.qu 1 [0.]
+	dns.qry.qu
+0.0    15915
+Name: count, dtype: int64
+
+	dns.qry.type 1 [0.]
+	dns.qry.type
+0.0    15915
+Name: count, dtype: int64
+
+	dns.retransmission 1 [0.]
+	dns.retransmission
+0.0    15915
+Name: count, dtype: int64
+
+	dns.retransmit_request 1 [0.]
+	dns.retransmit_request
+0.0    15915
+Name: count, dtype: int64
+
+	dns.retransmit_request_in 1 [0.]
+	dns.retransmit_request_in
+0.0    15915
+Name: count, dtype: int64
+
+	mqtt.conack.flags 1 [0.]
+	mqtt.conack.flags
+0.0    15915
+Name: count, dtype: int64
+
+	mqtt.conflag.cleansess 1 [0.]
+	mqtt.conflag.cleansess
+0.0    15915
+Name: count, dtype: int64
+
+	mqtt.conflags 1 [0.]
+	mqtt.conflags
+0.0    15915
+Name: count, dtype: int64
+
+	mqtt.hdrflags 1 [0.]
+	mqtt.hdrflags
+0.0    15915
+Name: count, dtype: int64
+
+	mqtt.len 1 [0.]
+	mqtt.len
+0.0    15915
+Name: count, dtype: int64
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    15915
+Name: count, dtype: int64
+
+	mqtt.msgtype 1 [0.]
+	mqtt.msgtype
+0.0    15915
+Name: count, dtype: int64
+
+	mqtt.proto_len 1 [0.]
+	mqtt.proto_len
+0.0    15915
+Name: count, dtype: int64
+
+	mqtt.protoname 1 [0.]
+	mqtt.protoname
+0.0    15915
+Name: count, dtype: int64
+
+	mqtt.topic 1 [0.]
+	mqtt.topic
+0.0    15915
+Name: count, dtype: int64
+
+	mqtt.topic_len 1 [0.]
+	mqtt.topic_len
+0.0    15915
+Name: count, dtype: int64
+
+	mqtt.ver 1 [0.]
+	mqtt.ver
+0.0    15915
+Name: count, dtype: int64
+
+	mbtcp.len 1 [0.]
+	mbtcp.len
+0.0    15915
+Name: count, dtype: int64
+
+	mbtcp.trans_id 1 [0.]
+	mbtcp.trans_id
+0.0    15915
+Name: count, dtype: int64
+
+	mbtcp.unit_id 1 [0.]
+	mbtcp.unit_id
+0.0    15915
+Name: count, dtype: int64
+
+	Attack_label 1 [1]
+	Attack_label
+1    15915
+Name: count, dtype: int64
+
+	Attack_type 1 ['XSS']
+	Attack_type
+XSS    15915
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+Distance.csv
+*	arp.opcode 3 [0. 1. 2.]
+	arp.opcode
+0.0    1143483
+1.0         55
+2.0          2
+Name: count, dtype: int64
+
+*	arp.hw.size 2 [0. 6.]
+	arp.hw.size
+0.0    1143483
+6.0         57
+Name: count, dtype: int64
+
+	icmp.checksum 1 [0.]
+	icmp.checksum
+0.0    1143540
+Name: count, dtype: int64
+
+	icmp.seq_le 1 [0.]
+	icmp.seq_le
+0.0    1143540
+Name: count, dtype: int64
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    1143540
+Name: count, dtype: int64
+
+	http.content_length 1 [0.]
+	http.content_length
+0.0    1143540
+Name: count, dtype: int64
+
+	http.request.method 1 [0.]
+	http.request.method
+0.0    1143540
+Name: count, dtype: int64
+
+	http.referer 1 [0.]
+	http.referer
+0.0    1143540
+Name: count, dtype: int64
+
+	http.request.version 1 [0.]
+	http.request.version
+0.0    1143540
+Name: count, dtype: int64
+
+	http.response 1 [0.]
+	http.response
+0.0    1143540
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    1143540
+Name: count, dtype: int64
+
+*	tcp.ack 52 [4.40515343e+08 5.60000000e+01 4.60000000e+01 5.85479107e+08
+ 5.85479177e+08 5.85479183e+08 4.40000000e+01 8.70000000e+01]
+	[too many]
+
+*	tcp.ack_raw 503104 [2.78995698e+09 9.89129816e+08 1.10367896e+09 3.60207336e+09
+ 3.79823402e+09 2.74481308e+09 5.58080591e+09 3.54123694e+09]
+	[too many]
+
+*	tcp.checksum 65537 ['0x000095060x000073fb' '0x000016f70x00001477' '0x000097070x00008e03'
+ '0x00003eab0x000044fb' '0x000060ed0x00003ad4' '0x000016f40x00004442'
+ '0x0000f6e50x00004c83' '0x0000d8480x000049f1']
+	[too many]
+
+*	tcp.connection.fin 2 [0. 1.]
+	tcp.connection.fin
+0.0    999725
+1.0    143815
+Name: count, dtype: int64
+
+*	tcp.connection.rst 2 [0. 1.]
+	tcp.connection.rst
+0.0    990724
+1.0    152816
+Name: count, dtype: int64
+
+*	tcp.connection.syn 2 [0. 1.]
+	tcp.connection.syn
+0.0    1071660
+1.0      71880
+Name: count, dtype: int64
+
+*	tcp.connection.synack 2 [0. 1.]
+	tcp.connection.synack
+0.0    1071641
+1.0      71899
+Name: count, dtype: int64
+
+*	tcp.flags 8 ['0x00000010' '0x00000004' '0x00000018' '0x00000019' '0x00000011'
+ '0x00000002' '0x00000012' '0']
+	tcp.flags
+0x00000010    487111
+0x00000018    215801
+0x00000004    152816
+0x00000011     71939
+0x00000012     71899
+0x00000002     71880
+0x00000019     71876
+0                218
+Name: count, dtype: int64
+
+*	tcp.flags.ack 2 [1. 0.]
+	tcp.flags.ack
+1.0    918626
+0.0    224914
+Name: count, dtype: int64
+
+*	tcp.len 32 [  40.   53.   49.   67.   44.   72.   45. 1463.]
+	[too many]
+
+*	tcp.seq 52 [5.85090906e+08 7.10000000e+01 3.60000000e+01 2.08631938e+09
+ 2.08631934e+09 2.08631938e+09 4.40000000e+01 8.70000000e+01]
+	[too many]
+
+	udp.stream 1 [0.]
+	udp.stream
+0.0    1143540
+Name: count, dtype: int64
+
+	udp.time_delta 1 [0.]
+	udp.time_delta
+0.0    1143540
+Name: count, dtype: int64
+
+	dns.qry.name 1 [0.]
+	dns.qry.name
+0.0    1143540
+Name: count, dtype: int64
+
+	dns.qry.name.len 1 [0.]
+	dns.qry.name.len
+0.0    1143540
+Name: count, dtype: int64
+
+	dns.qry.qu 1 [0.]
+	dns.qry.qu
+0.0    1143540
+Name: count, dtype: int64
+
+	dns.qry.type 1 [0.]
+	dns.qry.type
+0.0    1143540
+Name: count, dtype: int64
+
+	dns.retransmission 1 [0.]
+	dns.retransmission
+0.0    1143540
+Name: count, dtype: int64
+
+	dns.retransmit_request 1 [0.]
+	dns.retransmit_request
+0.0    1143540
+Name: count, dtype: int64
+
+	dns.retransmit_request_in 1 [0.]
+	dns.retransmit_request_in
+0.0    1143540
+Name: count, dtype: int64
+
+*	mqtt.conack.flags 2 ['0' '0x00000000']
+	mqtt.conack.flags
+0             1071666
+0x00000000      71874
+Name: count, dtype: int64
+
+*	mqtt.conflag.cleansess 2 [0. 1.]
+	mqtt.conflag.cleansess
+0.0    1071590
+1.0      71950
+Name: count, dtype: int64
+
+*	mqtt.conflags 2 ['0' '0x00000002']
+	mqtt.conflags
+0             1071590
+0x00000002      71950
+Name: count, dtype: int64
+
+*	mqtt.hdrflags 5 ['0' '0x00000010' '0x00000020' '0x00000030' '0x000000e0']
+	mqtt.hdrflags
+0             855967
+0x00000010     71950
+0x000000e0     71875
+0x00000020     71874
+0x00000030     71874
+Name: count, dtype: int64
+
+*	mqtt.len 30 [38. 49. 45. 63. 69. 66. 36. 46.]
+	[too many]
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    1143540
+Name: count, dtype: int64
+
+*	mqtt.msgtype 5 [ 0.  1.  2.  3. 14.]
+	mqtt.msgtype
+0.0     855967
+1.0      71950
+14.0     71875
+2.0      71874
+3.0      71874
+Name: count, dtype: int64
+
+*	mqtt.proto_len 2 [0. 4.]
+	mqtt.proto_len
+0.0    1071590
+4.0      71950
+Name: count, dtype: int64
+
+*	mqtt.protoname 2 ['0' 'MQTT']
+	mqtt.protoname
+0       1071590
+MQTT      71950
+Name: count, dtype: int64
+
+*	mqtt.topic 2 ['0' 'Distance']
+	mqtt.topic
+0           1071666
+Distance      71874
+Name: count, dtype: int64
+
+*	mqtt.topic_len 2 [0. 8.]
+	mqtt.topic_len
+0.0    1071666
+8.0      71874
+Name: count, dtype: int64
+
+*	mqtt.ver 2 [0. 4.]
+	mqtt.ver
+0.0    1071590
+4.0      71950
+Name: count, dtype: int64
+
+	mbtcp.len 1 [0.]
+	mbtcp.len
+0.0    1143540
+Name: count, dtype: int64
+
+	mbtcp.trans_id 1 [0.]
+	mbtcp.trans_id
+0.0    1143540
+Name: count, dtype: int64
+
+	mbtcp.unit_id 1 [0.]
+	mbtcp.unit_id
+0.0    1143540
+Name: count, dtype: int64
+
+	Attack_label 1 [0]
+	Attack_label
+0    1143540
+Name: count, dtype: int64
+
+	Attack_type 1 ['Normal']
+	Attack_type
+Normal    1143540
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+Flame_Sensor.csv
+	arp.opcode 1 [0.]
+	arp.opcode
+0.0    1070196
+Name: count, dtype: int64
+
+	arp.hw.size 1 [0.]
+	arp.hw.size
+0.0    1070196
+Name: count, dtype: int64
+
+	icmp.checksum 1 [0.]
+	icmp.checksum
+0.0    1070196
+Name: count, dtype: int64
+
+	icmp.seq_le 1 [0.]
+	icmp.seq_le
+0.0    1070196
+Name: count, dtype: int64
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    1070196
+Name: count, dtype: int64
+
+	http.content_length 1 [0.]
+	http.content_length
+0.0    1070196
+Name: count, dtype: int64
+
+	http.request.method 1 [0.]
+	http.request.method
+0.0    1070196
+Name: count, dtype: int64
+
+	http.referer 1 [0.]
+	http.referer
+0.0    1070196
+Name: count, dtype: int64
+
+	http.request.version 1 [0.]
+	http.request.version
+0.0    1070196
+Name: count, dtype: int64
+
+	http.response 1 [0.]
+	http.response
+0.0    1070196
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    1070196
+Name: count, dtype: int64
+
+*	tcp.ack 38 [51. 81. 92. 56. 48. 48. 53. 77.]
+	[too many]
+
+*	tcp.ack_raw 470708 [4.24387555e+09 6.02574016e+09 7.11543021e+09 2.02895412e+09
+ 6.04128315e+09 4.15474118e+09 3.57377684e+09 4.03471887e+09]
+	[too many]
+
+*	tcp.checksum 65536 ['0x00007b720x0000e2b5' '0x000031620x0000990d' '0x0000514b0x00009eb9'
+ '0x0000315e0x00003c9e' '0x0000ba490x00005230' '0x0000d9010x00006c15'
+ '0x000031530x000065c2' '0x000012c40x000077db']
+	[too many]
+
+*	tcp.connection.fin 2 [0. 1.]
+	tcp.connection.fin
+0.0    935679
+1.0    134517
+Name: count, dtype: int64
+
+*	tcp.connection.rst 2 [0. 1.]
+	tcp.connection.rst
+0.0    923257
+1.0    146939
+Name: count, dtype: int64
+
+*	tcp.connection.syn 2 [0. 1.]
+	tcp.connection.syn
+0.0    1002948
+1.0      67248
+Name: count, dtype: int64
+
+*	tcp.connection.synack 2 [0. 1.]
+	tcp.connection.synack
+0.0    1002939
+1.0      67257
+Name: count, dtype: int64
+
+*	tcp.flags 8 ['0x00000018' '0x00000010' '0x00000019' '0x00000011' '0x00000002'
+ '0x00000012' '0x00000004' '0']
+	tcp.flags
+0x00000010    452314
+0x00000018    201798
+0x00000004    146939
+0x00000011     67269
+0x00000012     67257
+0x00000019     67248
+0x00000002     67248
+0                123
+Name: count, dtype: int64
+
+*	tcp.flags.ack 2 [1. 0.]
+	tcp.flags.ack
+1.0    855886
+0.0    214310
+Name: count, dtype: int64
+
+*	tcp.len 27 [73. 41. 33. 32. 34. 63. 58. 71.]
+	[too many]
+
+*	tcp.seq 38 [51. 81. 63. 85. 61. 38. 88. 39.]
+	[too many]
+
+	udp.stream 1 [0.]
+	udp.stream
+0.0    1070196
+Name: count, dtype: int64
+
+	udp.time_delta 1 [0.]
+	udp.time_delta
+0.0    1070196
+Name: count, dtype: int64
+
+	dns.qry.name 1 [0.]
+	dns.qry.name
+0.0    1070196
+Name: count, dtype: int64
+
+	dns.qry.name.len 1 [0.]
+	dns.qry.name.len
+0.0    1070196
+Name: count, dtype: int64
+
+	dns.qry.qu 1 [0.]
+	dns.qry.qu
+0.0    1070196
+Name: count, dtype: int64
+
+	dns.qry.type 1 [0.]
+	dns.qry.type
+0.0    1070196
+Name: count, dtype: int64
+
+	dns.retransmission 1 [0.]
+	dns.retransmission
+0.0    1070196
+Name: count, dtype: int64
+
+	dns.retransmit_request 1 [0.]
+	dns.retransmit_request
+0.0    1070196
+Name: count, dtype: int64
+
+	dns.retransmit_request_in 1 [0.]
+	dns.retransmit_request_in
+0.0    1070196
+Name: count, dtype: int64
+
+*	mqtt.conack.flags 2 ['0' '0x00000000']
+	mqtt.conack.flags
+0             1002949
+0x00000000      67247
+Name: count, dtype: int64
+
+*	mqtt.conflag.cleansess 2 [0. 1.]
+	mqtt.conflag.cleansess
+0.0    1002922
+1.0      67274
+Name: count, dtype: int64
+
+*	mqtt.conflags 2 ['0' '0x00000002']
+	mqtt.conflags
+0             1002922
+0x00000002      67274
+Name: count, dtype: int64
+
+*	mqtt.hdrflags 5 ['0x00000030' '0' '0x000000e0' '0x00000010' '0x00000020']
+	mqtt.hdrflags
+0             801178
+0x00000010     67274
+0x00000030     67249
+0x000000e0     67248
+0x00000020     67247
+Name: count, dtype: int64
+
+*	mqtt.len 26 [69. 39. 41. 18. 60. 61. 61. 75.]
+	[too many]
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    1070196
+Name: count, dtype: int64
+
+*	mqtt.msgtype 5 [ 3.  0. 14.  1.  2.]
+	mqtt.msgtype
+0.0     801178
+1.0      67274
+3.0      67249
+14.0     67248
+2.0      67247
+Name: count, dtype: int64
+
+*	mqtt.proto_len 2 [0. 4.]
+	mqtt.proto_len
+0.0    1002922
+4.0      67274
+Name: count, dtype: int64
+
+*	mqtt.protoname 2 ['0' 'MQTT']
+	mqtt.protoname
+0       1002922
+MQTT      67274
+Name: count, dtype: int64
+
+*	mqtt.topic 2 ['Flame_Sensor' '0']
+	mqtt.topic
+0               1002947
+Flame_Sensor      67249
+Name: count, dtype: int64
+
+*	mqtt.topic_len 2 [12.  0.]
+	mqtt.topic_len
+0.0     1002947
+12.0      67249
+Name: count, dtype: int64
+
+*	mqtt.ver 2 [0. 4.]
+	mqtt.ver
+0.0    1002922
+4.0      67274
+Name: count, dtype: int64
+
+	mbtcp.len 1 [0.]
+	mbtcp.len
+0.0    1070196
+Name: count, dtype: int64
+
+	mbtcp.trans_id 1 [0.]
+	mbtcp.trans_id
+0.0    1070196
+Name: count, dtype: int64
+
+	mbtcp.unit_id 1 [0.]
+	mbtcp.unit_id
+0.0    1070196
+Name: count, dtype: int64
+
+	Attack_label 1 [0]
+	Attack_label
+0    1070196
+Name: count, dtype: int64
+
+	Attack_type 1 ['Normal']
+	Attack_type
+Normal    1070196
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+Heart_Rate.csv
+*	arp.opcode 3 [0. 1. 2.]
+	arp.opcode
+0.0    165147
+1.0        86
+2.0        86
+Name: count, dtype: int64
+
+*	arp.hw.size 2 [0. 6.]
+	arp.hw.size
+0.0    165147
+6.0       172
+Name: count, dtype: int64
+
+	icmp.checksum 1 [0.]
+	icmp.checksum
+0.0    165319
+Name: count, dtype: int64
+
+	icmp.seq_le 1 [0.]
+	icmp.seq_le
+0.0    165319
+Name: count, dtype: int64
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    165319
+Name: count, dtype: int64
+
+	http.content_length 1 [0.]
+	http.content_length
+0.0    165319
+Name: count, dtype: int64
+
+	http.request.method 1 [0.]
+	http.request.method
+0.0    165319
+Name: count, dtype: int64
+
+	http.referer 1 [0.]
+	http.referer
+0.0    165319
+Name: count, dtype: int64
+
+	http.request.version 1 [0.]
+	http.request.version
+0.0    165319
+Name: count, dtype: int64
+
+	http.response 1 [0.]
+	http.response
+0.0    165319
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    165319
+Name: count, dtype: int64
+
+*	tcp.ack 17 [39. 43. 79. 72. 89. 95. 43. 78.]
+	[too many]
+
+*	tcp.ack_raw 68783 [3.51078782e+09 4.63349432e+09 6.58786652e+09 4.94145418e+09
+ 5.98110534e+09 5.24025559e+09 5.24025560e+09 4.23661690e+09]
+	[too many]
+
+*	tcp.checksum 56935 ['0x000028d10x0000b134' '0x0000f2c10x0000eaf6' '0x0000767a0x0000eab4'
+ '0x00002c810x0000bdc0' '0x00000c730x0000772d' '0x0000e04a0x00003565'
+ '0x00002c510x0000cb5d' '0x00002c840x00006f16']
+	[too many]
+
+*	tcp.connection.fin 2 [0. 1.]
+	tcp.connection.fin
+0.0    145666
+1.0     19653
+Name: count, dtype: int64
+
+*	tcp.connection.rst 2 [0. 1.]
+	tcp.connection.rst
+0.0    140998
+1.0     24321
+Name: count, dtype: int64
+
+*	tcp.connection.syn 2 [1. 0.]
+	tcp.connection.syn
+0.0    155493
+1.0      9826
+Name: count, dtype: int64
+
+*	tcp.connection.synack 2 [0. 1.]
+	tcp.connection.synack
+0.0    155493
+1.0      9826
+Name: count, dtype: int64
+
+*	tcp.flags 8 ['0x00000002' '0x00000012' '0x00000018' '0x00000010' '0x00000019'
+ '0x00000011' '0x00000004' '0']
+	tcp.flags
+0x00000010    71902
+0x00000018    29478
+0x00000004    24321
+0x00000011     9827
+0x00000002     9826
+0x00000012     9826
+0x00000019     9826
+0               313
+Name: count, dtype: int64
+
+*	tcp.flags.ack 2 [0. 1.]
+	tcp.flags.ack
+1.0    130859
+0.0     34460
+Name: count, dtype: int64
+
+*	tcp.len 10 [ 0. 14.  4. 44.  2. 23. 24. 49. 15. 22.]
+	tcp.len
+0.0     126015
+14.0      9826
+4.0       9826
+2.0       9826
+44.0      4911
+24.0      4795
+23.0       114
+49.0         4
+15.0         1
+22.0         1
+Name: count, dtype: int64
+
+*	tcp.seq 17 [39. 43. 79. 72. 89. 95. 43. 78.]
+	[too many]
+
+	udp.stream 1 [0.]
+	udp.stream
+0.0    165319
+Name: count, dtype: int64
+
+	udp.time_delta 1 [0.]
+	udp.time_delta
+0.0    165319
+Name: count, dtype: int64
+
+	dns.qry.name 1 [0.]
+	dns.qry.name
+0.0    165319
+Name: count, dtype: int64
+
+	dns.qry.name.len 1 [0.]
+	dns.qry.name.len
+0.0    165319
+Name: count, dtype: int64
+
+	dns.qry.qu 1 [0.]
+	dns.qry.qu
+0.0    165319
+Name: count, dtype: int64
+
+	dns.qry.type 1 [0.]
+	dns.qry.type
+0.0    165319
+Name: count, dtype: int64
+
+	dns.retransmission 1 [0.]
+	dns.retransmission
+0.0    165319
+Name: count, dtype: int64
+
+	dns.retransmit_request 1 [0.]
+	dns.retransmit_request
+0.0    165319
+Name: count, dtype: int64
+
+	dns.retransmit_request_in 1 [0.]
+	dns.retransmit_request_in
+0.0    165319
+Name: count, dtype: int64
+
+*	mqtt.conack.flags 2 ['0' '0x00000000']
+	mqtt.conack.flags
+0             155493
+0x00000000      9826
+Name: count, dtype: int64
+
+*	mqtt.conflag.cleansess 2 [0. 1.]
+	mqtt.conflag.cleansess
+0.0    155493
+1.0      9826
+Name: count, dtype: int64
+
+*	mqtt.conflags 2 ['0' '0x00000002']
+	mqtt.conflags
+0             155493
+0x00000002      9826
+Name: count, dtype: int64
+
+*	mqtt.hdrflags 5 ['0' '0x00000010' '0x00000020' '0x00000030' '0x000000e0']
+	mqtt.hdrflags
+0             126015
+0x00000010      9826
+0x00000020      9826
+0x00000030      9826
+0x000000e0      9826
+Name: count, dtype: int64
+
+*	mqtt.len 9 [ 0. 12.  2. 42. 21. 22. 47. 13. 20.]
+	mqtt.len
+0.0     135841
+12.0      9826
+2.0       9826
+42.0      4911
+22.0      4795
+21.0       114
+47.0         4
+13.0         1
+20.0         1
+Name: count, dtype: int64
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    165319
+Name: count, dtype: int64
+
+*	mqtt.msgtype 5 [ 0.  1.  2.  3. 14.]
+	mqtt.msgtype
+0.0     126015
+1.0       9826
+2.0       9826
+3.0       9826
+14.0      9826
+Name: count, dtype: int64
+
+*	mqtt.proto_len 2 [0. 4.]
+	mqtt.proto_len
+0.0    155493
+4.0      9826
+Name: count, dtype: int64
+
+*	mqtt.protoname 2 ['0' 'MQTT']
+	mqtt.protoname
+0       155493
+MQTT      9826
+Name: count, dtype: int64
+
+*	mqtt.topic 2 ['0' 'Heart_Rate']
+	mqtt.topic
+0             155493
+Heart_Rate      9826
+Name: count, dtype: int64
+
+*	mqtt.topic_len 2 [ 0. 10.]
+	mqtt.topic_len
+0.0     155493
+10.0      9826
+Name: count, dtype: int64
+
+*	mqtt.ver 2 [0. 4.]
+	mqtt.ver
+0.0    155493
+4.0      9826
+Name: count, dtype: int64
+
+	mbtcp.len 1 [0.]
+	mbtcp.len
+0.0    165319
+Name: count, dtype: int64
+
+	mbtcp.trans_id 1 [0.]
+	mbtcp.trans_id
+0.0    165319
+Name: count, dtype: int64
+
+	mbtcp.unit_id 1 [0.]
+	mbtcp.unit_id
+0.0    165319
+Name: count, dtype: int64
+
+	Attack_label 1 [0]
+	Attack_label
+0    165319
+Name: count, dtype: int64
+
+	Attack_type 1 ['Normal']
+	Attack_type
+Normal    165319
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+IR_Receiver.csv
+*	arp.opcode 3 [1. 2. 0.]
+	arp.opcode
+0.0    1307744
+1.0         22
+2.0         12
+Name: count, dtype: int64
+
+*	arp.hw.size 2 [6. 0.]
+	arp.hw.size
+0.0    1307744
+6.0         34
+Name: count, dtype: int64
+
+	icmp.checksum 1 [0.]
+	icmp.checksum
+0.0    1307778
+Name: count, dtype: int64
+
+	icmp.seq_le 1 [0.]
+	icmp.seq_le
+0.0    1307778
+Name: count, dtype: int64
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    1307778
+Name: count, dtype: int64
+
+	http.content_length 1 [0.]
+	http.content_length
+0.0    1307778
+Name: count, dtype: int64
+
+	http.request.method 1 [0.]
+	http.request.method
+0.0    1307778
+Name: count, dtype: int64
+
+	http.referer 1 [0.]
+	http.referer
+0.0    1307778
+Name: count, dtype: int64
+
+	http.request.version 1 [0.]
+	http.request.version
+0.0    1307778
+Name: count, dtype: int64
+
+	http.response 1 [0.]
+	http.response
+0.0    1307778
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    1307778
+Name: count, dtype: int64
+
+*	tcp.ack 26 [ 32.  44.  61.  50.  94. 100.  54.  90.]
+	[too many]
+
+*	tcp.ack_raw 576720 [2.58156297e+09 4.38263275e+09 5.90432484e+09 6.92184432e+09
+ 4.51363808e+09 5.77331957e+09 5.77331958e+09 1.44374993e+09]
+	[too many]
+
+*	tcp.checksum 65537 ['00x000030b7' '0x0000f0f10x00008fec' '0x0000d8530x00005676'
+ '0x00005c0c0x00003440' '0x000012130x0000d65c' '0x0000f2040x00002404'
+ '0x0000e3eb0x000015c9' '0x000011f90x000083e9']
+	[too many]
+
+*	tcp.connection.fin 2 [0. 1.]
+	tcp.connection.fin
+0.0    1142938
+1.0     164840
+Name: count, dtype: int64
+
+*	tcp.connection.rst 2 [0. 1.]
+	tcp.connection.rst
+0.0    1132234
+1.0     175544
+Name: count, dtype: int64
+
+*	tcp.connection.syn 2 [0. 1.]
+	tcp.connection.syn
+0.0    1225381
+1.0      82397
+Name: count, dtype: int64
+
+*	tcp.connection.synack 2 [0. 1.]
+	tcp.connection.synack
+0.0    1225357
+1.0      82421
+Name: count, dtype: int64
+
+*	tcp.flags 8 ['0' '0x00000002' '0x00000012' '0x00000018' '0x00000010' '0x00000019'
+ '0x00000011' '0x00000004']
+	tcp.flags
+0x00000010    555076
+0x00000018    247318
+0x00000004    175544
+0x00000011     82447
+0x00000012     82421
+0x00000002     82397
+0x00000019     82393
+0                182
+Name: count, dtype: int64
+
+*	tcp.flags.ack 2 [0. 1.]
+	tcp.flags.ack
+1.0    1049655
+0.0     258123
+Name: count, dtype: int64
+
+*	tcp.len 22 [17. 42. 31. 47. 25. 68. 51. 60.]
+	[too many]
+
+*	tcp.seq 26 [32. 44. 61. 50. 94. 66. 88. 90.]
+	[too many]
+
+	udp.stream 1 [0.]
+	udp.stream
+0.0    1307778
+Name: count, dtype: int64
+
+	udp.time_delta 1 [0.]
+	udp.time_delta
+0.0    1307778
+Name: count, dtype: int64
+
+	dns.qry.name 1 [0.]
+	dns.qry.name
+0.0    1307778
+Name: count, dtype: int64
+
+	dns.qry.name.len 1 [0.]
+	dns.qry.name.len
+0.0    1307778
+Name: count, dtype: int64
+
+	dns.qry.qu 1 [0.]
+	dns.qry.qu
+0.0    1307778
+Name: count, dtype: int64
+
+	dns.qry.type 1 [0.]
+	dns.qry.type
+0.0    1307778
+Name: count, dtype: int64
+
+	dns.retransmission 1 [0.]
+	dns.retransmission
+0.0    1307778
+Name: count, dtype: int64
+
+	dns.retransmit_request 1 [0.]
+	dns.retransmit_request
+0.0    1307778
+Name: count, dtype: int64
+
+	dns.retransmit_request_in 1 [0.]
+	dns.retransmit_request_in
+0.0    1307778
+Name: count, dtype: int64
+
+*	mqtt.conack.flags 2 ['0' '0x00000000']
+	mqtt.conack.flags
+0             1225385
+0x00000000      82393
+Name: count, dtype: int64
+
+*	mqtt.conflag.cleansess 2 [0. 1.]
+	mqtt.conflag.cleansess
+0.0    1225331
+1.0      82447
+Name: count, dtype: int64
+
+*	mqtt.conflags 2 ['0' '0x00000002']
+	mqtt.conflags
+0             1225331
+0x00000002      82447
+Name: count, dtype: int64
+
+*	mqtt.hdrflags 5 ['0' '0x00000010' '0x00000020' '0x00000030' '0x000000e0']
+	mqtt.hdrflags
+0             978152
+0x00000010     82447
+0x00000020     82393
+0x00000030     82393
+0x000000e0     82393
+Name: count, dtype: int64
+
+*	mqtt.len 20 [15. 38. 27. 43. 45. 59. 55. 46.]
+	[too many]
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    1307778
+Name: count, dtype: int64
+
+*	mqtt.msgtype 5 [ 0.  1.  2.  3. 14.]
+	mqtt.msgtype
+0.0     978152
+1.0      82447
+2.0      82393
+3.0      82393
+14.0     82393
+Name: count, dtype: int64
+
+*	mqtt.proto_len 2 [0. 4.]
+	mqtt.proto_len
+0.0    1225331
+4.0      82447
+Name: count, dtype: int64
+
+*	mqtt.protoname 2 ['0' 'MQTT']
+	mqtt.protoname
+0       1225331
+MQTT      82447
+Name: count, dtype: int64
+
+*	mqtt.topic 2 ['0' 'IR_Receiver']
+	mqtt.topic
+0              1225385
+IR_Receiver      82393
+Name: count, dtype: int64
+
+*	mqtt.topic_len 2 [ 0. 11.]
+	mqtt.topic_len
+0.0     1225385
+11.0      82393
+Name: count, dtype: int64
+
+*	mqtt.ver 2 [0. 4.]
+	mqtt.ver
+0.0    1225331
+4.0      82447
+Name: count, dtype: int64
+
+	mbtcp.len 1 [0.]
+	mbtcp.len
+0.0    1307778
+Name: count, dtype: int64
+
+	mbtcp.trans_id 1 [0.]
+	mbtcp.trans_id
+0.0    1307778
+Name: count, dtype: int64
+
+	mbtcp.unit_id 1 [0.]
+	mbtcp.unit_id
+0.0    1307778
+Name: count, dtype: int64
+
+	Attack_label 1 [0]
+	Attack_label
+0    1307778
+Name: count, dtype: int64
+
+	Attack_type 1 ['Normal']
+	Attack_type
+Normal    1307778
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+Modbus.csv
+*	arp.opcode 2 [0. 6.]
+	arp.opcode
+0.0    159035
+6.0       467
+Name: count, dtype: int64
+
+*	arp.hw.size 7 ['0' '192.168.0.101' '192.168.0.128' '192.168.0.1' '192.168.7.62'
+ '192.168.7.55' '192.168.7.1']
+	arp.hw.size
+0                159035
+192.168.7.55        171
+192.168.7.62        131
+192.168.0.128        56
+192.168.7.1          47
+192.168.0.1          46
+192.168.0.101        16
+Name: count, dtype: int64
+
+	icmp.checksum 1 [0.]
+	icmp.checksum
+0.0    159502
+Name: count, dtype: int64
+
+	icmp.seq_le 1 [0.]
+	icmp.seq_le
+0.0    159502
+Name: count, dtype: int64
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    159502
+Name: count, dtype: int64
+
+	http.content_length 1 [0.]
+	http.content_length
+0.0    159502
+Name: count, dtype: int64
+
+	http.request.method 1 [0.]
+	http.request.method
+0.0    159502
+Name: count, dtype: int64
+
+	http.referer 1 [0.]
+	http.referer
+0.0    159502
+Name: count, dtype: int64
+
+	http.request.version 1 [0.]
+	http.request.version
+0.0    159502
+Name: count, dtype: int64
+
+	http.response 1 [0.]
+	http.response
+0.0    159502
+Name: count, dtype: int64
+
+*	http.tls_port 94900 [6949841.   56941. 6939800. 6944166. 6945641.   56980. 6950085.   57023.]
+	[too many]
+
+*	tcp.ack 102044 [3.70172519e+09 2.61358549e+09 7.20588622e+09 6.07549194e+09
+ 7.20589206e+09 2.61358553e+09 5.40779671e+09 2.89017878e+09]
+	[too many]
+
+*	tcp.ack_raw 61149 ['00x00007f13' '0x0000ab150x00007ea7' '0x000071d50x0000deb3'
+ '0x0000d65f0x000013ab' '0x0000ab930x00007e5c' '0x0000ab920x00004e73'
+ '0x0000ab970x0000ce3f' '0x0000ab870x0000c709']
+	[too many]
+
+*	tcp.checksum 2 [0. 1.]
+	tcp.checksum
+0.0    159177
+1.0       325
+Name: count, dtype: int64
+
+*	tcp.connection.fin 2 [0. 1.]
+	tcp.connection.fin
+0.0    159499
+1.0         3
+Name: count, dtype: int64
+
+*	tcp.connection.rst 2 [0. 1.]
+	tcp.connection.rst
+0.0    159336
+1.0       166
+Name: count, dtype: int64
+
+*	tcp.connection.syn 2 [0. 1.]
+	tcp.connection.syn
+0.0    159313
+1.0       189
+Name: count, dtype: int64
+
+*	tcp.connection.synack 158 [ 54177.  54680. 117827. 118648. 103499. 103801.  59885. 104266.]
+	[too many]
+
+*	tcp.flags 2 [0. 1.]
+	tcp.flags
+1.0    155374
+0.0      4128
+Name: count, dtype: int64
+
+*	tcp.flags.ack 681 [1017.  253. 1109.  625.  524. 1326. 1308.  263.]
+	[too many]
+
+*	tcp.len 34 ['00101050adc5a9244dc5a96e9'
+ '020405b401030308010104020101050ac0c5a305c0c5a322'
+ '020405b401010402010303070101050adc73ec02dc73eec2'
+ '0101050ad82fd8f3d82fd8f401010512dc73ec02dc73eec2dc73ec02dc73eec2'
+ '0101050a4359e66c4359e66d0101050a3b67845e3b678467'
+ '0101050a39e13a1139e13a120101050adc741c94dc741f59'
+ '0101050abc01980bbc01980c0101050adc82a8eadc82adfc'
+ '0101050ac44cc021c44cc0220101050adc83d1e0dc83d470']
+	[too many]
+
+*	tcp.seq 158 [ 54177. 108159.  64348. 118648. 103499. 103801. 104265.  59886.]
+	[too many]
+
+*	udp.stream 503 [497. 499. 501. 503. 505. 507. 509. 511.]
+	[too many]
+
+*	udp.time_delta 1051 [1.0032470e+01 1.0033249e+01 9.1930000e-03 1.0034023e+01 6.4809300e-01
+ 5.9850000e-03 7.4742400e-01 6.5870000e-03]
+	[too many]
+
+*	dns.qry.name 7 ['3.debian.pool.ntp.org' '0.debian.pool.ntp.org' '1.debian.pool.ntp.org'
+ '2.debian.pool.ntp.org' '0' 'raspberrypi.local' 'raspberrypi']
+	dns.qry.name
+0                        156428
+3.debian.pool.ntp.org       768
+0.debian.pool.ntp.org       760
+1.debian.pool.ntp.org       756
+2.debian.pool.ntp.org       754
+raspberrypi.local            20
+raspberrypi                  16
+Name: count, dtype: int64
+
+*	dns.qry.name.len 4 [21.  0. 17. 11.]
+	dns.qry.name.len
+0.0     156428
+21.0      3038
+17.0        20
+11.0        16
+Name: count, dtype: int64
+
+	dns.qry.qu 1 [0.]
+	dns.qry.qu
+0.0    159502
+Name: count, dtype: int64
+
+*	dns.qry.type 3 [ 1. 28.  0.]
+	dns.qry.type
+0.0     156428
+1.0       1562
+28.0      1512
+Name: count, dtype: int64
+
+*	dns.retransmission 2 [0. 1.]
+	dns.retransmission
+0.0    159479
+1.0        23
+Name: count, dtype: int64
+
+*	dns.retransmit_request 2 [0. 1.]
+	dns.retransmit_request
+0.0    159486
+1.0        16
+Name: count, dtype: int64
+
+*	dns.retransmit_request_in 5 [     0. 146249. 146251. 146274. 146276.]
+	dns.retransmit_request_in
+0.0         159486
+146249.0         5
+146251.0         5
+146274.0         3
+146276.0         3
+Name: count, dtype: int64
+
+	mqtt.conack.flags 1 [0.]
+	mqtt.conack.flags
+0.0    159502
+Name: count, dtype: int64
+
+	mqtt.conflag.cleansess 1 [0.]
+	mqtt.conflag.cleansess
+0.0    159502
+Name: count, dtype: int64
+
+	mqtt.conflags 1 [0.]
+	mqtt.conflags
+0.0    159502
+Name: count, dtype: int64
+
+	mqtt.hdrflags 1 [0.]
+	mqtt.hdrflags
+0.0    159502
+Name: count, dtype: int64
+
+	mqtt.len 1 [0.]
+	mqtt.len
+0.0    159502
+Name: count, dtype: int64
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    159502
+Name: count, dtype: int64
+
+	mqtt.msgtype 1 [0.]
+	mqtt.msgtype
+0.0    159502
+Name: count, dtype: int64
+
+	mqtt.proto_len 1 [0.]
+	mqtt.proto_len
+0.0    159502
+Name: count, dtype: int64
+
+	mqtt.protoname 1 [0.]
+	mqtt.protoname
+0.0    159502
+Name: count, dtype: int64
+
+	mqtt.topic 1 [0.]
+	mqtt.topic
+0.0    159502
+Name: count, dtype: int64
+
+	mqtt.topic_len 1 [0.]
+	mqtt.topic_len
+0.0    159502
+Name: count, dtype: int64
+
+*	mqtt.ver 19 [ 57.  68.   9.  46. 206.  44.  48.  52.]
+	[too many]
+
+*	mbtcp.len 48900 [48893. 48896. 48898. 48900. 48902. 48904. 48906. 48908.]
+	[too many]
+
+*	mbtcp.trans_id 14 [ 0.  1.  2.  3.  4.  6. 22. 23. 24. 25. 10. 11. 14. 18.]
+	mbtcp.trans_id
+18.0    82869
+0.0     61562
+14.0    10608
+1.0      2051
+11.0      820
+23.0      802
+24.0      478
+2.0       174
+22.0      118
+10.0        6
+3.0         5
+4.0         4
+6.0         3
+25.0        2
+Name: count, dtype: int64
+
+	mbtcp.unit_id 1 [0.]
+	mbtcp.unit_id
+0.0    159502
+Name: count, dtype: int64
+
+	Attack_label 1 [0]
+	Attack_label
+0    159502
+Name: count, dtype: int64
+
+	Attack_type 1 ['Normal']
+	Attack_type
+Normal    159502
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+phValue.csv
+*	arp.opcode 3 [0. 1. 2.]
+	arp.opcode
+0.0    746562
+1.0       177
+2.0       169
+Name: count, dtype: int64
+
+*	arp.hw.size 2 [0. 6.]
+	arp.hw.size
+0.0    746562
+6.0       346
+Name: count, dtype: int64
+
+	icmp.checksum 1 [0.]
+	icmp.checksum
+0.0    746908
+Name: count, dtype: int64
+
+	icmp.seq_le 1 [0.]
+	icmp.seq_le
+0.0    746908
+Name: count, dtype: int64
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    746908
+Name: count, dtype: int64
+
+	http.content_length 1 [0.]
+	http.content_length
+0.0    746908
+Name: count, dtype: int64
+
+	http.request.method 1 [0.]
+	http.request.method
+0.0    746908
+Name: count, dtype: int64
+
+	http.referer 1 [0.]
+	http.referer
+0.0    746908
+Name: count, dtype: int64
+
+	http.request.version 1 [0.]
+	http.request.version
+0.0    746908
+Name: count, dtype: int64
+
+	http.response 1 [0.]
+	http.response
+0.0    746908
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    746908
+Name: count, dtype: int64
+
+*	tcp.ack 11 [ 1.  0. 15.  5. 40. 43.  6. 33. 36. 41. 44.]
+	tcp.ack
+0.0     158724
+6.0     158004
+1.0     131139
+15.0    113909
+5.0      87955
+43.0     51154
+40.0     46019
+33.0         1
+36.0         1
+41.0         1
+44.0         1
+Name: count, dtype: int64
+
+*	tcp.ack_raw 305844 [3.93637911e+09 4.05021184e+08 2.59371702e+09 4.47549090e+09
+ 2.11205441e+09 7.54149015e+09 4.14731953e+09 5.65971634e+09]
+	[too many]
+
+*	tcp.checksum 65527 ['0x00003ca90x0000f304' '0x00003eaa0x000082b4' '0x0000d8cb0x0000b0ff'
+ '0x000052f20x00007de7' '0x0000a3500x00008a3f' '0x000027090x0000f689'
+ '0x0000dd0f0x0000a450' '0x0000bd010x00001b86']
+	[too many]
+
+*	tcp.connection.fin 2 [0. 1.]
+	tcp.connection.fin
+0.0    659513
+1.0     87395
+Name: count, dtype: int64
+
+*	tcp.connection.rst 2 [0. 1.]
+	tcp.connection.rst
+0.0    632594
+1.0    114314
+Name: count, dtype: int64
+
+*	tcp.connection.syn 2 [0. 1.]
+	tcp.connection.syn
+0.0    703206
+1.0     43702
+Name: count, dtype: int64
+
+*	tcp.connection.synack 2 [0. 1.]
+	tcp.connection.synack
+0.0    703165
+1.0     43743
+Name: count, dtype: int64
+
+*	tcp.flags 8 ['0x00000010' '0x00000004' '0x00000002' '0x00000012' '0x00000018'
+ '0x00000019' '0x00000011' '0']
+	tcp.flags
+0x00000010    325928
+0x00000018    131118
+0x00000004    114314
+0x00000012     43743
+0x00000002     43702
+0x00000011     43702
+0x00000019     43693
+0                708
+Name: count, dtype: int64
+
+*	tcp.flags.ack 2 [1. 0.]
+	tcp.flags.ack
+1.0    588184
+0.0    158724
+Name: count, dtype: int64
+
+*	tcp.len 7 [ 0. 14.  4. 25.  2. 18. 26.]
+	tcp.len
+0.0     572097
+4.0      43720
+14.0     43705
+2.0      43693
+25.0     43691
+18.0         1
+26.0         1
+Name: count, dtype: int64
+
+*	tcp.seq 11 [ 1.  0.  5. 15. 40. 43.  6. 33. 36. 41. 44.]
+	tcp.seq
+1.0     177609
+43.0    158460
+6.0     121537
+5.0     113650
+0.0      88153
+15.0     43791
+40.0     43699
+44.0         4
+36.0         3
+33.0         1
+41.0         1
+Name: count, dtype: int64
+
+	udp.stream 1 [0.]
+	udp.stream
+0.0    746908
+Name: count, dtype: int64
+
+	udp.time_delta 1 [0.]
+	udp.time_delta
+0.0    746908
+Name: count, dtype: int64
+
+	dns.qry.name 1 [0.]
+	dns.qry.name
+0.0    746908
+Name: count, dtype: int64
+
+	dns.qry.name.len 1 [0.]
+	dns.qry.name.len
+0.0    746908
+Name: count, dtype: int64
+
+	dns.qry.qu 1 [0.]
+	dns.qry.qu
+0.0    746908
+Name: count, dtype: int64
+
+	dns.qry.type 1 [0.]
+	dns.qry.type
+0.0    746908
+Name: count, dtype: int64
+
+	dns.retransmission 1 [0.]
+	dns.retransmission
+0.0    746908
+Name: count, dtype: int64
+
+	dns.retransmit_request 1 [0.]
+	dns.retransmit_request
+0.0    746908
+Name: count, dtype: int64
+
+	dns.retransmit_request_in 1 [0.]
+	dns.retransmit_request_in
+0.0    746908
+Name: count, dtype: int64
+
+*	mqtt.conack.flags 2 ['0' '0x00000000']
+	mqtt.conack.flags
+0             703214
+0x00000000     43694
+Name: count, dtype: int64
+
+*	mqtt.conflag.cleansess 2 [0. 1.]
+	mqtt.conflag.cleansess
+0.0    703203
+1.0     43705
+Name: count, dtype: int64
+
+*	mqtt.conflags 2 ['0' '0x00000002']
+	mqtt.conflags
+0             703203
+0x00000002     43705
+Name: count, dtype: int64
+
+*	mqtt.hdrflags 5 ['0' '0x00000010' '0x00000020' '0x00000030' '0x000000e0']
+	mqtt.hdrflags
+0             572123
+0x00000010     43705
+0x00000020     43694
+0x00000030     43693
+0x000000e0     43693
+Name: count, dtype: int64
+
+*	mqtt.len 6 [ 0. 12.  2. 23. 16. 24.]
+	mqtt.len
+0.0     615816
+12.0     43705
+2.0      43694
+23.0     43691
+16.0         1
+24.0         1
+Name: count, dtype: int64
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    746908
+Name: count, dtype: int64
+
+*	mqtt.msgtype 5 [ 0.  1.  2.  3. 14.]
+	mqtt.msgtype
+0.0     572123
+1.0      43705
+2.0      43694
+3.0      43693
+14.0     43693
+Name: count, dtype: int64
+
+*	mqtt.proto_len 2 [0. 4.]
+	mqtt.proto_len
+0.0    703203
+4.0     43705
+Name: count, dtype: int64
+
+*	mqtt.protoname 2 ['0' 'MQTT']
+	mqtt.protoname
+0       703203
+MQTT     43705
+Name: count, dtype: int64
+
+*	mqtt.topic 2 ['0' 'phValue']
+	mqtt.topic
+0          703215
+phValue     43693
+Name: count, dtype: int64
+
+*	mqtt.topic_len 2 [0. 7.]
+	mqtt.topic_len
+0.0    703215
+7.0     43693
+Name: count, dtype: int64
+
+*	mqtt.ver 2 [0. 4.]
+	mqtt.ver
+0.0    703203
+4.0     43705
+Name: count, dtype: int64
+
+	mbtcp.len 1 [0.]
+	mbtcp.len
+0.0    746908
+Name: count, dtype: int64
+
+	mbtcp.trans_id 1 [0.]
+	mbtcp.trans_id
+0.0    746908
+Name: count, dtype: int64
+
+	mbtcp.unit_id 1 [0.]
+	mbtcp.unit_id
+0.0    746908
+Name: count, dtype: int64
+
+	Attack_label 1 [0]
+	Attack_label
+0    746908
+Name: count, dtype: int64
+
+	Attack_type 1 ['Normal']
+	Attack_type
+Normal    746908
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+Soil_Moisture.csv
+*	arp.opcode 3 [0. 1. 2.]
+	arp.opcode
+0.0    1192402
+1.0        211
+2.0        164
+Name: count, dtype: int64
+
+*	arp.hw.size 2 [0. 6.]
+	arp.hw.size
+0.0    1192402
+6.0        375
+Name: count, dtype: int64
+
+	icmp.checksum 1 [0.]
+	icmp.checksum
+0.0    1192777
+Name: count, dtype: int64
+
+	icmp.seq_le 1 [0.]
+	icmp.seq_le
+0.0    1192777
+Name: count, dtype: int64
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    1192777
+Name: count, dtype: int64
+
+	http.content_length 1 [0.]
+	http.content_length
+0.0    1192777
+Name: count, dtype: int64
+
+	http.request.method 1 [0.]
+	http.request.method
+0.0    1192777
+Name: count, dtype: int64
+
+	http.referer 1 [0.]
+	http.referer
+0.0    1192777
+Name: count, dtype: int64
+
+	http.request.version 1 [0.]
+	http.request.version
+0.0    1192777
+Name: count, dtype: int64
+
+	http.response 1 [0.]
+	http.response
+0.0    1192777
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    1192777
+Name: count, dtype: int64
+
+*	tcp.ack 11 [ 1.  0. 15.  5. 51. 54.  6. 52. 55. 50. 53.]
+	tcp.ack
+0.0     253579
+6.0     252543
+1.0     208948
+15.0    183848
+5.0     140570
+54.0     51850
+51.0     46633
+53.0     28591
+50.0     26211
+52.0         2
+55.0         2
+Name: count, dtype: int64
+
+*	tcp.ack_raw 487223 [2.72533827e+09 5.78527002e+09 3.00622375e+09 3.71719986e+09
+ 6.51475297e+09 3.71719993e+09 3.71719993e+09 4.20559284e+09]
+	[too many]
+
+*	tcp.checksum 65537 ['0x000098420x00009cfa' '0x00006a710x0000e90a' '0x00009a430x0000cc6e'
+ '0x000041db0x0000c689' '0x0000b4670x00009cfc' '0x00006a6e0x0000a8f0'
+ '0x00004a600x00007f2f' '0x000067870x0000d9ae']
+	[too many]
+
+*	tcp.connection.fin 2 [0. 1.]
+	tcp.connection.fin
+0.0    1053510
+1.0     139267
+Name: count, dtype: int64
+
+*	tcp.connection.rst 2 [0. 1.]
+	tcp.connection.rst
+0.0    1009838
+1.0     182939
+Name: count, dtype: int64
+
+*	tcp.connection.syn 2 [0. 1.]
+	tcp.connection.syn
+0.0    1123156
+1.0      69621
+Name: count, dtype: int64
+
+*	tcp.connection.synack 2 [0. 1.]
+	tcp.connection.synack
+0.0    1123061
+1.0      69716
+Name: count, dtype: int64
+
+*	tcp.flags 8 ['0x00000010' '0x00000004' '0x00000018' '0x00000019' '0x00000011'
+ '0x00000002' '0x00000012' '0']
+	tcp.flags
+0x00000010    521301
+0x00000018    208914
+0x00000004    182939
+0x00000012     69716
+0x00000011     69663
+0x00000002     69621
+0x00000019     69604
+0               1019
+Name: count, dtype: int64
+
+*	tcp.flags.ack 2 [1. 0.]
+	tcp.flags.ack
+1.0    939198
+0.0    253579
+Name: count, dtype: int64
+
+*	tcp.len 8 [  0.  14.   4.  36.   2.  37.  35. 475.]
+	tcp.len
+0.0      914259
+4.0       69669
+14.0      69633
+2.0       69604
+36.0      44518
+35.0      25084
+475.0         8
+37.0          2
+Name: count, dtype: int64
+
+*	tcp.seq 11 [ 1. 15.  5. 51.  0. 54.  6. 52. 55. 50. 53.]
+	tcp.seq
+1.0     283185
+6.0     193353
+5.0     182769
+54.0    162080
+0.0     140356
+53.0     91321
+15.0     70085
+51.0     44526
+50.0     25093
+55.0         7
+52.0         2
+Name: count, dtype: int64
+
+	udp.stream 1 [0.]
+	udp.stream
+0.0    1192777
+Name: count, dtype: int64
+
+	udp.time_delta 1 [0.]
+	udp.time_delta
+0.0    1192777
+Name: count, dtype: int64
+
+	dns.qry.name 1 [0.]
+	dns.qry.name
+0.0    1192777
+Name: count, dtype: int64
+
+	dns.qry.name.len 1 [0.]
+	dns.qry.name.len
+0.0    1192777
+Name: count, dtype: int64
+
+	dns.qry.qu 1 [0.]
+	dns.qry.qu
+0.0    1192777
+Name: count, dtype: int64
+
+	dns.qry.type 1 [0.]
+	dns.qry.type
+0.0    1192777
+Name: count, dtype: int64
+
+	dns.retransmission 1 [0.]
+	dns.retransmission
+0.0    1192777
+Name: count, dtype: int64
+
+	dns.retransmit_request 1 [0.]
+	dns.retransmit_request
+0.0    1192777
+Name: count, dtype: int64
+
+	dns.retransmit_request_in 1 [0.]
+	dns.retransmit_request_in
+0.0    1192777
+Name: count, dtype: int64
+
+*	mqtt.conack.flags 2 ['0' '0x00000000']
+	mqtt.conack.flags
+0             1123171
+0x00000000      69606
+Name: count, dtype: int64
+
+*	mqtt.conflag.cleansess 2 [0. 1.]
+	mqtt.conflag.cleansess
+0.0    1123144
+1.0      69633
+Name: count, dtype: int64
+
+*	mqtt.conflags 2 ['0' '0x00000002']
+	mqtt.conflags
+0             1123144
+0x00000002      69633
+Name: count, dtype: int64
+
+*	mqtt.hdrflags 5 ['0' '0x00000010' '0x00000020' '0x00000030' '0x000000e0']
+	mqtt.hdrflags
+0             914330
+0x00000010     69633
+0x00000020     69606
+0x00000030     69604
+0x000000e0     69604
+Name: count, dtype: int64
+
+*	mqtt.len 6 [ 0. 12.  2. 34. 35. 33.]
+	mqtt.len
+0.0     983934
+12.0     69633
+2.0      69606
+34.0     44518
+33.0     25084
+35.0         2
+Name: count, dtype: int64
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    1192777
+Name: count, dtype: int64
+
+*	mqtt.msgtype 5 [ 0.  1.  2.  3. 14.]
+	mqtt.msgtype
+0.0     914330
+1.0      69633
+2.0      69606
+3.0      69604
+14.0     69604
+Name: count, dtype: int64
+
+*	mqtt.proto_len 2 [0. 4.]
+	mqtt.proto_len
+0.0    1123144
+4.0      69633
+Name: count, dtype: int64
+
+*	mqtt.protoname 2 ['0' 'MQTT']
+	mqtt.protoname
+0       1123144
+MQTT      69633
+Name: count, dtype: int64
+
+*	mqtt.topic 2 ['0' 'Soil_Moisture']
+	mqtt.topic
+0                1123173
+Soil_Moisture      69604
+Name: count, dtype: int64
+
+*	mqtt.topic_len 2 [ 0. 13.]
+	mqtt.topic_len
+0.0     1123173
+13.0      69604
+Name: count, dtype: int64
+
+*	mqtt.ver 2 [0. 4.]
+	mqtt.ver
+0.0    1123144
+4.0      69633
+Name: count, dtype: int64
+
+	mbtcp.len 1 [0.]
+	mbtcp.len
+0.0    1192777
+Name: count, dtype: int64
+
+	mbtcp.trans_id 1 [0.]
+	mbtcp.trans_id
+0.0    1192777
+Name: count, dtype: int64
+
+	mbtcp.unit_id 1 [0.]
+	mbtcp.unit_id
+0.0    1192777
+Name: count, dtype: int64
+
+	Attack_label 1 [0]
+	Attack_label
+0    1192777
+Name: count, dtype: int64
+
+	Attack_type 1 ['Normal']
+	Attack_type
+Normal    1192777
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+Sound_Sensor.csv
+*	arp.opcode 3 [0. 1. 2.]
+	arp.opcode
+0.0    1512877
+1.0          3
+2.0          3
+Name: count, dtype: int64
+
+*	arp.hw.size 2 [0. 6.]
+	arp.hw.size
+0.0    1512877
+6.0          6
+Name: count, dtype: int64
+
+	icmp.checksum 1 [0.]
+	icmp.checksum
+0.0    1512883
+Name: count, dtype: int64
+
+	icmp.seq_le 1 [0.]
+	icmp.seq_le
+0.0    1512883
+Name: count, dtype: int64
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    1512883
+Name: count, dtype: int64
+
+	http.content_length 1 [0.]
+	http.content_length
+0.0    1512883
+Name: count, dtype: int64
+
+	http.request.method 1 [0.]
+	http.request.method
+0.0    1512883
+Name: count, dtype: int64
+
+	http.referer 1 [0.]
+	http.referer
+0.0    1512883
+Name: count, dtype: int64
+
+	http.request.version 1 [0.]
+	http.request.version
+0.0    1512883
+Name: count, dtype: int64
+
+	http.response 1 [0.]
+	http.response
+0.0    1512883
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    1512883
+Name: count, dtype: int64
+
+*	tcp.ack 18 [35. 37. 57. 43. 76. 80. 49. 76.]
+	[too many]
+
+*	tcp.ack_raw 663914 [3.78682002e+09 2.51697884e+09 6.28036366e+08 4.30311107e+09
+ 8.16169345e+08 4.30311111e+09 4.30311112e+09 2.15448957e+09]
+	[too many]
+
+*	tcp.checksum 65537 ['0x000003ef0x00000d2e' '0x00004df90x00006152' '0x000005f00x00004979'
+ '0x000022420x0000f0a7' '0x000097ef0x00009cb1' '0x00004df60x0000284e'
+ '0x00002de80x0000de8e' '0x00004fe30x00000000']
+	[too many]
+
+*	tcp.connection.fin 2 [0. 1.]
+	tcp.connection.fin
+0.0    1323159
+1.0     189724
+Name: count, dtype: int64
+
+*	tcp.connection.rst 2 [0. 1.]
+	tcp.connection.rst
+0.0    1307062
+1.0     205821
+Name: count, dtype: int64
+
+*	tcp.connection.syn 2 [0. 1.]
+	tcp.connection.syn
+0.0    1418034
+1.0      94849
+Name: count, dtype: int64
+
+*	tcp.connection.synack 2 [0. 1.]
+	tcp.connection.synack
+0.0    1418028
+1.0      94855
+Name: count, dtype: int64
+
+*	tcp.flags 8 ['0x00000010' '0x00000004' '0x00000018' '0x00000019' '0x00000011'
+ '0x00000002' '0x00000012' '0']
+	tcp.flags
+0x00000010    642841
+0x00000018    284627
+0x00000004    205821
+0x00000011     94875
+0x00000012     94855
+0x00000019     94849
+0x00000002     94849
+0                166
+Name: count, dtype: int64
+
+*	tcp.flags.ack 2 [1. 0.]
+	tcp.flags.ack
+1.0    1212047
+0.0     300836
+Name: count, dtype: int64
+
+*	tcp.len 14 [ 0. 14.  4. 21.  2. 17. 18. 19. 24. 20. 22. 23. 25. 26.]
+	tcp.len
+0.0     1133407
+4.0       94892
+14.0      94886
+2.0       94849
+21.0      94656
+19.0         70
+24.0         53
+18.0         21
+20.0         18
+22.0         16
+23.0          8
+25.0          4
+17.0          2
+26.0          1
+Name: count, dtype: int64
+
+*	tcp.seq 18 [35. 52. 47. 74. 40. 80. 49. 76.]
+	[too many]
+
+	udp.stream 1 [0.]
+	udp.stream
+0.0    1512883
+Name: count, dtype: int64
+
+	udp.time_delta 1 [0.]
+	udp.time_delta
+0.0    1512883
+Name: count, dtype: int64
+
+	dns.qry.name 1 [0.]
+	dns.qry.name
+0.0    1512883
+Name: count, dtype: int64
+
+	dns.qry.name.len 1 [0.]
+	dns.qry.name.len
+0.0    1512883
+Name: count, dtype: int64
+
+	dns.qry.qu 1 [0.]
+	dns.qry.qu
+0.0    1512883
+Name: count, dtype: int64
+
+	dns.qry.type 1 [0.]
+	dns.qry.type
+0.0    1512883
+Name: count, dtype: int64
+
+	dns.retransmission 1 [0.]
+	dns.retransmission
+0.0    1512883
+Name: count, dtype: int64
+
+	dns.retransmit_request 1 [0.]
+	dns.retransmit_request
+0.0    1512883
+Name: count, dtype: int64
+
+	dns.retransmit_request_in 1 [0.]
+	dns.retransmit_request_in
+0.0    1512883
+Name: count, dtype: int64
+
+*	mqtt.conack.flags 2 ['0' '0x00000000']
+	mqtt.conack.flags
+0             1418034
+0x00000000      94849
+Name: count, dtype: int64
+
+*	mqtt.conflag.cleansess 2 [0. 1.]
+	mqtt.conflag.cleansess
+0.0    1417997
+1.0      94886
+Name: count, dtype: int64
+
+*	mqtt.conflags 2 ['0' '0x00000002']
+	mqtt.conflags
+0             1417997
+0x00000002      94886
+Name: count, dtype: int64
+
+*	mqtt.hdrflags 5 ['0' '0x00000010' '0x00000020' '0x00000030' '0x000000e0']
+	mqtt.hdrflags
+0             1133450
+0x00000010      94886
+0x00000020      94849
+0x00000030      94849
+0x000000e0      94849
+Name: count, dtype: int64
+
+*	mqtt.len 13 [ 0. 12.  2. 19. 15. 16. 17. 22. 18. 20. 21. 23. 24.]
+	mqtt.len
+0.0     1228299
+12.0      94886
+2.0       94849
+19.0      94656
+17.0         70
+22.0         53
+16.0         21
+18.0         18
+20.0         16
+21.0          8
+23.0          4
+15.0          2
+24.0          1
+Name: count, dtype: int64
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    1512883
+Name: count, dtype: int64
+
+*	mqtt.msgtype 5 [ 0.  1.  2.  3. 14.]
+	mqtt.msgtype
+0.0     1133450
+1.0       94886
+2.0       94849
+3.0       94849
+14.0      94849
+Name: count, dtype: int64
+
+*	mqtt.proto_len 2 [0. 4.]
+	mqtt.proto_len
+0.0    1417997
+4.0      94886
+Name: count, dtype: int64
+
+*	mqtt.protoname 2 ['0' 'MQTT']
+	mqtt.protoname
+0       1417997
+MQTT      94886
+Name: count, dtype: int64
+
+*	mqtt.topic 2 ['0' 'Sound_Sensor']
+	mqtt.topic
+0               1418034
+Sound_Sensor      94849
+Name: count, dtype: int64
+
+*	mqtt.topic_len 2 [ 0. 12.]
+	mqtt.topic_len
+0.0     1418034
+12.0      94849
+Name: count, dtype: int64
+
+*	mqtt.ver 2 [0. 4.]
+	mqtt.ver
+0.0    1417997
+4.0      94886
+Name: count, dtype: int64
+
+	mbtcp.len 1 [0.]
+	mbtcp.len
+0.0    1512883
+Name: count, dtype: int64
+
+	mbtcp.trans_id 1 [0.]
+	mbtcp.trans_id
+0.0    1512883
+Name: count, dtype: int64
+
+	mbtcp.unit_id 1 [0.]
+	mbtcp.unit_id
+0.0    1512883
+Name: count, dtype: int64
+
+	Attack_label 1 [0]
+	Attack_label
+0    1512883
+Name: count, dtype: int64
+
+	Attack_type 1 ['Normal']
+	Attack_type
+Normal    1512883
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+Temperature_and_Humidity.csv
+*	arp.opcode 6 ['0' '1.0' '2.0' '1' '2' '192.168.0.128']
+	arp.opcode
+0                1612644
+1.0                 2699
+2.0                  332
+1                     20
+2                     20
+192.168.0.128          7
+Name: count, dtype: int64
+
+*	arp.hw.size 2 [0. 6.]
+	arp.hw.size
+0.0    1612651
+6.0       3071
+Name: count, dtype: int64
+
+*	icmp.checksum 3 ['0' '0x0000bed5' '0x0000c6d5']
+	icmp.checksum
+0             1615720
+0x0000bed5          1
+0x0000c6d5          1
+Name: count, dtype: int64
+
+	icmp.seq_le 1 [0.]
+	icmp.seq_le
+0.0    1615722
+Name: count, dtype: int64
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    1615722
+Name: count, dtype: int64
+
+	http.content_length 1 [0.]
+	http.content_length
+0.0    1615722
+Name: count, dtype: int64
+
+	http.request.method 1 [0.]
+	http.request.method
+0.0    1615722
+Name: count, dtype: int64
+
+	http.referer 1 [0.]
+	http.referer
+0.0    1615722
+Name: count, dtype: int64
+
+	http.request.version 1 [0.]
+	http.request.version
+0.0    1615722
+Name: count, dtype: int64
+
+	http.response 1 [0.]
+	http.response
+0.0    1615722
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    1615722
+Name: count, dtype: int64
+
+*	tcp.ack 83839 [2.60000000e+01 4.10000000e+01 3.20000000e+01 8.40000000e+01
+ 8.80000000e+01 1.20000000e+01 4.00000000e+01 3.94952869e+09]
+	[too many]
+
+*	tcp.ack_raw 665699 [4.44852627e+09 3.55299199e+09 4.44852629e+09 4.21768202e+09
+ 6.10826724e+09 7.02623313e+09 2.95492165e+09 7.16719595e+09]
+	[too many]
+
+*	tcp.checksum 65537 ['0x0000bb140x00004668' '0x00003ecd0x0000df1c' '0x0000f4d30x00001bd9'
+ '0x0000d4c50x00006622' '0x0000d2340x0000bb49' '0x0000f4a60x0000b258'
+ '0x000014900x00001c8f' '0x0000f4a20x0000bc41']
+	[too many]
+
+*	tcp.connection.fin 2 [0. 1.]
+	tcp.connection.fin
+0.0    1449326
+1.0     166396
+Name: count, dtype: int64
+
+*	tcp.connection.rst 2 [0. 1.]
+	tcp.connection.rst
+0.0    1452745
+1.0     162977
+Name: count, dtype: int64
+
+*	tcp.connection.syn 2 [0. 1.]
+	tcp.connection.syn
+0.0    1531319
+1.0      84403
+Name: count, dtype: int64
+
+*	tcp.connection.synack 2 [1. 0.]
+	tcp.connection.synack
+0.0    1529035
+1.0      86687
+Name: count, dtype: int64
+
+*	tcp.flags 8 ['0x00000012' '0x00000018' '0x00000010' '0x00000019' '0x00000011'
+ '0x00000002' '0x00000004' '0']
+	tcp.flags
+0x00000010    765652
+0x00000018    338203
+0x00000004    162977
+0x00000012     86687
+0x00000002     84403
+0x00000011     83374
+0x00000019     83022
+0              11404
+Name: count, dtype: int64
+
+*	tcp.flags.ack 2 [1. 0.]
+	tcp.flags.ack
+1.0    1356938
+0.0     258784
+Name: count, dtype: int64
+
+*	tcp.len 1441 [ 393. 1193.  821.  986.  573.  200. 1145. 1020.]
+	[too many]
+
+*	tcp.seq 188764 [2.00000000e+00 1.70000000e+01 3.90000000e+01 3.10000000e+01
+ 8.40000000e+01 1.80000000e+01 7.30000000e+01 1.84730038e+09]
+	[too many]
+
+*	udp.stream 306 [60358. 46900. 50146. 97971. 73564. 88833. 91550. 55213.]
+	[too many]
+
+*	udp.time_delta 443 [522. 575. 621. 531. 533. 625. 627. 629.]
+	[too many]
+
+*	dns.qry.name 988 [6.8000000e-05 2.4998248e+01 2.5026005e+01 2.5001304e+01 2.4993421e+01
+ 2.5017302e+01 2.5020765e+01 2.4980440e+01]
+	[too many]
+
+*	dns.qry.name.len 12 ['0' '_233637DE._sub._googlecast._tcp.local' '_ipps._tcp.local'
+ '_ipp._tcp.local' '0.debian.pool.ntp.org' '1.debian.pool.ntp.org'
+ '2.debian.pool.ntp.org' '3.debian.pool.ntp.org' '_googlecast._tcp.local'
+ 'raspberrypi.local' 'null-null.local' '245']
+	dns.qry.name.len
+0                                        1613799
+0.debian.pool.ntp.org                        454
+3.debian.pool.ntp.org                        450
+2.debian.pool.ntp.org                        446
+1.debian.pool.ntp.org                        445
+_233637DE._sub._googlecast._tcp.local         41
+raspberrypi.local                             38
+_ipp._tcp.local                               17
+_ipps._tcp.local                              13
+245                                            7
+_googlecast._tcp.local                         6
+null-null.local                                6
+Name: count, dtype: int64
+
+*	dns.qry.qu 9 ['0' '_googlecast._tcp.local' '_ipp._tcp.local' '_ipps._tcp.local' '21'
+ '21.0' '22' '17' '15']
+	dns.qry.qu
+0                         1613806
+21                           1713
+21.0                           82
+_googlecast._tcp.local         41
+17                             38
+_ipps._tcp.local               17
+_ipp._tcp.local                13
+22                              6
+15                              6
+Name: count, dtype: int64
+
+*	dns.qry.type 4 [ 0. 37. 16. 15.]
+	dns.qry.type
+0.0     1615651
+37.0         41
+15.0         17
+16.0         13
+Name: count, dtype: int64
+
+*	dns.retransmission 7 [ 0. 22. 15. 16.  1. 28. 12.]
+	dns.retransmission
+0.0     1613806
+1.0         940
+28.0        899
+22.0         41
+16.0         17
+15.0         13
+12.0          6
+Name: count, dtype: int64
+
+*	dns.retransmit_request 2 [0. 1.]
+	dns.retransmit_request
+0.0    1615670
+1.0         52
+Name: count, dtype: int64
+
+*	dns.retransmit_request_in 2 [0. 1.]
+	dns.retransmit_request_in
+0.0    1615679
+1.0         43
+Name: count, dtype: int64
+
+*	mqtt.conack.flags 13 ['0' '0x00000000' '12' '1461073' '1461074' '1461383' '1461384' '1461589'
+ '1461591' '1471198' '1471199' '1574358' '1574359']
+	mqtt.conack.flags
+0             1532594
+0x00000000      83017
+12                 71
+1574358             9
+1574359             9
+1461383             4
+1461384             4
+1461589             3
+1461591             3
+1461073             2
+1461074             2
+1471198             2
+1471199             2
+Name: count, dtype: int64
+
+*	mqtt.conflag.cleansess 3 [ 0.  1. 12.]
+	mqtt.conflag.cleansess
+0.0     1532616
+1.0       83035
+12.0         71
+Name: count, dtype: int64
+
+*	mqtt.conflags 2 ['0' '0x00000002']
+	mqtt.conflags
+0             1532687
+0x00000002      83035
+Name: count, dtype: int64
+
+*	mqtt.hdrflags 5 ['0' '0x00000010' '0x00000020' '0x00000030' '0x000000e0']
+	mqtt.hdrflags
+0             1283638
+0x00000010      83035
+0x00000020      83017
+0x00000030      83017
+0x000000e0      83015
+Name: count, dtype: int64
+
+*	mqtt.len 9 ['0' '12.0' '2.0' '39.0' '0.0' '2' '39' '12' '0x000000e0']
+	mqtt.len
+0             1284647
+12.0            82026
+2.0             82007
+39.0            82007
+0.0             82006
+2                1010
+39               1009
+12               1009
+0x000000e0          1
+Name: count, dtype: int64
+
+*	mqtt.msg_decoded_as 2 [ 0. 39.]
+	mqtt.msg_decoded_as
+0.0     1615721
+39.0          1
+Name: count, dtype: int64
+
+*	mqtt.msgtype 5 [ 0.  1.  2.  3. 14.]
+	mqtt.msgtype
+0.0     1283639
+1.0       83035
+2.0       83017
+3.0       83016
+14.0      83015
+Name: count, dtype: int64
+
+*	mqtt.proto_len 4 ['0' '4.0' '4' '32332e39352037352e31320d0a']
+	mqtt.proto_len
+0                             1532686
+4.0                             82026
+4                                1009
+32332e39352037352e31320d0a          1
+Name: count, dtype: int64
+
+*	mqtt.protoname 3 ['0' 'MQTT' '3']
+	mqtt.protoname
+0       1532686
+MQTT      83035
+3             1
+Name: count, dtype: int64
+
+*	mqtt.topic 3 ['0' 'Temperature_and_Humidity' '14']
+	mqtt.topic
+0                           1532705
+Temperature_and_Humidity      83016
+14                                1
+Name: count, dtype: int64
+
+*	mqtt.topic_len 2 [ 0. 24.]
+	mqtt.topic_len
+0.0     1532706
+24.0      83016
+Name: count, dtype: int64
+
+*	mqtt.ver 2 [0. 4.]
+	mqtt.ver
+0.0    1532687
+4.0      83035
+Name: count, dtype: int64
+
+*	mbtcp.len 9 ['0' 'Temperature_and_Humidity' '9.0' '6.0' '17.0' '19.0' '21.0' '5.0'
+ '27.0']
+	mbtcp.len
+0                           1615571
+21.0                             55
+27.0                             52
+6.0                              30
+9.0                               9
+19.0                              2
+Temperature_and_Humidity          1
+17.0                              1
+5.0                               1
+Name: count, dtype: int64
+
+*	mbtcp.trans_id 151 [144. 169. 148. 150. 152. 154. 156. 158.]
+	[too many]
+
+*	mbtcp.unit_id 6 [0. 1. 2. 3. 4. 6.]
+	mbtcp.unit_id
+0.0    1615572
+1.0        116
+2.0         22
+3.0          5
+4.0          4
+6.0          3
+Name: count, dtype: int64
+
+	Attack_label 1 [0]
+	Attack_label
+0    1615722
+Name: count, dtype: int64
+
+	Attack_type 1 ['Normal']
+	Attack_type
+Normal    1615722
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+Water_Level.csv
+*	arp.opcode 3 [0. 1. 2.]
+	arp.opcode
+0.0    2295041
+1.0        128
+2.0        119
+Name: count, dtype: int64
+
+*	arp.hw.size 2 [0. 6.]
+	arp.hw.size
+0.0    2295041
+6.0        247
+Name: count, dtype: int64
+
+	icmp.checksum 1 [0.]
+	icmp.checksum
+0.0    2295288
+Name: count, dtype: int64
+
+	icmp.seq_le 1 [0.]
+	icmp.seq_le
+0.0    2295288
+Name: count, dtype: int64
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    2295288
+Name: count, dtype: int64
+
+	http.content_length 1 [0.]
+	http.content_length
+0.0    2295288
+Name: count, dtype: int64
+
+	http.request.method 1 [0.]
+	http.request.method
+0.0    2295288
+Name: count, dtype: int64
+
+	http.referer 1 [0.]
+	http.referer
+0.0    2295288
+Name: count, dtype: int64
+
+	http.request.version 1 [0.]
+	http.request.version
+0.0    2295288
+Name: count, dtype: int64
+
+	http.response 1 [0.]
+	http.response
+0.0    2295288
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    2295288
+Name: count, dtype: int64
+
+*	tcp.ack 54 [ 478. 1056. 3362. 4068. 4102. 4052. 1079.   73.]
+	[too many]
+
+*	tcp.ack_raw 1008212 [4.47383501e+09 4.45623306e+09 4.47383505e+09 4.13610890e+09
+ 4.17766736e+09 2.52870436e+09 6.01886877e+09 4.36277353e+09]
+	[too many]
+
+*	tcp.checksum 65537 ['0x0000a0470x0000a890' '0x0000564e0x0000c234' '0x000036400x00001ec2'
+ '0x0000288d0x00000160' '0x000056290x0000de83' '0x000076120x00008f47'
+ '0x000056250x0000512b' '0x000022ab0x00004360']
+	[too many]
+
+*	tcp.connection.fin 2 [0. 1.]
+	tcp.connection.fin
+0.0    2007124
+1.0     288164
+Name: count, dtype: int64
+
+*	tcp.connection.rst 2 [0. 1.]
+	tcp.connection.rst
+0.0    1981776
+1.0     313512
+Name: count, dtype: int64
+
+*	tcp.connection.syn 2 [0. 1.]
+	tcp.connection.syn
+0.0    2151234
+1.0     144054
+Name: count, dtype: int64
+
+*	tcp.connection.synack 2 [0. 1.]
+	tcp.connection.synack
+0.0    2151200
+1.0     144088
+Name: count, dtype: int64
+
+*	tcp.flags 8 ['0x00000018' '0x00000010' '0x00000019' '0x00000011' '0x00000002'
+ '0x00000012' '0x00000004' '0']
+	tcp.flags
+0x00000010    972621
+0x00000018    432340
+0x00000004    313512
+0x00000011    144116
+0x00000012    144088
+0x00000002    144054
+0x00000019    144048
+0                509
+Name: count, dtype: int64
+
+*	tcp.flags.ack 2 [1. 0.]
+	tcp.flags.ack
+1.0    1837213
+0.0     458075
+Name: count, dtype: int64
+
+*	tcp.len 45 [1362.  609.  271.   39.   53.  546.  708.   51.]
+	[too many]
+
+*	tcp.seq 55 [2010. 1056. 3362. 4068. 4051. 1123. 4058.   73.]
+	[too many]
+
+	udp.stream 1 [0.]
+	udp.stream
+0.0    2295288
+Name: count, dtype: int64
+
+	udp.time_delta 1 [0.]
+	udp.time_delta
+0.0    2295288
+Name: count, dtype: int64
+
+	dns.qry.name 1 [0.]
+	dns.qry.name
+0.0    2295288
+Name: count, dtype: int64
+
+	dns.qry.name.len 1 [0.]
+	dns.qry.name.len
+0.0    2295288
+Name: count, dtype: int64
+
+	dns.qry.qu 1 [0.]
+	dns.qry.qu
+0.0    2295288
+Name: count, dtype: int64
+
+	dns.qry.type 1 [0.]
+	dns.qry.type
+0.0    2295288
+Name: count, dtype: int64
+
+	dns.retransmission 1 [0.]
+	dns.retransmission
+0.0    2295288
+Name: count, dtype: int64
+
+	dns.retransmit_request 1 [0.]
+	dns.retransmit_request
+0.0    2295288
+Name: count, dtype: int64
+
+	dns.retransmit_request_in 1 [0.]
+	dns.retransmit_request_in
+0.0    2295288
+Name: count, dtype: int64
+
+*	mqtt.conack.flags 2 ['0' '0x00000000']
+	mqtt.conack.flags
+0             2151241
+0x00000000     144047
+Name: count, dtype: int64
+
+*	mqtt.conflag.cleansess 2 [1. 0.]
+	mqtt.conflag.cleansess
+0.0    2151170
+1.0     144118
+Name: count, dtype: int64
+
+*	mqtt.conflags 2 ['0x00000002' '0']
+	mqtt.conflags
+0             2151170
+0x00000002     144118
+Name: count, dtype: int64
+
+*	mqtt.hdrflags 5 ['0x00000010' '0' '0x00000020' '0x00000030' '0x000000e0']
+	mqtt.hdrflags
+0             1719027
+0x00000010     144118
+0x00000030     144048
+0x000000e0     144048
+0x00000020     144047
+Name: count, dtype: int64
+
+*	mqtt.len 36 [54. 41. 26. 70. 43. 70. 77. 34.]
+	[too many]
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    2295288
+Name: count, dtype: int64
+
+*	mqtt.msgtype 5 [ 1.  0.  2.  3. 14.]
+	mqtt.msgtype
+0.0     1719027
+1.0      144118
+3.0      144048
+14.0     144048
+2.0      144047
+Name: count, dtype: int64
+
+*	mqtt.proto_len 2 [4. 0.]
+	mqtt.proto_len
+0.0    2151170
+4.0     144118
+Name: count, dtype: int64
+
+*	mqtt.protoname 2 ['MQTT' '0']
+	mqtt.protoname
+0       2151170
+MQTT     144118
+Name: count, dtype: int64
+
+*	mqtt.topic 2 ['0' 'Water_Level']
+	mqtt.topic
+0              2151240
+Water_Level     144048
+Name: count, dtype: int64
+
+*	mqtt.topic_len 2 [ 0. 11.]
+	mqtt.topic_len
+0.0     2151240
+11.0     144048
+Name: count, dtype: int64
+
+*	mqtt.ver 2 [4. 0.]
+	mqtt.ver
+0.0    2151170
+4.0     144118
+Name: count, dtype: int64
+
+	mbtcp.len 1 [0.]
+	mbtcp.len
+0.0    2295288
+Name: count, dtype: int64
+
+	mbtcp.trans_id 1 [0.]
+	mbtcp.trans_id
+0.0    2295288
+Name: count, dtype: int64
+
+	mbtcp.unit_id 1 [0.]
+	mbtcp.unit_id
+0.0    2295288
+Name: count, dtype: int64
+
+	Attack_label 1 [0]
+	Attack_label
+0    2295288
+Name: count, dtype: int64
+
+	Attack_type 1 ['Normal']
+	Attack_type
+Normal    2295288
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+DNN-EdgeIIoT-dataset.csv
+*	arp.opcode 3 [0. 1. 2.]
+	arp.opcode
+0.0    2213347
+1.0       4333
+2.0       1521
+Name: count, dtype: int64
+
+*	arp.hw.size 2 [0. 6.]
+	arp.hw.size
+0.0    2213347
+6.0       5854
+Name: count, dtype: int64
+
+*	icmp.checksum 54645 [ 61268.  88361.  60456.  17397.  16370.  36567.  52177. 114480.]
+	[too many]
+
+*	icmp.seq_le 56328 [ 41921.  42635.  90941.  76182. 102427.  49260.  54408.  46945.]
+	[too many]
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    2219201
+Name: count, dtype: int64
+
+*	http.content_length 43 [   93.   452. 83958.  1488.   124.  1714.   267.   749.]
+	[too many]
+
+*	http.request.method 9 ['0.0' '0' 'GET' 'POST' 'PROPFIND' 'TRACE' 'OPTIONS' 'PUT' 'SEARCH']
+	http.request.method
+0.0         1964275
+0            222839
+GET           30474
+POST           1212
+TRACE           387
+OPTIONS           6
+PROPFIND          4
+PUT               2
+SEARCH            2
+Name: count, dtype: int64
+
+*	http.referer 5 ['0.0' '0' 'TESTING_PURPOSES_ONLY'
+ '() { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }'
+ '127.0.0.1']
+	http.referer
+0.0                                                                     2103265
+0                                                                        115366
+127.0.0.1                                                                   383
+() { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }        185
+TESTING_PURPOSES_ONLY                                                         2
+Name: count, dtype: int64
+
+*	http.request.version 13 ['0.0' '0' 'HTTP/1.1' 'HTTP/1.0'
+ "name=a><input name=i value=XSS>&lt;script>alert('Vulnerable')</script> HTTP/1.1"
+ 'Src=javascript:alert(\'Vulnerable\')><Img Src=\\" HTTP/1.1' '> HTTP/1.1'
+ 'script>alert(1)/script><\\" HTTP/1.1'
+ '-al&_PHPLIB[libdir]=http://cirt.net/rfiinc.txt?? HTTP/1.1' '-a HTTP/1.1'
+ '/etc/passwd|?data=Download HTTP/1.1'
+ '-al&ABSOLUTE_PATH_STUDIP=http://cirt.net/rfiinc.txt?? HTTP/1.1'
+ 'By Dr HTTP/1.1']
+	http.request.version
+0.0                                                                                1963061
+0                                                                                   224053
+HTTP/1.1                                                                             28682
+HTTP/1.0                                                                              3382
+Src=javascript:alert('Vulnerable')><Img Src=\" HTTP/1.1                                  4
+-a HTTP/1.1                                                                              4
+script>alert(1)/script><\" HTTP/1.1                                                      3
+-al&ABSOLUTE_PATH_STUDIP=http://cirt.net/rfiinc.txt?? HTTP/1.1                           3
+name=a><input name=i value=XSS>&lt;script>alert('Vulnerable')</script> HTTP/1.1          2
+> HTTP/1.1                                                                               2
+-al&_PHPLIB[libdir]=http://cirt.net/rfiinc.txt?? HTTP/1.1                                2
+/etc/passwd|?data=Download HTTP/1.1                                                      2
+By Dr HTTP/1.1                                                                           1
+Name: count, dtype: int64
+
+*	http.response 2 [0. 1.]
+	http.response
+0.0    2186598
+1.0      32603
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    2219201
+Name: count, dtype: int64
+
+*	tcp.ack 146980 [2.4371220e+06 2.4373600e+06 2.4378300e+06 1.9000000e+02 1.8540000e+03
+ 1.9080000e+03 4.0710000e+03 3.9495335e+09]
+	[too many]
+
+*	tcp.ack_raw 915938 [4.24097366e+09 1.57218778e+09 3.82125610e+09 4.38588114e+08
+ 3.43150092e+09 4.79230626e+09 5.27878772e+08 4.25764085e+09]
+	[too many]
+
+*	tcp.checksum 65536 [ 65916.  73193.  69804.  80615. 101757. 108286.  12575. 110819.]
+	[too many]
+
+*	tcp.connection.fin 2 [0. 1.]
+	tcp.connection.fin
+0.0    2026421
+1.0     192780
+Name: count, dtype: int64
+
+*	tcp.connection.rst 2 [0. 1.]
+	tcp.connection.rst
+0.0    2014529
+1.0     204672
+Name: count, dtype: int64
+
+*	tcp.connection.syn 2 [0. 1.]
+	tcp.connection.syn
+0.0    2062521
+1.0     156680
+Name: count, dtype: int64
+
+*	tcp.connection.synack 2 [1. 0.]
+	tcp.connection.synack
+0.0    2118804
+1.0     100397
+Name: count, dtype: int64
+
+*	tcp.flags 9 [18. 24. 16. 25. 17.  2.  4.  0. 20.]
+	tcp.flags
+16.0    871609
+24.0    436137
+0.0     256926
+4.0     166579
+2.0     156680
+17.0    109645
+18.0    100397
+25.0     83135
+20.0     38093
+Name: count, dtype: int64
+
+*	tcp.flags.ack 2 [1. 0.]
+	tcp.flags.ack
+1.0    1639016
+0.0     580185
+Name: count, dtype: int64
+
+*	tcp.len 1485 [53314. 52715. 63031. 54114. 58124. 37703.  1509.  1800.]
+	[too many]
+
+*	tcp.seq 213310 [2.43651300e+06 2.43681800e+06 2.43713600e+06 2.43735000e+06
+ 1.89000000e+03 1.30100000e+03 4.12400000e+03 1.84730519e+09]
+	[too many]
+
+*	udp.stream 120450 [2898647. 2898807. 2959267. 2937388. 2950881. 2934965. 2898817. 2898843.]
+	[too many]
+
+*	udp.time_delta 441 [523. 621. 623. 625. 627. 629. 631. 115.]
+	[too many]
+
+*	dns.qry.name 12450 [2897343.       2897622.250063 2898112.253267 2898118.122272
+ 2898238.249921 2898520.693085 2898553.249941 2898524.681079]
+	[too many]
+
+*	dns.qry.name.len 10 ['0' '0.debian.pool.ntp.org' '1.debian.pool.ntp.org'
+ '2.debian.pool.ntp.org' '3.debian.pool.ntp.org' '_googlecast._tcp.local'
+ 'raspberrypi.local' 'null-null.local' '0.0' '1.0']
+	dns.qry.name.len
+0                         1613798
+0.0                        603331
+0.debian.pool.ntp.org         454
+3.debian.pool.ntp.org         450
+2.debian.pool.ntp.org         446
+1.debian.pool.ntp.org         445
+1.0                           227
+raspberrypi.local              38
+_googlecast._tcp.local          6
+null-null.local                 6
+Name: count, dtype: int64
+
+*	dns.qry.qu 68 [ 909.  946.  950.  971.  972. 1038. 1065. 1098.]
+	[too many]
+
+	dns.qry.type 1 [0.]
+	dns.qry.type
+0.0    2219201
+Name: count, dtype: int64
+
+*	dns.retransmission 4 [ 0.  1. 28. 12.]
+	dns.retransmission
+0.0     2217356
+1.0         940
+28.0        899
+12.0          6
+Name: count, dtype: int64
+
+*	dns.retransmit_request 2 [0. 1.]
+	dns.retransmit_request
+0.0    2219152
+1.0         49
+Name: count, dtype: int64
+
+*	dns.retransmit_request_in 2 [0. 1.]
+	dns.retransmit_request_in
+0.0    2219161
+1.0         40
+Name: count, dtype: int64
+
+*	mqtt.conack.flags 13 ['0' '0x00000000' '1461073' '1461074' '1461383' '1461384' '1461589'
+ '1461591' '1471198' '1471199' '1574358' '1574359' '0.0']
+	mqtt.conack.flags
+0             1532586
+0.0            603558
+0x00000000      83017
+1574358             9
+1574359             9
+1461383             4
+1461384             4
+1461589             3
+1461591             3
+1461073             2
+1461074             2
+1471198             2
+1471199             2
+Name: count, dtype: int64
+
+*	mqtt.conflag.cleansess 2 [0. 1.]
+	mqtt.conflag.cleansess
+0.0    2136166
+1.0      83035
+Name: count, dtype: int64
+
+*	mqtt.conflags 2 [0. 2.]
+	mqtt.conflags
+0.0    2136166
+2.0      83035
+Name: count, dtype: int64
+
+*	mqtt.hdrflags 5 [  0.  16.  32.  48. 224.]
+	mqtt.hdrflags
+0.0      1887118
+16.0       83035
+32.0       83017
+48.0       83016
+224.0      83015
+Name: count, dtype: int64
+
+*	mqtt.len 4 [ 0. 12.  2. 39.]
+	mqtt.len
+0.0     1970133
+12.0      83035
+2.0       83017
+39.0      83016
+Name: count, dtype: int64
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    2219201
+Name: count, dtype: int64
+
+*	mqtt.msgtype 5 [ 0.  1.  2.  3. 14.]
+	mqtt.msgtype
+0.0     1887118
+1.0       83035
+2.0       83017
+3.0       83016
+14.0      83015
+Name: count, dtype: int64
+
+*	mqtt.proto_len 2 [0. 4.]
+	mqtt.proto_len
+0.0    2136166
+4.0      83035
+Name: count, dtype: int64
+
+*	mqtt.protoname 3 ['0' 'MQTT' '0.0']
+	mqtt.protoname
+0       1532608
+0.0      603558
+MQTT      83035
+Name: count, dtype: int64
+
+*	mqtt.topic 3 ['0' 'Temperature_and_Humidity' '0.0']
+	mqtt.topic
+0                           1532627
+0.0                          603558
+Temperature_and_Humidity      83016
+Name: count, dtype: int64
+
+*	mqtt.topic_len 2 [ 0. 24.]
+	mqtt.topic_len
+0.0     2136185
+24.0      83016
+Name: count, dtype: int64
+
+*	mqtt.ver 2 [0. 4.]
+	mqtt.ver
+0.0    2136166
+4.0      83035
+Name: count, dtype: int64
+
+*	mbtcp.len 8 [ 0.  9.  6. 17. 19. 21.  5. 27.]
+	mbtcp.len
+0.0     2219051
+21.0         55
+27.0         52
+6.0          30
+9.0           9
+19.0          2
+17.0          1
+5.0           1
+Name: count, dtype: int64
+
+*	mbtcp.trans_id 151 [144. 147. 149. 151. 153. 155. 157. 159.]
+	[too many]
+
+*	mbtcp.unit_id 6 [0. 1. 2. 3. 4. 6.]
+	mbtcp.unit_id
+0.0    2219051
+1.0        116
+2.0         22
+3.0          5
+4.0          4
+6.0          3
+Name: count, dtype: int64
+
+*	Attack_label 2 [0 1]
+	Attack_label
+0    1615643
+1     603558
+Name: count, dtype: int64
+
+*	Attack_type 15 ['Normal' 'MITM' 'Uploading' 'Ransomware' 'SQL_injection' 'DDoS_HTTP'
+ 'DDoS_TCP' 'Password' 'Port_Scanning' 'Vulnerability_scanner' 'Backdoor'
+ 'XSS' 'Fingerprinting' 'DDoS_UDP' 'DDoS_ICMP']
+	Attack_type
+Normal                   1615643
+DDoS_UDP                  121568
+DDoS_ICMP                 116436
+SQL_injection              51203
+Password                   50153
+Vulnerability_scanner      50110
+DDoS_TCP                   50062
+DDoS_HTTP                  49911
+Uploading                  37634
+Backdoor                   24862
+Port_Scanning              22564
+XSS                        15915
+Ransomware                 10925
+MITM                        1214
+Fingerprinting              1001
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
+ML-EdgeIIoT-dataset.csv
+*	arp.opcode 3 [0. 1. 2.]
+	arp.opcode
+0.0    156226
+1.0       908
+2.0       666
+Name: count, dtype: int64
+
+*	arp.hw.size 2 [0. 6.]
+	arp.hw.size
+0.0    156226
+6.0      1574
+Name: count, dtype: int64
+
+*	icmp.checksum 13187 [51295. 36353. 33534. 40933. 52195. 99907. 61015. 29152.]
+	[too many]
+
+*	icmp.seq_le 13824 [39144. 39505. 48190. 89157. 79286. 65905. 45981. 64192.]
+	[too many]
+
+	icmp.unused 1 [0.]
+	icmp.unused
+0.0    157800
+Name: count, dtype: int64
+
+*	http.content_length 33 [  307.  1702.   604.  2620.  1474. 83692.   300.   506.]
+	[too many]
+
+*	http.request.method 6 ['0.0' '0' 'GET' 'POST' 'OPTIONS' 'TRACE']
+	http.request.method
+0.0        96542
+0          54062
+GET         6676
+POST         267
+TRACE        252
+OPTIONS        1
+Name: count, dtype: int64
+
+*	http.referer 4 ['0.0' '0'
+ '() { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }'
+ '127.0.0.1']
+	http.referer
+0.0                                                                     127111
+0                                                                        30399
+127.0.0.1                                                                  252
+() { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }        38
+Name: count, dtype: int64
+
+*	http.request.version 8 ['0' '0.0' 'HTTP/1.1' 'HTTP/1.0'
+ 'Src=javascript:alert(\'Vulnerable\')><Img Src=\\" HTTP/1.1'
+ '/etc/passwd|?data=Download HTTP/1.1' '-a HTTP/1.1' 'By Dr HTTP/1.1']
+	http.request.version
+0.0                                                        95328
+0                                                          55276
+HTTP/1.1                                                    6493
+HTTP/1.0                                                     698
+Src=javascript:alert('Vulnerable')><Img Src=\" HTTP/1.1        2
+/etc/passwd|?data=Download HTTP/1.1                            1
+-a HTTP/1.1                                                    1
+By Dr HTTP/1.1                                                 1
+Name: count, dtype: int64
+
+*	http.response 2 [0. 1.]
+	http.response
+0.0    150581
+1.0      7219
+Name: count, dtype: int64
+
+	http.tls_port 1 [0.]
+	http.tls_port
+0.0    157800
+Name: count, dtype: int64
+
+*	tcp.ack 27929 [5.897525e+06 5.898188e+06 3.233900e+04 5.908953e+06 3.477500e+04
+ 5.996235e+06 2.350000e+03 2.799000e+03]
+	[too many]
+
+*	tcp.ack_raw 94716 [1.44726032e+09 2.70373929e+09 3.99518528e+08 4.73721154e+09
+ 4.08794779e+09 8.35490797e+08 3.37284923e+09 5.73167088e+09]
+	[too many]
+
+*	tcp.checksum 55513 [50592. 98523. 67948. 65672. 38248. 98842. 58353. 51701.]
+	[too many]
+
+*	tcp.connection.fin 2 [0. 1.]
+	tcp.connection.fin
+0.0    148625
+1.0      9175
+Name: count, dtype: int64
+
+*	tcp.connection.rst 2 [0. 1.]
+	tcp.connection.rst
+0.0    142948
+1.0     14852
+Name: count, dtype: int64
+
+*	tcp.connection.syn 2 [0. 1.]
+	tcp.connection.syn
+0.0    137625
+1.0     20175
+Name: count, dtype: int64
+
+*	tcp.connection.synack 2 [0. 1.]
+	tcp.connection.synack
+0.0    153074
+1.0      4726
+Name: count, dtype: int64
+
+*	tcp.flags 9 [ 0.  2. 20. 24. 16. 17. 18.  4. 25.]
+	tcp.flags
+16.0    42722
+0.0     33920
+24.0    32230
+2.0     20175
+20.0    11389
+17.0     7876
+18.0     4726
+4.0      3463
+25.0     1299
+Name: count, dtype: int64
+
+*	tcp.flags.ack 2 [0. 1.]
+	tcp.flags.ack
+1.0    100242
+0.0     57558
+Name: count, dtype: int64
+
+*	tcp.len 786 [  582.   923. 65361.  6120. 55369. 57847. 59918. 57525.]
+	[too many]
+
+*	tcp.seq 18199 [2.97700000e+04 3.00130150e+04 5.90794102e+06 3.21296420e+04
+ 5.94624664e+06 3.58740005e+04 1.60003920e+01 2.89992920e+01]
+	[too many]
+
+*	udp.stream 14492 [  61063. 2897339. 2897358. 2902791. 2935740. 2938726. 2930674. 2904625.]
+	[too many]
+
+*	udp.time_delta 39 [448. 706. 473. 588. 600. 520. 652. 686.]
+	[too many]
+
+*	dns.qry.name 1430 [2890090.       2890149.       2893626.249918 2971897.553898
+ 2894872.946741 2896549.370592 2896821.732891 2896968.114429]
+	[too many]
+
+*	dns.qry.name.len 8 ['0.0' '1.0' '0' '0.debian.pool.ntp.org' '_googlecast._tcp.local'
+ '1.debian.pool.ntp.org' '2.debian.pool.ntp.org' '3.debian.pool.ntp.org']
+	dns.qry.name.len
+0.0                       133272
+0                          24272
+1.0                          227
+1.debian.pool.ntp.org         10
+0.debian.pool.ntp.org          8
+3.debian.pool.ntp.org          7
+2.debian.pool.ntp.org          3
+_googlecast._tcp.local         1
+Name: count, dtype: int64
+
+*	dns.qry.qu 66 [ 928.  991.  995. 1071. 1098. 1123.  117.  142.]
+	[too many]
+
+	dns.qry.type 1 [0.]
+	dns.qry.type
+0.0    157800
+Name: count, dtype: int64
+
+*	dns.retransmission 4 [ 0.  1. 12. 28.]
+	dns.retransmission
+0.0     157771
+1.0         21
+28.0         7
+12.0         1
+Name: count, dtype: int64
+
+*	dns.retransmit_request 2 [0. 1.]
+	dns.retransmit_request
+0.0    157799
+1.0         1
+Name: count, dtype: int64
+
+	dns.retransmit_request_in 1 [0.]
+	dns.retransmit_request_in
+0.0    157800
+Name: count, dtype: int64
+
+*	mqtt.conack.flags 3 ['0.0' '0' '0x00000000']
+	mqtt.conack.flags
+0.0           133499
+0              23012
+0x00000000      1289
+Name: count, dtype: int64
+
+*	mqtt.conflag.cleansess 2 [0. 1.]
+	mqtt.conflag.cleansess
+0.0    156550
+1.0      1250
+Name: count, dtype: int64
+
+*	mqtt.conflags 2 [0. 2.]
+	mqtt.conflags
+0.0    156550
+2.0      1250
+Name: count, dtype: int64
+
+*	mqtt.hdrflags 5 [  0.  32.  16. 224.  48.]
+	mqtt.hdrflags
+0.0      152737
+32.0       1289
+224.0      1278
+16.0       1250
+48.0       1246
+Name: count, dtype: int64
+
+*	mqtt.len 4 [ 0.  2. 12. 39.]
+	mqtt.len
+0.0     154015
+2.0       1289
+12.0      1250
+39.0      1246
+Name: count, dtype: int64
+
+	mqtt.msg_decoded_as 1 [0.]
+	mqtt.msg_decoded_as
+0.0    157800
+Name: count, dtype: int64
+
+*	mqtt.msgtype 5 [ 0.  2.  1. 14.  3.]
+	mqtt.msgtype
+0.0     152737
+2.0       1289
+14.0      1278
+1.0       1250
+3.0       1246
+Name: count, dtype: int64
+
+*	mqtt.proto_len 2 [0. 4.]
+	mqtt.proto_len
+0.0    156550
+4.0      1250
+Name: count, dtype: int64
+
+*	mqtt.protoname 3 ['0.0' '0' 'MQTT']
+	mqtt.protoname
+0.0     133499
+0        23051
+MQTT      1250
+Name: count, dtype: int64
+
+*	mqtt.topic 3 ['0.0' '0' 'Temperature_and_Humidity']
+	mqtt.topic
+0.0                         133499
+0                            23055
+Temperature_and_Humidity      1246
+Name: count, dtype: int64
+
+*	mqtt.topic_len 2 [ 0. 24.]
+	mqtt.topic_len
+0.0     156554
+24.0      1246
+Name: count, dtype: int64
+
+*	mqtt.ver 2 [0. 4.]
+	mqtt.ver
+0.0    156550
+4.0      1250
+Name: count, dtype: int64
+
+	mbtcp.len 1 [0.]
+	mbtcp.len
+0.0    157800
+Name: count, dtype: int64
+
+	mbtcp.trans_id 1 [0.]
+	mbtcp.trans_id
+0.0    157800
+Name: count, dtype: int64
+
+	mbtcp.unit_id 1 [0.]
+	mbtcp.unit_id
+0.0    157800
+Name: count, dtype: int64
+
+*	Attack_label 2 [1 0]
+	Attack_label
+1    133499
+0     24301
+Name: count, dtype: int64
+
+*	Attack_type 15 ['MITM' 'Fingerprinting' 'Ransomware' 'Uploading' 'SQL_injection'
+ 'DDoS_HTTP' 'DDoS_TCP' 'Password' 'Port_Scanning' 'Vulnerability_scanner'
+ 'Backdoor' 'XSS' 'Normal' 'DDoS_UDP' 'DDoS_ICMP']
+	Attack_type
+Normal                   24301
+DDoS_UDP                 14498
+DDoS_ICMP                14090
+Ransomware               10925
+DDoS_HTTP                10561
+SQL_injection            10311
+Uploading                10269
+DDoS_TCP                 10247
+Backdoor                 10195
+Vulnerability_scanner    10076
+Port_Scanning            10071
+XSS                      10052
+Password                  9989
+MITM                      1214
+Fingerprinting            1001
+Name: count, dtype: int64
+
+--------------------------------------------------------------------------------
