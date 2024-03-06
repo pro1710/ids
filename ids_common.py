@@ -70,6 +70,10 @@ mixed_zeros = ['mqtt.topic',
                 'http.referer', 
                 'http.request.version']
 
+def prepare_dataset_v3(df, verbose=False):
+    cleanup_dataset_ferrag(df)
+
+    # to_drop_1_unique_loc = ['','']
 
 def prepare_dataset_v1(df, verbose=False):
     """basic dataset leanup and onehot encoding"""
@@ -238,6 +242,22 @@ def report(y_train, y_train_predict, y_test, y_test_predict):
     print('TEST:')
     print(classification_report(y_test, y_test_predict))
 
+def plot_cm(y_true, y_predict):
+    title='Normalized confusion matrix'
+
+    disp = ConfusionMatrixDisplay.from_predictions(
+        y_true,
+        y_predict,
+        # display_labels=Attack_type_classes,
+        cmap=plt.cm.Blues,
+        normalize='true',
+        values_format='.2f'
+    )
+    disp.ax_.set_title(title)
+    disp.figure_.set_size_inches(8, 8, forward=True)
+    plt.xticks(rotation=90)
+    plt.show()
+
 def show_cr(y_test, y_test_predict):
 
     cr = classification_report(y_test, y_test_predict, output_dict=True)
@@ -293,21 +313,6 @@ def show_cr(y_test, y_test_predict):
 
     print(header.format(*['-'*10]*16))
 
-def plot_cm(y_true, y_predict):
-    title='Normalized confusion matrix'
-
-    disp = ConfusionMatrixDisplay.from_predictions(
-        y_true,
-        y_predict,
-        # display_labels=Attack_type_classes,
-        cmap=plt.cm.Blues,
-        normalize='true',
-        values_format='.2f'
-    )
-    disp.ax_.set_title(title)
-    disp.figure_.set_size_inches(8, 8, forward=True)
-    plt.xticks(rotation=90)
-    plt.show()
 
 
 
