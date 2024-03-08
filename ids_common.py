@@ -211,27 +211,29 @@ def prepare_dataset_v02(df, verbose=False):
 target_label_2_class = 'Attack_label' # 0 indicates normal and 1 indicates attacks
 target_label_15_class = 'Attack_type'
 
-def ds_split(dataset, seed=None):
+def get_X_y(dataset, target):
+    y = dataset[target]
+    X = dataset.drop([target_label_2_class, target_label_15_class], axis=1, inplace=False)
+    return X, y
+
+def ds_split(dataset, test_size=0.2, seed=None):
     """Simple split, stratify against Attack_type"""
-    return train_test_split(dataset, test_size=0.2, random_state=seed, stratify=dataset[target_label_15_class])
+    return train_test_split(dataset, test_size=test_size, random_state=seed, stratify=dataset[target_label_15_class])
 
 def ds_detection_split(dataset, seed=None):
     """"Normal vs Attack, 2 classes"""
-    y = dataset[target_label_2_class]
-    X = dataset.drop([target_label_2_class, target_label_15_class], axis=1, inplace=False)
+    X, y = get_X_y(dataset, target_label_2_class)
     return train_test_split(X, y, test_size=0.2, random_state=seed, stratify=y)
 
 def ds_classification_split(dataset, seed=None):
     """Split on Attack_type, 14 classes"""
     loc_df = dataset.drop(dataset[dataset[target_label_2_class] == 0].index, inplace=False)
-    y = loc_df[target_label_15_class]
-    X = loc_df.drop([target_label_2_class, target_label_15_class], axis=1, inplace=False)
+    X, y = get_X_y(loc_df, target_label_15_class)
     return train_test_split(X, y, test_size=0.2, random_state=seed, stratify=y)
 
 def dataset_split_15classes(dataset, seed=None):
     """Split on Attack_type, 15 classes"""
-    y = dataset[target_label_15_class]
-    X = dataset.drop([target_label_2_class, target_label_15_class], axis=1, inplace=False)
+    X, y = get_X_y(dataset, target_label_15_class)
     return train_test_split(X, y, test_size=0.3, random_state=seed, stratify=y)
 
 def report(y_train, y_train_predict, y_test, y_test_predict):
