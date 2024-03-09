@@ -220,6 +220,16 @@ def ds_split(dataset, test_size=0.2, seed=None):
     """Simple split, stratify against Attack_type"""
     return train_test_split(dataset, test_size=test_size, random_state=seed, stratify=dataset[target_label_15_class])
 
+def make_2_class(dataset):
+    return get_X_y(dataset, target_label_2_class)
+
+def make_14_class(dataset):
+    loc_df = dataset.drop(dataset[dataset[target_label_2_class] == 0].index, inplace=False)
+    return get_X_y(loc_df, target_label_15_class)
+
+def make_15_class(dataset):
+    return get_X_y(dataset, target_label_15_class)
+
 def ds_detection_split(dataset, seed=None):
     """"Normal vs Attack, 2 classes"""
     X, y = get_X_y(dataset, target_label_2_class)
