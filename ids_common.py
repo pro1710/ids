@@ -246,7 +246,13 @@ def dataset_split_15classes(dataset, seed=None):
     X, y = get_X_y(dataset, target_label_15_class)
     return train_test_split(X, y, test_size=0.3, random_state=seed, stratify=y)
 
-def report(y_train, y_train_predict, y_test, y_test_predict):
+def report(y_train, y_train_predict, y_test, y_test_predict, le=None):
+
+    if le:
+        y_train = le.inverse_transform(y_train)
+        y_train_predict = le.inverse_transform(y_train_predict)
+        y_test = le.inverse_transform(y_test)
+        y_test_predict = le.inverse_transform(y_test_predict)
 
     print('TRAIN:')
     print(classification_report(y_train, y_train_predict))
@@ -254,7 +260,12 @@ def report(y_train, y_train_predict, y_test, y_test_predict):
     print('TEST:')
     print(classification_report(y_test, y_test_predict))
 
-def plot_cm(y_true, y_predict):
+def plot_cm(y_true, y_predict, le=None):
+
+    if le:
+        y_true = le.inverse_transform(y_true)
+        y_predict = le.inverse_transform(y_predict)
+
     title='Normalized confusion matrix'
 
     disp = ConfusionMatrixDisplay.from_predictions(
