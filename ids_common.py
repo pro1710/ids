@@ -49,8 +49,17 @@ def ferrag_preparation(df, verbose=False):
         print(f'Before: shape={df.shape}')
     cleanup_dataset_ferrag(df)
     drop_na_dups(df, verbose)
+
+    df['Attack_type'] = df['Attack_type'].astype('category')
+
+    object_col = [col for col in df.columns if df[col].dtype == 'object']
+    for col in object_col:
+        encode_text_dummy(df, col)
+
     if verbose:
         print(f'After: shape={df.shape}')
+
+
 
 to_drop_1_unique = ['icmp.unused',
                     'http.tls_port',
@@ -260,20 +269,23 @@ def report(y_train, y_train_predict, y_test, y_test_predict, le=None):
     print('TEST:')
     print(classification_report(y_test, y_test_predict))
 
-def plot_cm(y_true, y_predict, le=None):
+def plot_cm(y_true, y_predict, name=None, le=None, norm='true'):
 
     if le:
         y_true = le.inverse_transform(y_true)
         y_predict = le.inverse_transform(y_predict)
 
-    title='Normalized confusion matrix'
+    if name:
+        title = name
+    else:
+        title='Normalized confusion matrix'
 
     disp = ConfusionMatrixDisplay.from_predictions(
         y_true,
         y_predict,
         # display_labels=Attack_type_classes,
         cmap=plt.cm.Blues,
-        normalize='true',
+        normalize=norm,
         values_format='.2f'
     )
     disp.ax_.set_title(title)
